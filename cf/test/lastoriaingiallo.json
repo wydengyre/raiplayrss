@@ -1,0 +1,3006 @@
+{
+	"page_updated": { "date": "15 Gennaio 2024", "hour": "19:46" },
+	"uniquename": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+	"title": "La storia in giallo",
+	"podcast_info": {
+		"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+		"type": "RaiPlaySound Programma Item",
+		"create_date": "02-11-2023",
+		"create_time": "13:18",
+		"year": "2023",
+		"date_tracking": "2023-11-02",
+		"title": "La storia in giallo",
+		"description": "Una ricostruzione sceneggiata catapulta l'ascoltatore sulla scena del delitto, sul quale criminologi, psichiatri e storici cercano di far luce per svelarne il mistero. Delitti diversi per dinamiche, movente, ambiente, quindi delitti passionali, politici, di serial killer o delitti in famiglia. Ma anche misteri, storie di follia e tragici destini. Andato in onda su Rai Radio 3 dal 2002 al 2010, La storia in giallo è un programma ideato e condotto da Antonella Ferrera.",
+		"onair_date": null,
+		"images": {
+			"landscape": "/dl/img/2024/01/11/1704978736748_La%20storia%20in%20giallo-2048x1152.jpg",
+			"landscape_43_logo": null,
+			"landscape_logo": "/dl/img/2024/01/11/1704978744182_La%20storia%20in%20giallo-LOGO-2048x1152.jpg",
+			"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"square_external": null
+		},
+		"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+		"hex_color": "#331d3f",
+		"weblink": "/programmi/lastoriaingiallo",
+		"path_id": "/programmi/lastoriaingiallo.json",
+		"channel": {
+			"name": "Rai Radio 3",
+			"logo": "/dl/components/img/sound/loghi/logo-rairadio3-transparent.png",
+			"logo_svg": "/assets/img/canali/logo-rairadio3-transparent.svg",
+			"category_path": "radio3",
+			"palinsesto_url": "rai-radio-3",
+			"palinsesto_name": "Radio 3",
+			"hex_color": "#01b36e"
+		},
+		"typology": "Serie audio",
+		"genres": [
+			{
+				"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+				"name": "Storico",
+				"pipe": "Storico|Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+				"principal": true
+			}
+		],
+		"subgenres": [
+			{
+				"id": "Category-5812f4ce-5ab6-4733-a72f-9b1ca8f7b723",
+				"name": "Radiodramma",
+				"pipe": "Radiodramma|Category-5812f4ce-5ab6-4733-a72f-9b1ca8f7b723",
+				"principal": true
+			},
+			{
+				"id": "Category-88e6ecf4-899a-4079-9e02-e92425829ffc",
+				"name": "Thriller",
+				"pipe": "Thriller|Category-88e6ecf4-899a-4079-9e02-e92425829ffc"
+			},
+			{
+				"id": "Category-f8629e8e-1e1a-4a9c-974b-3a37b28d140f",
+				"name": "Teatro",
+				"pipe": "Teatro|Category-f8629e8e-1e1a-4a9c-974b-3a37b28d140f"
+			},
+			{
+				"id": "Category-1db0ce37-945f-45a0-99b8-4d07e047d269",
+				"name": "Storia moderna",
+				"pipe": "Storia moderna|Category-1db0ce37-945f-45a0-99b8-4d07e047d269"
+			},
+			{
+				"id": "Category-0181e950-7383-4a49-8ad5-a20349654f20",
+				"name": "Storia antica",
+				"pipe": "Storia antica|Category-0181e950-7383-4a49-8ad5-a20349654f20"
+			},
+			{
+				"id": "Category-bcf3b7bb-0f68-4da7-bfa5-03e1518e0b55",
+				"name": "Sceneggiato",
+				"pipe": "Sceneggiato|Category-bcf3b7bb-0f68-4da7-bfa5-03e1518e0b55"
+			},
+			{
+				"id": "Category-671db728-5a6f-4ecd-82cf-dd0f576b681a",
+				"name": "Storia",
+				"pipe": "Storia|Category-671db728-5a6f-4ecd-82cf-dd0f576b681a"
+			},
+			{
+				"id": "Category-6fd21b0b-808c-4b2f-966a-fd4190b8542f",
+				"name": "Storia contemporanea",
+				"pipe": "Storia contemporanea|Category-6fd21b0b-808c-4b2f-966a-fd4190b8542f"
+			},
+			{
+				"id": "Category-eb9ed8af-a6f2-484f-946e-abff5902944d",
+				"name": "Storico",
+				"pipe": "Storico|Category-eb9ed8af-a6f2-484f-946e-abff5902944d"
+			},
+			{
+				"id": "Category-e1ee2436-87f1-4f2d-b656-3ff089d197ec",
+				"name": "Storia medievale",
+				"pipe": "Storia medievale|Category-e1ee2436-87f1-4f2d-b656-3ff089d197ec"
+			},
+			{
+				"id": "Category-0ec71eeb-fdda-4104-a316-43baeeb88804",
+				"name": "Giallo e crime",
+				"pipe": "Giallo e crime|Category-0ec71eeb-fdda-4104-a316-43baeeb88804"
+			},
+			{
+				"id": "Category-9f034286-13d1-47a9-becd-c813cd310c93",
+				"name": "Personaggi",
+				"pipe": "Personaggi|Category-9f034286-13d1-47a9-becd-c813cd310c93"
+			},
+			{
+				"id": "Category-90d2a27b-2768-43da-97b3-095c6616154c",
+				"name": "Mistery",
+				"pipe": "Mistery|Category-90d2a27b-2768-43da-97b3-095c6616154c"
+			},
+			{
+				"id": "Category-94f6eb7f-b542-4a1f-b38e-4c208ffabf75",
+				"name": "Storia dell'arte",
+				"pipe": "Storia dell'arte|Category-94f6eb7f-b542-4a1f-b38e-4c208ffabf75"
+			}
+		],
+		"editor": "Rai Radio 3",
+		"socials": [],
+		"contacts": {
+			"email": null,
+			"phone_number": null,
+			"sms": null,
+			"whatsapp": null,
+			"newsletter": null
+		},
+		"people": [],
+		"metadata": {
+			"product_sources": [
+				{
+					"id": "Category-4cbb5b4e-f80d-4017-9cc0-f3e7f5cb9437",
+					"name": "Messa in onda Radio",
+					"pipe": "Messa in onda Radio|Category-4cbb5b4e-f80d-4017-9cc0-f3e7f5cb9437",
+					"principal": true
+				}
+			],
+			"targets": [],
+			"school_levels": [],
+			"languages": [],
+			"audiodescription": []
+		},
+		"adv": true,
+		"noroll": false,
+		"nobanner": false,
+		"nofloorad": false,
+		"nodmp": false,
+		"play_inverted": true,
+		"dfp": {
+			"escaped_name": "Lastoriaingiallo",
+			"escaped_genres": [
+				{
+					"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+					"name": "Storico"
+				}
+			],
+			"escaped_typology": [
+				{
+					"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+					"name": "Serieaudio"
+				}
+			]
+		}
+	},
+	"tab_menu": [
+		{
+			"content_type": "episodi",
+			"label": "Episodi",
+			"weblink": "/programmi/lastoriaingiallo",
+			"path_id": "/programmi/lastoriaingiallo.json",
+			"sub_type": "RaiPlaySound Puntate Block",
+			"active": true
+		}
+	],
+	"block": {
+		"uniquename": "PublishingBlock-29fb743a-41bf-4f89-863d-a706d4a69872",
+		"title": "Episodi",
+		"type": "RaiPlaySound Puntate Block",
+		"content_type": "episodi",
+		"create_date": "02-11-2023 13:18:58",
+		"update_date": "15-01-2024 19:46:49",
+		"path": "episodi",
+		"cards": [
+			{
+				"uniquename": "ContentItem-b8ed89c2-57ad-4e03-a611-eb3b57e2088f",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La Storia in Giallo 2002_04_07_JOE_PETROSINO",
+				"toptitle": "1. Joe Petrosino",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "La sera del 12 marzo 1909, a Piazza Marina, Palermo, viene ucciso il poliziotto italo-americano Joe Petrosino, giunto in Sicilia per colpire alle radici l'organizzazione criminale della Mano Nera. È il primo grande delitto di mafia. Petrosino è già, per il suo coraggio e la sua durezza, una figura mitica. Presto diventerà un personaggio dei fumetti e negli anni '70, il regista Daniele D'Anza ne farà un film di culto per la TV.  La versione radiofonica vede protagonista Enrico Lo Verso, giunto al successo con \"Il ladro di bambini\", l'attore siciliano è al suo debutto radiofonico. Accanto a lui le voci di Paolo Ferrari, Cesare Barbetti, Ivo Garrani.  Nel dibattito che segue la ricostruzione sceneggiata, l'autrice Antonella Ferrera intervista Roberto Alajmo, esperto di antimafia, e Roberto Olla, autore di documentari storici. ",
+				"episode_title": "1. Joe Petrosino",
+				"episode": "1",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La Storia in Giallo 2002_04_07_JOE_PETROSINO",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=E0zKUvykCUpPpPlussQC7Bdt8qzTgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:00"
+				},
+				"downloadable_audio": {
+					"title": "La Storia in Giallo 2002_04_07_JOE_PETROSINO",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=E0zKUvykCUpPpPlussQC7Bdt8qzTgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-04-07-JOE-PETROSINO-b8ed89c2-57ad-4e03-a611-eb3b57e2088f.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-04-07-JOE-PETROSINO-b8ed89c2-57ad-4e03-a611-eb3b57e2088f.json",
+				"literal_publication_date": "07 Apr 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:00",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-b8ed89c2-57ad-4e03-a611-eb3b57e2088f",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la storia in giallo 2002_04_07_joe_petrosino",
+					"channel": "rai radio 3",
+					"date": "2002-04-07",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "1",
+					"episode_title": "1. joe petrosino",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 1. joe petrosino - ContentItem-b8ed89c2-57ad-4e03-a611-eb3b57e2088f",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-04-07-JOE-PETROSINO-b8ed89c2-57ad-4e03-a611-eb3b57e2088f.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-e54daa16-980a-4862-b51b-dd4cdf587285",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_04_14_AGRIPPINA",
+				"toptitle": "2. Agrippina",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Nella primavera del 59 d.C., nei pressi del lago Lucrino, fu uccisa Agrippina per ordine di suo figlio, l'imperatore Nerone, che non ne sopportava più l'eccessiva invadenza. È il più grande matricidio della storia antica, ricostruito nella trasmissione, \"La storia in giallo\", domenica 14 aprile alle 19 su Radio 3, dapprima in forma sceneggiata, e poi oggetto di un dibattito cui hanno partecipato al fianco dell'autrice Antonella Ferrera lo storico Furio Sanpoli, lo psichiatra Piero Rocchini e la scrittrice Danila Comastri Montanari, specializzata in gialli ambientati nella Roma antica.   L'imperatore Nerone era giunto al trono grazie all'appoggio della madre Agrippina, ed uccidendo Britannico, legittimo erede al trono. Non potendo più sopportare la forte personalità della madre che non voleva rinunciare e regnare per suo tramite, l'imperatore la fa salire su di una nave, Agrippina si salva a nuoto, ma una volta tornata nella sua villa, non potrà sfuggire ai sicari del figlio.   Nella ricostruzione sono citati testi antichi e non - Seneca, Tacito, Svetonio, Racine -, mentre nel dibattito le opinioni sono a contrasto, a dimostrare quanto tutt'oggi sia vivo questo caso di Storia in Giallo. L'attrice protagonista è Anna Maria Gherardi, ed accanto a lei Paolo Ferrari, Alfredo Pea, Cesare Barbetti, Anna Melato. ",
+				"episode_title": "2. Agrippina",
+				"episode": "2",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_04_14_AGRIPPINA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=fPYobPcV53LAHuHF8CeIwgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:28"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_04_14_AGRIPPINA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=fPYobPcV53LAHuHF8CeIwgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-04-14-AGRIPPINA-e54daa16-980a-4862-b51b-dd4cdf587285.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-04-14-AGRIPPINA-e54daa16-980a-4862-b51b-dd4cdf587285.json",
+				"literal_publication_date": "14 Apr 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:28",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-e54daa16-980a-4862-b51b-dd4cdf587285",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_04_14_agrippina",
+					"channel": "rai radio 3",
+					"date": "2002-04-14",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "2",
+					"episode_title": "2. agrippina",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 2. agrippina - ContentItem-e54daa16-980a-4862-b51b-dd4cdf587285",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-04-14-AGRIPPINA-e54daa16-980a-4862-b51b-dd4cdf587285.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-a78de42e-434e-4d37-b43d-134cca49c3db",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_05_05_BEATRICE_CENCI",
+				"toptitle": "3. Beatrice Cenci",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "È l'ombra dell'incesto a pesare sulla morte del nobile romano Francesco Cenci, che venne ucciso per volontà della figlia, la giovane e bella Beatrice, modello ideale di femminilità nei secoli seguenti per pittori e poeti.   La protagonista della ricostruzione sceneggiata è Micaela Esdra.   La fiction dedicata a Beatrice Cenci, è seguita da un dibattito curato da Antonella Ferrera cui partecipano lo psichiatra Piero Rocchini e la storica Marina D'Amelia.  ",
+				"episode_title": "3. Beatrice Cenci",
+				"episode": "3",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_05_05_BEATRICE_CENCI",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Oa8dZ5rKxRqKiRJs8MkcssSlashgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:30:42"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_05_05_BEATRICE_CENCI",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Oa8dZ5rKxRqKiRJs8MkcssSlashgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-05-05-BEATRICE-CENCI-a78de42e-434e-4d37-b43d-134cca49c3db.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-05-05-BEATRICE-CENCI-a78de42e-434e-4d37-b43d-134cca49c3db.json",
+				"literal_publication_date": "05 Mag 2002",
+				"literal_duration": "30 min",
+				"duration_small_format": "30:42",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-a78de42e-434e-4d37-b43d-134cca49c3db",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_05_05_beatrice_cenci",
+					"channel": "rai radio 3",
+					"date": "2002-05-05",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "3",
+					"episode_title": "3. beatrice cenci",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 3. beatrice cenci - ContentItem-a78de42e-434e-4d37-b43d-134cca49c3db",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-05-05-BEATRICE-CENCI-a78de42e-434e-4d37-b43d-134cca49c3db.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-b9ff640d-7c11-4bef-960d-2bf345bd56bd",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_05_05_JACK_LO_SQUARTATORE",
+				"toptitle": "4. Jack lo squartatore",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "All'alba di venerdì 31 agosto 1888, a Whitechapel, Londra, una donna viene trucidata. Era una prostituta di 41 anni. Con questa morte ha inizio un periodo di terrore in tutta la città quello di Jack the Ripper, ovvero Jack lo squartatore. Per molto tempo, voci mai confermate attribuirono i delitti al duca di Clarence, nipote della regina Vittoria, che venne ad un certo punto internato in un manicomio. Comunque, a tutt'oggi, Jack non ha un nome e tutte le domeniche viene organizzato, alle 19.30 in punto, un giro turistico per l'East End, per visitare i luoghi del delitto e - chissà - anche nella vaga speranza di trovarlo. La drammatica vicenda ebbe comunque il merito di portare l'attenzione di filantropi e politici su questa zona degradata della città e di migliorarne considerevolmente le condizioni. La trasmissione ricostruisce con un breve sceneggiato - arricchito dai giornali d'epoca e dalle lettere di Jack alla polizia -la vicenda, ed è seguita da un dibattito in cui l'autrice del programma Antonella Ferrera analizza il caso con la giallista Danila Comastri Montanari e lo psichiatra Piero Rocchini. La voce di Jack è di Cesare Barbetti, accanto a lui Paolo Ferrari ed Alfredo Pea.  ",
+				"episode_title": "4. Jack lo squartatore",
+				"episode": "4",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_05_05_JACK_LO_SQUARTATORE",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yHxBWSOlKOiJmAXHkwPb2weeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:31:30"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_05_05_JACK_LO_SQUARTATORE",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yHxBWSOlKOiJmAXHkwPb2weeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-05-05-JACK-LO-SQUARTATORE-b9ff640d-7c11-4bef-960d-2bf345bd56bd.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-05-05-JACK-LO-SQUARTATORE-b9ff640d-7c11-4bef-960d-2bf345bd56bd.json",
+				"literal_publication_date": "05 Mag 2002",
+				"literal_duration": "31 min",
+				"duration_small_format": "31:30",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-b9ff640d-7c11-4bef-960d-2bf345bd56bd",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_05_05_jack_lo_squartatore",
+					"channel": "rai radio 3",
+					"date": "2002-05-05",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "4",
+					"episode_title": "4. jack lo squartatore",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 4. jack lo squartatore - ContentItem-b9ff640d-7c11-4bef-960d-2bf345bd56bd",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-05-05-JACK-LO-SQUARTATORE-b9ff640d-7c11-4bef-960d-2bf345bd56bd.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-a3324546-2e85-48c5-91e1-16e06566e6dc",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_05_19_ABRAMO_LINCOLN",
+				"toptitle": "5. Abramo Lincoln",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "La sera del 14 aprile 1865 il presidente degli Stati Uniti d'America, Abramo Lincoln, si reca a teatro: un sudista e attore fallito di nome Booth, lo uccide con un colpo di pistola. Con Ivo Garrani nella ricostruzione sceneggiata. La vicenda è seguita da un dibattito cui partecipano lo psichiatra e criminologo Piero Rocchini e Daniele Fiorentino, esperto di storia americana, intervistati dall'autrice Antonella Ferrera.",
+				"episode_title": "5. Abramo Lincoln",
+				"episode": "5",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_05_19_ABRAMO_LINCOLN",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=nNz3YyPGaPJK83Hj2vHPnAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:28:03"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_05_19_ABRAMO_LINCOLN",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=nNz3YyPGaPJK83Hj2vHPnAeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-05-19-ABRAMO-LINCOLN-a3324546-2e85-48c5-91e1-16e06566e6dc.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-05-19-ABRAMO-LINCOLN-a3324546-2e85-48c5-91e1-16e06566e6dc.json",
+				"literal_publication_date": "19 Mag 2002",
+				"literal_duration": "28 min",
+				"duration_small_format": "28:03",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-a3324546-2e85-48c5-91e1-16e06566e6dc",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_05_19_abramo_lincoln",
+					"channel": "rai radio 3",
+					"date": "2002-05-19",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "5",
+					"episode_title": "5. abramo lincoln",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 5. abramo lincoln - ContentItem-a3324546-2e85-48c5-91e1-16e06566e6dc",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-05-19-ABRAMO-LINCOLN-a3324546-2e85-48c5-91e1-16e06566e6dc.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-87f0b52f-bb18-4ea8-8eb8-a8679cfe0029",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_05_26_KASPAR_HAUSER",
+				"toptitle": "6. Kaspar Hauser",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Nel 1828, a Norimberga, compare uno strano ragazzo, dice di essere vissuto recluso dal mondo fino a quel momento: un idiota o un impostore? C'è addirittura chi lo dice erede al trono. Ma il suo assassinio, altrettanto misterioso, impedirà di conoscerne mai la verità.  Con Alfredo Pea nella parte di Kaspar Hauser.  La vicenda è seguita da un dibattito curato dall'autrice Antonella Ferrera cui partecipano lo psichiatra e criminologo Piero Rocchini e Ursula Bavai, docente di letteratura tedesca.  ",
+				"episode_title": "6. Kaspar Hauser",
+				"episode": "6",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_05_26_KASPAR_HAUSER",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=9fcmbEUIwTuf6ddbqsdk9geeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:56"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_05_26_KASPAR_HAUSER",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=9fcmbEUIwTuf6ddbqsdk9geeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-05-26-KASPAR-HAUSER-87f0b52f-bb18-4ea8-8eb8-a8679cfe0029.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-05-26-KASPAR-HAUSER-87f0b52f-bb18-4ea8-8eb8-a8679cfe0029.json",
+				"literal_publication_date": "26 Mag 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:56",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-87f0b52f-bb18-4ea8-8eb8-a8679cfe0029",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_05_26_kaspar_hauser",
+					"channel": "rai radio 3",
+					"date": "2002-05-26",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "6",
+					"episode_title": "6. kaspar hauser",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 6. kaspar hauser - ContentItem-87f0b52f-bb18-4ea8-8eb8-a8679cfe0029",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-05-26-KASPAR-HAUSER-87f0b52f-bb18-4ea8-8eb8-a8679cfe0029.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-3515d656-81f2-47bc-b1bf-b80e4d982310",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_06_02_LEONARDA_CIANCIULLI",
+				"toptitle": "7. Leonarda Cianciulli",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Una storia del 1946 questa della \"saponificatrice\". Ma uccideva le sue vittime per interesse o per mistica follia? Pensare che questa donna, che faceva a pezzi con la scure le sue vittime prima di bollirle, era piccola, dalle unghie curate e dagli impeccabili ricciolini.  Con Anna Melato nel ruolo della protagonista.   La vicenda è seguita da un dibattito in cui l'autrice Antonella Ferrera analizza il caso con lo psichiatra e criminologo Piero Rocchini.  ",
+				"episode_title": "7. Leonarda Cianciulli",
+				"episode": "7",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_06_02_LEONARDA_CIANCIULLI",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Hkiw8C9VwiLJCFuQIXfupweeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:28:24"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_06_02_LEONARDA_CIANCIULLI",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Hkiw8C9VwiLJCFuQIXfupweeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-06-02-LEONARDA-CIANCIULLI-3515d656-81f2-47bc-b1bf-b80e4d982310.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-06-02-LEONARDA-CIANCIULLI-3515d656-81f2-47bc-b1bf-b80e4d982310.json",
+				"literal_publication_date": "02 Giu 2002",
+				"literal_duration": "28 min",
+				"duration_small_format": "28:24",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-3515d656-81f2-47bc-b1bf-b80e4d982310",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_06_02_leonarda_cianciulli",
+					"channel": "rai radio 3",
+					"date": "2002-06-02",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "7",
+					"episode_title": "7. leonarda cianciulli",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 7. leonarda cianciulli - ContentItem-3515d656-81f2-47bc-b1bf-b80e4d982310",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-06-02-LEONARDA-CIANCIULLI-3515d656-81f2-47bc-b1bf-b80e4d982310.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-98e6c7c5-4cda-4c7a-9b33-ec711cb3d8cd",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_06_09_LA_CONTESSA_BATHORY",
+				"toptitle": "8. La contessa Bathory",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Nell'Ungheria del 500 si svolge la vicenda che ha per protagonista la Contessa Bathory. Ossessionata dal timore di perdere la sua straordinaria bellezza, la contessa è convinta di poterla conservare solo bagnandosi nel sangue di fanciulle belle ed aristocratiche. Entrerà nella leggenda come \"la vampira\", anche se recenti studi sostengono che la leggenda sulla contessa Bathory fu creata ad arte perché le fossero tolte le sue enormi ricchezze.   Nella fiction radiofonica Ludovica Modugno interpreta il ruolo di Erszebet Bathory.   Alla ricostruzione sceneggiata fa seguito la consueta intervista di Antonella Ferrera cui partecipano il regista Giorgio Presburger e Gianni Pilo, direttore della collana del fantastico della Newton&Compton.  ",
+				"episode_title": "8. La contessa Bathory",
+				"episode": "8",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_06_09_LA_CONTESSA_BATHORY",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=8n5lHUeTzXSQV2y8DqCypPpPlussAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:27:43"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_06_09_LA_CONTESSA_BATHORY",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=8n5lHUeTzXSQV2y8DqCypPpPlussAeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-06-09-LA-CONTESSA-BATHORY-98e6c7c5-4cda-4c7a-9b33-ec711cb3d8cd.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-06-09-LA-CONTESSA-BATHORY-98e6c7c5-4cda-4c7a-9b33-ec711cb3d8cd.json",
+				"literal_publication_date": "09 Giu 2002",
+				"literal_duration": "27 min",
+				"duration_small_format": "27:43",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-98e6c7c5-4cda-4c7a-9b33-ec711cb3d8cd",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_06_09_la_contessa_bathory",
+					"channel": "rai radio 3",
+					"date": "2002-06-09",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "8",
+					"episode_title": "8. la contessa bathory",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 8. la contessa bathory - ContentItem-98e6c7c5-4cda-4c7a-9b33-ec711cb3d8cd",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-06-09-LA-CONTESSA-BATHORY-98e6c7c5-4cda-4c7a-9b33-ec711cb3d8cd.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-1deffd73-b121-42e3-bd17-c2612f00365e",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_06_16_CONCINO_CONCINI",
+				"toptitle": "9. Concino Concini",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Nella Francia del '600, alla corte di Maria dei Medici, cresce a dismisura la fortuna del suo consigliere e, forse amante, Concino Concini. Ma il giovane re non  perdonerà al fiorentino  tanta arroganza e fortuna e lo farà pugnalare. Il ruolo del protagonista è interpretato da Paolo Ferrari. La vicenda è seguita da un dibattito curato da Antonella Ferrera cui partecipano Marina D'Amelia, storica, e Mimmo De Masi, sociologo. ",
+				"episode_title": "9. Concino Concini",
+				"episode": "9",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_06_16_CONCINO_CONCINI",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yVpWLxIXkqllt7wvAJb5yQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:24"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_06_16_CONCINO_CONCINI",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yVpWLxIXkqllt7wvAJb5yQeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-06-16-CONCINO-CONCINI-1deffd73-b121-42e3-bd17-c2612f00365e.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-06-16-CONCINO-CONCINI-1deffd73-b121-42e3-bd17-c2612f00365e.json",
+				"literal_publication_date": "16 Giu 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:24",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-1deffd73-b121-42e3-bd17-c2612f00365e",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_06_16_concino_concini",
+					"channel": "rai radio 3",
+					"date": "2002-06-16",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "9",
+					"episode_title": "9. concino concini",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 9. concino concini - ContentItem-1deffd73-b121-42e3-bd17-c2612f00365e",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-06-16-CONCINO-CONCINI-1deffd73-b121-42e3-bd17-c2612f00365e.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-d3f15a85-8801-4685-a483-4bb13326312a",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:31",
+				"title": "La_Storia_in_Giallo_2002_06_23_MAYERLING",
+				"toptitle": "10. Il caso Mayerling",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "La romantica storia dell'amore fra la giovanissima Mary e l'arciduca Rodolfo d'Asburgo, conclusasi con un doppio suicidio, forse non fu così romantica. E forse non fu neanche un suicidio. Si trattò probabilmente di un omicidio a sfondo politico.  Con Cristina Boraschi nella parte di Mary.   La vicenda è seguita da un dibattito curato dall'autrice Antonella Ferrera cui partecipano Ursula Bavai, docente di letteratura tedesca ed il regista Giorgio Presburger in collegamento da Budapest. ",
+				"episode_title": "10. Il caso Mayerling",
+				"episode": "10",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_06_23_MAYERLING",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=LvpvH5xGxssSlashdIBWQo1GZAvAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:28:49"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_06_23_MAYERLING",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=LvpvH5xGxssSlashdIBWQo1GZAvAeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-06-23-MAYERLING-d3f15a85-8801-4685-a483-4bb13326312a.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-06-23-MAYERLING-d3f15a85-8801-4685-a483-4bb13326312a.json",
+				"literal_publication_date": "23 Giu 2002",
+				"literal_duration": "28 min",
+				"duration_small_format": "28:49",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-d3f15a85-8801-4685-a483-4bb13326312a",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_06_23_mayerling",
+					"channel": "rai radio 3",
+					"date": "2002-06-23",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "10",
+					"episode_title": "10. il caso mayerling",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 10. il caso mayerling - ContentItem-d3f15a85-8801-4685-a483-4bb13326312a",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-06-23-MAYERLING-d3f15a85-8801-4685-a483-4bb13326312a.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-5f543eee-84c7-42b1-a95d-26b8d083c54d",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_09_22_GILLES_DE_RAIS",
+				"toptitle": "11. Gilles de Rais/Barbablù ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Francia 1440. Viene arrestato il barone Gilles de Rais, con l'accusa di stregoneria, pedofilia ed omicidio. Gilles è un uomo ricchissimo, colto, un guerriero valoroso che ha combattuto a fianco di Giovanna d'Arco. Eppure le accuse, per sua stessa ammissione, si riveleranno fondate, dal momento che ha sodomizzato ed ucciso nel suo castello centinaia di bambini. Nell'immaginario popolare, i fanciulli si trasformeranno in mogli, e ne nascerà la favola di Barbablù raccolta da Charles Perrault.  Il programma, che vede la partecipazione dello psichiatra Piero Rocchini, intervistato da Antonella Ferrera, segna il ritorno ai microfoni di Radio Rai, dopo una lunga assenza, di uno degli attori più acclamati del nostro teatro: Gabriele Lavia nella parte di Gilles de Rais. ",
+				"episode_title": "11. Gilles de Rais/Barbablù ",
+				"episode": "11",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_09_22_GILLES_DE_RAIS",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=nmpPpPlussO5sIMA0IOW1pek8lWaAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:30:31"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_09_22_GILLES_DE_RAIS",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=nmpPpPlussO5sIMA0IOW1pek8lWaAeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-09-22-GILLES-DE-RAIS-5f543eee-84c7-42b1-a95d-26b8d083c54d.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-09-22-GILLES-DE-RAIS-5f543eee-84c7-42b1-a95d-26b8d083c54d.json",
+				"literal_publication_date": "22 Set 2002",
+				"literal_duration": "30 min",
+				"duration_small_format": "30:31",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-5f543eee-84c7-42b1-a95d-26b8d083c54d",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_09_22_gilles_de_rais",
+					"channel": "rai radio 3",
+					"date": "2002-09-22",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "11",
+					"episode_title": "11. gilles de rais/barbablù ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 11. gilles de rais/barbablù  - ContentItem-5f543eee-84c7-42b1-a95d-26b8d083c54d",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-09-22-GILLES-DE-RAIS-5f543eee-84c7-42b1-a95d-26b8d083c54d.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-59cfc17e-b860-4065-bdd2-ecc2849937d2",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_09_29_POMPEO",
+				"toptitle": "12. Pompeo",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Il 29 settembre del 48 a .C., il generale Pompeo viene ucciso a tradimento mentre si trova in Egitto, ed il suo capo mozzo viene regalato al rivale Giulio Cesare. L'ex triunviro aveva compiuto il giorno prima,59 anni. Il programma, che ricostruisce quel momento affascinante e complesso della storia, è come di consueto composto da una parte sceneggiata - con la voce di Gabriele Lavia - ed un dibattito volto a leggere in chiave contemporanea il personaggio. In studio assieme all' autrice Antonella Ferrera, il generale Pier Luigi Caligaris e lo psichiatra Piero Rocchini. ",
+				"episode_title": "12. Pompeo",
+				"episode": "12",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_09_29_POMPEO",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Udy1D57wdu3G0a0oNARexgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:31:30"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_09_29_POMPEO",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Udy1D57wdu3G0a0oNARexgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-09-29-POMPEO-59cfc17e-b860-4065-bdd2-ecc2849937d2.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-09-29-POMPEO-59cfc17e-b860-4065-bdd2-ecc2849937d2.json",
+				"literal_publication_date": "29 Set 2002",
+				"literal_duration": "31 min",
+				"duration_small_format": "31:30",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-59cfc17e-b860-4065-bdd2-ecc2849937d2",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_09_29_pompeo",
+					"channel": "rai radio 3",
+					"date": "2002-09-29",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "12",
+					"episode_title": "12. pompeo",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 12. pompeo - ContentItem-59cfc17e-b860-4065-bdd2-ecc2849937d2",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-09-29-POMPEO-59cfc17e-b860-4065-bdd2-ecc2849937d2.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-f66dfda1-e7a9-4fc3-ab83-f50a846b5aea",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_10_06_MICHELANGELO_DA_CARAVAGGIO",
+				"toptitle": "13. Michelangelo da Caravaggio ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Il 10 luglio del 1610, all'età di 40 anni, muore, forse di malaria, Michelangelo da Caravaggio, il pittore scandalo, l'artista del XVII secolo più amato nei tempi moderni. Una morte di cui spesso si è parlato e si parla, il più delle volte con gravi inesattezze. Anche in questo caso l'autrice Antonella Ferrera ha scritto i testi avvalendosi di documenti originali, cui dà voce Gabriele Lavia. In studio, in compagnia di Antonella Ferrera, lo psichiatra e criminologo Piero Rocchini.   ",
+				"episode_title": "13. Michelangelo da Caravaggio ",
+				"episode": "13",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_10_06_MICHELANGELO_DA_CARAVAGGIO",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=6nCrJpssSlashzJ7qXgxssSlashyi5DrbgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:40"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_10_06_MICHELANGELO_DA_CARAVAGGIO",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=6nCrJpssSlashzJ7qXgxssSlashyi5DrbgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-10-06-MICHELANGELO-DA-CARAVAGGIO-f66dfda1-e7a9-4fc3-ab83-f50a846b5aea.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-10-06-MICHELANGELO-DA-CARAVAGGIO-f66dfda1-e7a9-4fc3-ab83-f50a846b5aea.json",
+				"literal_publication_date": "06 Ott 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:40",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-f66dfda1-e7a9-4fc3-ab83-f50a846b5aea",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_10_06_michelangelo_da_caravaggio",
+					"channel": "rai radio 3",
+					"date": "2002-10-06",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "13",
+					"episode_title": "13. michelangelo da caravaggio ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 13. michelangelo da caravaggio  - ContentItem-f66dfda1-e7a9-4fc3-ab83-f50a846b5aea",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-10-06-MICHELANGELO-DA-CARAVAGGIO-f66dfda1-e7a9-4fc3-ab83-f50a846b5aea.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-e42baeb7-ed1b-4138-94da-f722264f724d",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:59",
+				"title": "La_Storia_in_Giallo_2002_10_13_ALEKSANDR_PUSKIN",
+				"toptitle": "14. Aleksandr Puskin ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Aleksandr Puskin, grande poeta e narratore russo, autore di \"Eugenio Oneghin\", \"Boris Godunov\", \"La figlia del capitano\", muore a Mosca il 29 gennaio del 1837 per le ferite riportate in duello. Un duello che aveva voluto lui, sfidando un francese, presunto amante di sua moglie, la bellissima Natalia, ma un adulterio che era stato Puskin stesso a volere. Questa puntata segna il debutto radiofonico di Giulio Scarpati, l'attore divenuto popolare in TV con \"Un medico in famiglia\" ed in teatro con \"L'idiota\" di Dostojewsky. Scarpati  protagonista di altri due episodi della serie radiofonica di Antonella Ferrera. Oltre ad interpretare il ruolo grande scrittore russo Aleksandr Puskin, sarà anche il fisico Ettore Majorana, e lo psicanalista Tausk, allievo odiato-amato di Sigmund Freud.  Nel dibattito, a cura di Antonella Ferrera, interviene lo psichiatra Piero Rocchini.  ",
+				"episode_title": "14. Aleksandr Puskin ",
+				"episode": "14",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_10_13_ALEKSANDR_PUSKIN",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=OIHlMnBfbxM7ttMZPQdk7QeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:30:09"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_10_13_ALEKSANDR_PUSKIN",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=OIHlMnBfbxM7ttMZPQdk7QeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-10-13-ALEKSANDR-PUSKIN-e42baeb7-ed1b-4138-94da-f722264f724d.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-10-13-ALEKSANDR-PUSKIN-e42baeb7-ed1b-4138-94da-f722264f724d.json",
+				"literal_publication_date": "13 Ott 2002",
+				"literal_duration": "30 min",
+				"duration_small_format": "30:09",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-e42baeb7-ed1b-4138-94da-f722264f724d",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_10_13_aleksandr_puskin",
+					"channel": "rai radio 3",
+					"date": "2002-10-13",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "14",
+					"episode_title": "14. aleksandr puskin ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 14. aleksandr puskin  - ContentItem-e42baeb7-ed1b-4138-94da-f722264f724d",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-10-13-ALEKSANDR-PUSKIN-e42baeb7-ed1b-4138-94da-f722264f724d.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-38829615-2685-45e7-adb2-fab9db161a8a",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_10_20_LA_MONACA_DI_MONZA",
+				"toptitle": "15. La Monaca di Monza",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Alessandro Manzoni, nel creare la Monaca di Monza, uno dei personaggi più famosi dei Promessi Sposi, si rifece ad un personaggio realmente esistito, la nobile Virginia de Leyva, che all'inizio del 600 aveva trascorso ben 14 anni in cella per scontare i reati di cui si era macchiata, omicidio compreso, delitti a cui l'aveva spinta il suo amante, il bellissimo Paolo Osio.  Nella ricostruzione della doppia storia, accanto alle pagine del Manzoni lette da Gabriele Lavia, non mancano i documenti d'epoca e citazioni dal dramma di Giovanni Testori recitate da Loredana Martinez ed Alfredo Pea, con Francesca Muzio e Luca Dalla Bianca. Al dibattito che segue lo sceneggiato l'autrice Antonella Ferrera intervista lo psichiatra Piero Rocchini e Liliana Madeo, autrice del libro \"Donne cattive\".  ",
+				"episode_title": "15. La Monaca di Monza",
+				"episode": "15",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_10_20_LA_MONACA_DI_MONZA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=I5mZdU4ovjRwmjo9YxwKdQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:30"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_10_20_LA_MONACA_DI_MONZA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=I5mZdU4ovjRwmjo9YxwKdQeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-10-20-LA-MONACA-DI-MONZA-38829615-2685-45e7-adb2-fab9db161a8a.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-10-20-LA-MONACA-DI-MONZA-38829615-2685-45e7-adb2-fab9db161a8a.json",
+				"literal_publication_date": "20 Ott 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:30",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-38829615-2685-45e7-adb2-fab9db161a8a",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_10_20_la_monaca_di_monza",
+					"channel": "rai radio 3",
+					"date": "2002-10-20",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "15",
+					"episode_title": "15. la monaca di monza",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 15. la monaca di monza - ContentItem-38829615-2685-45e7-adb2-fab9db161a8a",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-10-20-LA-MONACA-DI-MONZA-38829615-2685-45e7-adb2-fab9db161a8a.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-4a6fb299-91dc-4e76-9c9e-aae6ae3ba37a",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_10_27_ETTORE_MAJORANA",
+				"toptitle": "16. Ettore Majorana ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "L'azione si svolge in Italia, nel marzo del 1938. Il fisico Ettore Majorana, 31 anni, forse lo scienziato più promettente del gruppo di via Panisperna, scompare, dopo aver lasciato due brevi ed enigmatiche lettere, una alla famiglia, l'altra all'Università. Di lui non verranno mai ritrovate tracce, nonostante le ricerche siano condotte per le vie ufficiali (\"Voglio che si trovi\" scrisse di suo pugno Mussolini) che private.  Accanto a Giulio Scarpati, nella parte di Majorana, le voci di Francesca Muzio, Mirella Falco, Alfredo Pea, Loredana Martinez, Luca Dalla Bianca.  Al dibattito curato da Antonella Ferrera intervengono lo psichiatra Piero Rocchini ed il Professor Amaldi, figlio di quello stesso Amaldi che, all'interno dello storico gruppo creatosi attorno ad Enrico Fermi, meglio conosceva lo scienziato scomparso. ",
+				"episode_title": "16. Ettore Majorana ",
+				"episode": "16",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_10_27_ETTORE_MAJORANA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yBh8ssSlash4p5pAXssSlash4SsPQDo6qgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:16"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_10_27_ETTORE_MAJORANA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yBh8ssSlash4p5pAXssSlash4SsPQDo6qgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-10-27-ETTORE-MAJORANA-4a6fb299-91dc-4e76-9c9e-aae6ae3ba37a.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-10-27-ETTORE-MAJORANA-4a6fb299-91dc-4e76-9c9e-aae6ae3ba37a.json",
+				"literal_publication_date": "27 Ott 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:16",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-4a6fb299-91dc-4e76-9c9e-aae6ae3ba37a",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_10_27_ettore_majorana",
+					"channel": "rai radio 3",
+					"date": "2002-10-27",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "16",
+					"episode_title": "16. ettore majorana ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 16. ettore majorana  - ContentItem-4a6fb299-91dc-4e76-9c9e-aae6ae3ba37a",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-10-27-ETTORE-MAJORANA-4a6fb299-91dc-4e76-9c9e-aae6ae3ba37a.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-60b77d41-dab1-45fe-8a0f-b2cd45d578c1",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:59",
+				"title": "La_Storia_in_Giallo_2002_11_03_CHARLOTTE_CORDAY",
+				"toptitle": "17. Charlotte Corday – Marat ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Il 13 luglio è al Palais Royal, acquista un capello nero a nastrini verdi per non dare nell'occhio e un coltello da cucina con una lama di dodici centimetri. Quando entra nella stanza, Marat è nel bagno, disteso in una tinozza, Charlotte gioca con lui e con la sua morbosa passione cospirativa, elencandogli una falsa lista di traditori, poi, improvvisamente si alza dalla sedia e sferra un colpo fatale sotto la clavicola, sul fianco destro della vittima squarciandogli la carotide. Dopo la ricostruzione sceneggiata Antonella Ferrera intervista Roberto Olla, autore di documentari storici per la Rai ed il criminologo Piero Rocchini.   ",
+				"episode_title": "17. Charlotte Corday – Marat ",
+				"episode": "17",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_11_03_CHARLOTTE_CORDAY",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=uk5SpPpPlussYzLq3nqPI7BVmFlRgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:28:02"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_11_03_CHARLOTTE_CORDAY",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=uk5SpPpPlussYzLq3nqPI7BVmFlRgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-11-03-CHARLOTTE-CORDAY-60b77d41-dab1-45fe-8a0f-b2cd45d578c1.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-11-03-CHARLOTTE-CORDAY-60b77d41-dab1-45fe-8a0f-b2cd45d578c1.json",
+				"literal_publication_date": "03 Nov 2002",
+				"literal_duration": "28 min",
+				"duration_small_format": "28:02",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-60b77d41-dab1-45fe-8a0f-b2cd45d578c1",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_11_03_charlotte_corday",
+					"channel": "rai radio 3",
+					"date": "2002-11-03",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "17",
+					"episode_title": "17. charlotte corday – marat ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 17. charlotte corday – marat  - ContentItem-60b77d41-dab1-45fe-8a0f-b2cd45d578c1",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-11-03-CHARLOTTE-CORDAY-60b77d41-dab1-45fe-8a0f-b2cd45d578c1.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-56e4f4e4-05fe-490d-bdcf-58988744f3f2",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:59",
+				"title": "La_Storia_in_Giallo_2002_11_10_VICTOR_TAUSK",
+				"toptitle": "18. Victor Tausk",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Il 3 luglio del 1919 si suicida a Vienna, Victor Tausk, psicanalista, allievo amato-odiato di Sigmund Freud, ed ex amante della leggendaria Lou Andreas-Salomé. Bello, intelligente, inquieto, giovane, Tausk sembra pagare con la vita l'impossibilità di trovare un equilibrio e il duro scontro con il maestro Freud, che, se in pubblico avrà parole di cordoglio per la perdita dell'allievo, in privato scriverà: \"devo confessare di non sentire veramente la mancanza di Tausk; già da tempo l'avevo giudicato inutile\".  Tausk è interpretato da Giulio Scarpati. Accanto a lui Francesca Muzio, Alfredo Pea, Loredana Martinez, Luca Dalla Bianca. Al dibattito partecipa lo psichiatra Piero Rocchini, intervistato dall'autrice Antonella Ferrera. ",
+				"episode_title": "18. Victor Tausk",
+				"episode": "18",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_11_10_VICTOR_TAUSK",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yYIQessSlashrwtTDUQrmA3rNpPpPlussKweeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:28:01"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_11_10_VICTOR_TAUSK",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yYIQessSlashrwtTDUQrmA3rNpPpPlussKweeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-11-10-VICTOR-TAUSK-56e4f4e4-05fe-490d-bdcf-58988744f3f2.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-11-10-VICTOR-TAUSK-56e4f4e4-05fe-490d-bdcf-58988744f3f2.json",
+				"literal_publication_date": "10 Nov 2002",
+				"literal_duration": "28 min",
+				"duration_small_format": "28:01",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-56e4f4e4-05fe-490d-bdcf-58988744f3f2",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_11_10_victor_tausk",
+					"channel": "rai radio 3",
+					"date": "2002-11-10",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "18",
+					"episode_title": "18. victor tausk",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 18. victor tausk - ContentItem-56e4f4e4-05fe-490d-bdcf-58988744f3f2",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-11-10-VICTOR-TAUSK-56e4f4e4-05fe-490d-bdcf-58988744f3f2.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-4731e479-780d-4031-8620-7b038bf98d29",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_11_24_LUCREZIA_BORGIA",
+				"toptitle": "19. Lucrezia Borgia - Alfonso d'Aragona ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "È Lucrezia Borgia la vera protagonista di questa puntata, anche se il delitto di cui ci occupiamo è quello del suo secondo marito, l'amato Alfonso d'Aragona, ucciso dal Valentino nell'anno 1500. Figlia di un Papa, bella, intelligente, raffinata, ed al tempo stesso accusata di incesto, intrighi, avvelenamenti, la sua figura rimane ancora uno dei grandi enigmi della storia. Le dà voce Loredana Martinez, in una puntata narrata da Walter Maestosi e Daniela Barra, mentre al dibattito, curato dall'autrice del programma, Antonella Ferrera, intervengono lo psichiatra Piero Rocchini e la scrittrice Liliana Madeo. ",
+				"episode_title": "19. Lucrezia Borgia - Alfonso d'Aragona ",
+				"episode": "19",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_11_24_LUCREZIA_BORGIA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=9dnsKC1N5uDSS9i6j9vHQAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:30:06"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_11_24_LUCREZIA_BORGIA",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=9dnsKC1N5uDSS9i6j9vHQAeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-11-24-LUCREZIA-BORGIA-4731e479-780d-4031-8620-7b038bf98d29.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-11-24-LUCREZIA-BORGIA-4731e479-780d-4031-8620-7b038bf98d29.json",
+				"literal_publication_date": "24 Nov 2002",
+				"literal_duration": "30 min",
+				"duration_small_format": "30:06",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-4731e479-780d-4031-8620-7b038bf98d29",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_11_24_lucrezia_borgia",
+					"channel": "rai radio 3",
+					"date": "2002-11-24",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "19",
+					"episode_title": "19. lucrezia borgia - alfonso d'aragona ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 19. lucrezia borgia - alfonso d'aragona  - ContentItem-4731e479-780d-4031-8620-7b038bf98d29",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-11-24-LUCREZIA-BORGIA-4731e479-780d-4031-8620-7b038bf98d29.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-0849c543-3c75-436d-be64-9547141eaf79",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_12_01_RASPUTIN",
+				"toptitle": "20. Rasputin",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "La notte del 19 dicembre 1916, un cadavere affiora tra l'acqua ed il ghiaccio di un canale di Pietrogrado. La gente lo riconosce, urla al miracolo, corre a riempire secchi e fiasche con l'acqua miracolosa, perché si tratta del misterioso Rasputin, l'eminenza grigia della corte degli Zar, l'uomo che nonostante il veleno, le pugnalate, i colpi di pistola, l'assideramento, lotta ancora nell'acqua ghiacciata per liberare le mani dalle corde.  Il ruolo del  protagonista è di Paolo Lombardi, l'attore senese che per tanti anni è stato la voce italiana di Alfred Hitchcock.  Segue un'intervista di Antonella Ferrera al giornalista Renzo Foa che vede il personaggio di Rasputin con gli occhi del presente, fuori della leggenda. ",
+				"episode_title": "20. Rasputin",
+				"episode": "20",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_12_01_RASPUTIN",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=esexSWiPJJwWIpPpPlussQCYoPFZAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:30:00"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_12_01_RASPUTIN",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=esexSWiPJJwWIpPpPlussQCYoPFZAeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-12-01-RASPUTIN-0849c543-3c75-436d-be64-9547141eaf79.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-12-01-RASPUTIN-0849c543-3c75-436d-be64-9547141eaf79.json",
+				"literal_publication_date": "01 Dic 2002",
+				"literal_duration": "30 min",
+				"duration_small_format": "30:00",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-0849c543-3c75-436d-be64-9547141eaf79",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_12_01_rasputin",
+					"channel": "rai radio 3",
+					"date": "2002-12-01",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "20",
+					"episode_title": "20. rasputin",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 20. rasputin - ContentItem-0849c543-3c75-436d-be64-9547141eaf79",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-12-01-RASPUTIN-0849c543-3c75-436d-be64-9547141eaf79.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-68e9807e-6a68-4c9b-aa9a-d120641294a4",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "11:00",
+				"title": "La_Storia_in_Giallo_2002_12_08_AKHENATON",
+				"toptitle": "21. Akhenaton ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "\"La storia in giallo\" affronta questa volta  il più antico dei suoi personaggi: il faraone Akhenaton. Protagonista della grande rivoluzione religiosa del Nuovo Regno, il sovrano fu il primo ad affermare ufficialmente una religione monoteista e probabilmente a pagarne lo scotto morendo assassinato, come già aveva ricostruito l'archeologo Milka Waltari in un romanzo - e poi film - di grande successo: \"Sinuhe l'egiziano\". Gli attori sono Paolo Lombardi, Francesca Gatto, Francesco Meoni. Al termine dello sceneggiato l'autrice Antonella Ferrera intervista l'archeologo e scrittore Valerio Manfredi. ",
+				"episode_title": "21. Akhenaton ",
+				"episode": "21",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_12_08_AKHENATON",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=PE3wc6etKfssSlashNKfaoXssSlashpWcgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:30:04"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_12_08_AKHENATON",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=PE3wc6etKfssSlashNKfaoXssSlashpWcgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-12-08-AKHENATON-68e9807e-6a68-4c9b-aa9a-d120641294a4.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-12-08-AKHENATON-68e9807e-6a68-4c9b-aa9a-d120641294a4.json",
+				"literal_publication_date": "08 Dic 2002",
+				"literal_duration": "30 min",
+				"duration_small_format": "30:04",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-68e9807e-6a68-4c9b-aa9a-d120641294a4",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_12_08_akhenaton",
+					"channel": "rai radio 3",
+					"date": "2002-12-08",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "21",
+					"episode_title": "21. akhenaton ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 21. akhenaton  - ContentItem-68e9807e-6a68-4c9b-aa9a-d120641294a4",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-12-08-AKHENATON-68e9807e-6a68-4c9b-aa9a-d120641294a4.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-e169f181-81a3-4b67-9631-f4a2e6e0eb9c",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:59",
+				"title": "La_Storia_in_Giallo_2002_12_15_CHARLES_MANSON",
+				"toptitle": "22. Charles Manson ",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Nell'estate del 1969, a Los Angeles, una banda di fanatici guidati da Charles Manson penetra nella villa del regista Roman Polanski e massacra le 5 persone che vi si trovano, compresa Sharon Tate, la giovane e bellissima moglie del regista, incinta di 8 mesi. Seguirà il più lungo processo per omicidio della storia americana, durato nove mesi e mezzo, e il più costoso, un milione di dollari.  Questa puntata segna l'inizio della partecipazione di Michele Mirabella al programma. L'artista, che ha alle spalle anche una lunga carriera di attore, sarà anche Arthur Miller nel caso Marylin Monroe, e Charyl Chessman.  Dopo lo sceneggiato, l'autrice Antonella Ferrera intervista lo psichiatra e scrittore Vittorino Andreoli, autore del recente best-seller \"Il lato oscuro\".  Una ghost-track, una traccia nascosta da un CD dei Guns and Roses, contenente una canzone composta dallo stesso Manson, conclude la trasmissione. Manson aveva infatti ambizioni di musicista, ed era convinto di poter diventare un giorno il quinto dei Beatles. ",
+				"episode_title": "22. Charles Manson ",
+				"episode": "22",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_12_15_CHARLES_MANSON",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=XlssSlashbvRBAvSS9K4nT2sVcdgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:30:24"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_12_15_CHARLES_MANSON",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=XlssSlashbvRBAvSS9K4nT2sVcdgeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-12-15-CHARLES-MANSON-e169f181-81a3-4b67-9631-f4a2e6e0eb9c.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-12-15-CHARLES-MANSON-e169f181-81a3-4b67-9631-f4a2e6e0eb9c.json",
+				"literal_publication_date": "15 Dic 2002",
+				"literal_duration": "30 min",
+				"duration_small_format": "30:24",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-e169f181-81a3-4b67-9631-f4a2e6e0eb9c",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_12_15_charles_manson",
+					"channel": "rai radio 3",
+					"date": "2002-12-15",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "22",
+					"episode_title": "22. charles manson ",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 22. charles manson  - ContentItem-e169f181-81a3-4b67-9631-f4a2e6e0eb9c",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-12-15-CHARLES-MANSON-e169f181-81a3-4b67-9631-f4a2e6e0eb9c.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-b3c65da7-da45-456a-a541-167d03373cb7",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-11-2023",
+				"create_time": "10:59",
+				"title": "La_Storia_in_Giallo_2002_12_22_MARYLIN_MONROE",
+				"toptitle": "23. Marilyn Monroe",
+				"subtitle": "La storia in giallo",
+				"channel": {},
+				"description": "Il 5 agosto 1962, ad Hollywood, muore Marylin Monroe, la più bella ed amata delle attrici, forse suicida. Ma a 40 anni dalla sua scomparsa, il mistero è ancora fitto, dal momento che testimonianze, documenti, orari sono in continuo e spesso sfrontato contrasto fra loro.  La trasmissione di Antonella Ferrera cerca di darci il punto attuale della situazione, ricostruendo le ultime ore di Marilyn, mentre nell'incontro con lo psichiatra  Piero Rocchini, si tenta una lettura psicoanalitica  della donna, oltre che della diva.  Michele Mirabella dà voce allo scrittore Arthur Miller, forse il più famoso dei 4 mariti dell'attrice. ",
+				"episode_title": "23. Marilyn Monroe",
+				"episode": "23",
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "La_Storia_in_Giallo_2002_12_22_MARYLIN_MONROE",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=enOFDi6DPDUUINQ5fQKdZQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:29:48"
+				},
+				"downloadable_audio": {
+					"title": "La_Storia_in_Giallo_2002_12_22_MARYLIN_MONROE",
+					"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=enOFDi6DPDUUINQ5fQKdZQeeqqEEqualeeqqEEqual",
+					"type": "downloadable_audio"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+				"program": {
+					"id": "Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"name": "La storia in giallo",
+					"pipe": "La storia in giallo|Category-5ca0f038-51e0-4ad3-9673-6d12dc91e6d6",
+					"category_path": "lastoriaingiallo",
+					"weblink": "/programmi/lastoriaingiallo",
+					"configuratore": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"contestual_page": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+					"path_id": "/programmi/lastoriaingiallo.json"
+				},
+				"weblink": "/audio/2023/11/La-Storia-in-Giallo-2002-12-22-MARYLIN-MONROE-b3c65da7-da45-456a-a541-167d03373cb7.html",
+				"path_id": "/audio/2023/11/La-Storia-in-Giallo-2002-12-22-MARYLIN-MONROE-b3c65da7-da45-456a-a541-167d03373cb7.json",
+				"literal_publication_date": "22 Dic 2002",
+				"literal_duration": "29 min",
+				"duration_small_format": "29:48",
+				"podcast_info": {
+					"uniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe",
+					"name": "La storia in giallo",
+					"path_id": "/programmi/lastoriaingiallo.json",
+					"weblink": "/programmi/lastoriaingiallo"
+				},
+				"dfp": {
+					"escaped_name": "Lastoriaingiallo",
+					"escaped_genres": [
+						{
+							"id": "Category-85badf42-102f-457c-a2d3-f409b5e322b4",
+							"name": "Storico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-200ddceb-b367-4461-8e1c-c9dd769b288d",
+							"name": "Serieaudio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-b3c65da7-da45-456a-a541-167d03373cb7",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 3",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "la_storia_in_giallo_2002_12_22_marylin_monroe",
+					"channel": "rai radio 3",
+					"date": "2002-12-22",
+					"typology": "serie audio",
+					"genres": ["storico"],
+					"sub_genres": [
+						"radiodramma",
+						"thriller",
+						"teatro",
+						"storia moderna",
+						"storia antica",
+						"sceneggiato",
+						"storia",
+						"storia contemporanea",
+						"storico",
+						"storia medievale",
+						"giallo e crime",
+						"personaggi",
+						"mistery",
+						"storia dell'arte"
+					],
+					"program_title": "la storia in giallo",
+					"program_typology": "serie audio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "23",
+					"episode_title": "23. marilyn monroe",
+					"form": "integrale",
+					"media_container": {
+						"title": "La storia in giallo",
+						"type": "programma",
+						"contextUniquename": "ContentItem-3c3c5750-bac0-4b94-9415-87bb1dc0fcbe"
+					},
+					"media_name": "raiplaysound - aod - la storia in giallo - 23. marilyn monroe - ContentItem-b3c65da7-da45-456a-a541-167d03373cb7",
+					"page_url": "/audio/2023/11/La-Storia-in-Giallo-2002-12-22-MARYLIN-MONROE-b3c65da7-da45-456a-a541-167d03373cb7.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			}
+		]
+	},
+	"actions": [
+		{
+			"action": "live",
+			"path_id": "/radio3.json",
+			"label": "ASCOLTA LA DIRETTA"
+		},
+		{ "action": "play", "label": "ASCOLTA", "label_keepwatching": "RIPRENDI" },
+		{
+			"action": "episodi",
+			"label": "LISTA EPISODI",
+			"weblink": "/programmi/lastoriaingiallo",
+			"path_id": "/programmi/lastoriaingiallo.json",
+			"sub_type": "RaiPlaySound Puntate Block"
+		},
+		{ "action": "favourite", "label": "SEGUI", "label_followed": "SEGUITO" },
+		{ "action": "similar", "label": "CONTENUTI SIMILI" }
+	],
+	"track_info": {
+		"id": "Page-427b0587-7301-48fc-a1ae-e1b75679287d",
+		"domain": "raiplaysound",
+		"platform": "[platform]",
+		"media_type": "aod",
+		"page_type": "info programma",
+		"editor": "rai radio 3",
+		"year": "2023",
+		"edit_year": "2023",
+		"section": "info programma",
+		"sub_section": "",
+		"content": "scheda programma",
+		"title": "la storia in giallo",
+		"channel": "rai radio 3",
+		"date": "2023-11-02",
+		"typology": "serie audio",
+		"genres": ["storico"],
+		"sub_genres": [
+			"radiodramma",
+			"thriller",
+			"teatro",
+			"storia moderna",
+			"storia antica",
+			"sceneggiato",
+			"storia",
+			"storia contemporanea",
+			"storico",
+			"storia medievale",
+			"giallo e crime",
+			"personaggi",
+			"mistery",
+			"storia dell'arte"
+		],
+		"program_title": "la storia in giallo",
+		"program_typology": "serie audio",
+		"edition": "",
+		"season": "",
+		"episode_number": "",
+		"episode_title": "",
+		"form": "",
+		"listaDateMo": [],
+		"create_date": "02-11-2023",
+		"page_url": "/programmi/lastoriaingiallo",
+		"nodmp": false
+	}
+}
