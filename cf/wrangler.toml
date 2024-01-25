@@ -1,7 +1,6 @@
 name = "raiplayrss"
 main = "./worker.ts"
 compatibility_date = "2024-01-16"
-node_compat = true
 
 [env.prod.vars]
 BASE_URL = "https://raiplayrss.workers.dev/"
