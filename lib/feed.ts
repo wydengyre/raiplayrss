@@ -1,6 +1,6 @@
 import { PromisePool } from "@supercharge/promise-pool";
-import { FeedOptions, ItemOptions, Podcast } from "podcast";
 import { z } from "zod";
+import { Podcast } from "../build/podcast/index.js";
 import { Fetcher as MediaFetcher } from "./media.js";
 
 const cardSchema = z.object({
@@ -116,7 +116,7 @@ export class Convertor {
 			this.#raiBaseUrl,
 		).toString();
 
-		const options: FeedOptions = {
+		const options = {
 			// feedUrl: TODO
 			// siteUrl: TODO
 			imageUrl,
@@ -136,7 +136,7 @@ export class Convertor {
 		return new Podcast(options, results).buildXml();
 	}
 
-	async convertCard(card: Card): Promise<ItemOptions> {
+	async convertCard(card: Card) {
 		const imageUrl = new URL(card.image, this.#raiBaseUrl).toString();
 		const date = new Date(card.track_info.date);
 		const mediaInfo = await this.#fetcher.fetchInfo(
