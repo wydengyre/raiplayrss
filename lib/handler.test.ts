@@ -5,6 +5,7 @@ import * as path from "node:path";
 import test, { after, before } from "node:test";
 import { fileURLToPath } from "node:url";
 import { error, json } from "itty-router";
+import * as logger from "../lib/logger.js";
 import { mkFetchHandler } from "./handler.js";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
@@ -59,6 +60,10 @@ const fetchHandler = mkFetchHandler({
 	raiBaseUrl,
 	poolSize: 1,
 	fetch: fetchFn,
+});
+
+before(() => {
+	logger.disable();
 });
 
 test("english index", async () => {

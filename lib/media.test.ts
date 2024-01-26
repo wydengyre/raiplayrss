@@ -1,6 +1,11 @@
 import { strict as assert } from "node:assert";
-import test from "node:test";
+import test, { before } from "node:test";
+import * as logger from "./logger.js";
 import { Fetcher } from "./media.js";
+
+before(() => {
+	logger.disable();
+});
 
 test("fetchInfo", async () => {
 	const url =

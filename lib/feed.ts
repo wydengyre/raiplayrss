@@ -1,6 +1,7 @@
 import { PromisePool } from "@supercharge/promise-pool";
 import { z } from "zod";
 import { Podcast } from "../build/podcast/index.js";
+import { logger } from "./logger.js";
 import { Fetcher as MediaFetcher } from "./media.js";
 
 const cardSchema = z.object({
@@ -128,7 +129,7 @@ export class Convertor {
 			.withConcurrency(this.#poolSize)
 			.useCorrespondingResults()
 			.handleError(async (err, card) => {
-				console.error(`Failed to convert card ${card.episode_title}`, err);
+				logger.error(`Failed to convert card ${card.episode_title}`, err);
 				throw err;
 			})
 			.process(this.convertCard.bind(this));

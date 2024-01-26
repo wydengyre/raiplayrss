@@ -1,5 +1,6 @@
 import { Router, createResponse, error, html, text } from "itty-router";
 import { NotFoundError, convertFeed } from "./feed.js";
+import { logger } from "./logger.js";
 
 // TODO: add logging
 export type FetchHandlerConfig = {
@@ -23,7 +24,7 @@ export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
 
 	return (request: Request) =>
 		router.handle(request).catch((err) => {
-			console.error(err);
+			logger.error(err);
 			return error(500, "failed to process request");
 		});
 }
@@ -58,11 +59,11 @@ async function feed(conf: FeedConfig, request: Request): Promise<Response> {
 		let status = 500;
 		let body = "<error><code>500</code><message>server error</message></error>";
 		if (e instanceof NotFoundError) {
-			console.error("not found", e);
+			logger.error("not found", e);
 			status = 404;
 			body = "<error><code>404</code><message>Not Found</message></error>";
 		} else {
-			console.error("error converting feed", jsonPath, e);
+			logger.error("error converting feed", jsonPath, e);
 		}
 		return new Response(body, { status, headers });
 	}
