@@ -24,7 +24,6 @@ export async function feedHandler(
 		let status = 500;
 		let body = "<error><code>500</code><message>server error</message></error>";
 		if (e instanceof NotFoundError) {
-			logger.error("not found", e);
 			status = 404;
 			body = "<error><code>404</code><message>Not Found</message></error>";
 		} else {
