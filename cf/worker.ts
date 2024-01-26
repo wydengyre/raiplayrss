@@ -1,15 +1,19 @@
 import englishIndexHtml from "../lib/english.html";
 import { mkFetchHandler } from "../lib/handler.js";
 import italianIndexHtml from "../lib/italian.html";
+import * as logger from "../lib/logger.js";
 
 type Env = {
 	BASE_URL: string;
 	RAI_BASE_URL: string;
 	FETCH_QUEUE_SIZE: string;
+	LOG_LEVEL: string;
 };
 
 export default (<ExportedHandler<Env>>{
 	fetch: (request, env, _ctx) => {
+		logger.setLevel(env.LOG_LEVEL);
+
 		const baseUrl = new URL(env.BASE_URL);
 		const raiBaseUrl = new URL(env.RAI_BASE_URL);
 		const poolSize = parseInt(env.FETCH_QUEUE_SIZE, 10);
