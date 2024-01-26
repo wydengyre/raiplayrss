@@ -13,5 +13,5 @@
 		"types": []
 	},
 	"include": ["*.ts"],
-	"exclude": ["*.test.ts"]
+	"exclude": ["*.test.ts", "declarations.d.ts"]
 }
