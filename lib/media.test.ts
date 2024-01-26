@@ -3,10 +3,6 @@ import test, { before } from "node:test";
 import * as logger from "./logger.js";
 import { Fetcher } from "./media.js";
 
-before(() => {
-	logger.disable();
-});
-
 test("fetchInfo", async () => {
 	const url =
 		"https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=PE3wc6etKfssSlashNKfaoXssSlashpWcgeeqqEEqualeeqqEEqual";

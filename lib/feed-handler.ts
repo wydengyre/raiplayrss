@@ -1,12 +1,13 @@
 import { createResponse } from "itty-router";
 import { NotFoundError, convertFeed } from "./feed.js";
-import { logger } from "./logger.js";
+import { Logger } from "./logger.js";
 
 type Config = {
 	baseUrl: URL;
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetch: typeof fetch;
+	logger: Logger;
 };
 export async function feedHandler(
 	conf: Config,
@@ -27,7 +28,7 @@ export async function feedHandler(
 			status = 404;
 			body = "<error><code>404</code><message>Not Found</message></error>";
 		} else {
-			logger.error("error converting feed", jsonPath, e);
+			conf.logger.error("error converting feed", jsonPath, e);
 		}
 		return new Response(body, { status, headers });
 	}

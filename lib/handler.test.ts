@@ -2,11 +2,11 @@ import { strict as assert } from "node:assert";
 import { readFileSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import * as path from "node:path";
-import test, { after, before } from "node:test";
+import test from "node:test";
 import { fileURLToPath } from "node:url";
-import * as logger from "../lib/logger.js";
 import { fetchFn } from "./feed-handler.test.js";
 import { mkFetchHandler } from "./handler.js";
+import * as logger from "./logger.js";
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
@@ -27,10 +27,7 @@ const fetchHandler = mkFetchHandler({
 	raiBaseUrl,
 	poolSize: 1,
 	fetch: fetchFn,
-});
-
-before(() => {
-	logger.disable();
+	logger: logger.disabled,
 });
 
 test("english index", async () => {

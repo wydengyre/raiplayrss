@@ -1,7 +1,6 @@
 import { strict as assert } from "node:assert";
-import test, { before } from "node:test";
+import test from "node:test";
 import { error, json } from "itty-router";
-import * as logger from "../lib/logger.js";
 import {
 	Convertor,
 	ConvertorConf,
@@ -36,10 +35,6 @@ const mediaFetchFn: typeof fetch = async (input) =>
 			"content-length": "123456789",
 		}),
 	}) as Response;
-
-before(() => {
-	logger.disable();
-});
 
 test("convertFeed", async () => {
 	const fetchFn: typeof fetch = async (input) => {
