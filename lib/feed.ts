@@ -31,7 +31,7 @@ export type FeedConf = {
 	raiBaseUrl: URL;
 	baseUrl: URL;
 	poolSize: number;
-	fetch?: typeof fetch;
+	fetch: typeof fetch;
 };
 export async function convertFeed(
 	c: FeedConf,
@@ -50,7 +50,7 @@ export async function convertFeed(
 
 export type FetcherConf = {
 	raiBaseUrl: URL;
-	fetch?: typeof fetch;
+	fetch: typeof fetch;
 };
 
 export class FeedFetcher {
@@ -59,7 +59,7 @@ export class FeedFetcher {
 
 	constructor(conf: FetcherConf) {
 		this.#baseUrl = conf.raiBaseUrl;
-		this.#fetch = conf.fetch ?? fetch.bind(globalThis);
+		this.#fetch = conf.fetch;
 	}
 
 	async fetch(relUrl: string): Promise<unknown> {
