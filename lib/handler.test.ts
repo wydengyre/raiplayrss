@@ -1,10 +1,9 @@
 import { strict as assert } from "node:assert";
 import { readFileSync } from "node:fs";
 import { readFile } from "node:fs/promises";
-import path from "node:path";
+import * as path from "node:path";
 import test, { after, before } from "node:test";
 import { fileURLToPath } from "node:url";
-import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
 import { error, json } from "itty-router";
 import { mkFetchHandler } from "./handler.js";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };

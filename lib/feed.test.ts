@@ -1,4 +1,4 @@
-import { strict as assert } from "assert";
+import { strict as assert } from "node:assert";
 import test from "node:test";
 import { error, json } from "itty-router";
 import {

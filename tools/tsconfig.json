@@ -1,10 +1,6 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"extends": "@tsconfig/node21/tsconfig.json",
-	"compilerOptions": {
-		"module": "nodenext",
-		"resolveJsonModule": true,
-		"noEmit": true
-	},
+	"compilerOptions": { "noEmit": true },
 	"include": ["*.ts"]
 }

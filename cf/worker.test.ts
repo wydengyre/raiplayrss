@@ -1,7 +1,7 @@
 import { strict as assert } from "node:assert";
 import { readFile } from "node:fs/promises";
 import { Server, createServer } from "node:http";
-import path from "node:path";
+import * as path from "node:path";
 import test, { after, before } from "node:test";
 import { fileURLToPath } from "node:url";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
