@@ -3,7 +3,6 @@ import { feedHandler } from "./feed-handler.js";
 import { indexHandler } from "./index-handler.js";
 import { logger } from "./logger.js";
 
-// TODO: add logging
 export type FetchHandlerConfig = {
 	englishIndexHtml: string;
 	italianIndexHtml: string;
