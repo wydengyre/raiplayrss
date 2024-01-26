@@ -1,6 +1,5 @@
-import englishIndexHtml from "../lib/english.html";
 import { mkFetchHandler } from "../lib/handler.js";
-import italianIndexHtml from "../lib/italian.html";
+import indexHtml from "../lib/index.html";
 import * as logger from "../lib/logger.js";
 
 type Env = {
@@ -19,8 +18,7 @@ export default (<ExportedHandler<Env>>{
 
 		const fetchFn = fetch.bind(globalThis);
 		const fetchHandler = mkFetchHandler({
-			englishIndexHtml,
-			italianIndexHtml,
+			indexHtml,
 			baseUrl,
 			raiBaseUrl,
 			poolSize,
