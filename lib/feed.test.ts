@@ -3,9 +3,9 @@ import test from "node:test";
 import { error, json } from "itty-router";
 import { NotFoundError } from "./error.js";
 import {
+	ConvertConf,
 	Convertor,
 	ConvertorConf,
-	FeedConf,
 	FeedFetcher,
 	FetcherConf,
 	convertFeed,
@@ -42,7 +42,7 @@ test("convertFeed", async () => {
 			? feedFetchFn(input)
 			: mediaFetchFn(input);
 	};
-	const conf: FeedConf = { raiBaseUrl, baseUrl, poolSize, fetch: fetchFn };
+	const conf: ConvertConf = { raiBaseUrl, baseUrl, poolSize, fetch: fetchFn };
 	const feed = await convertFeed(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson);
@@ -50,7 +50,7 @@ test("convertFeed", async () => {
 
 test("convertFeed 404", async () => {
 	const fetchFn = async () => error(404, "Not found");
-	const conf: FeedConf = { raiBaseUrl, baseUrl, poolSize, fetch: fetchFn };
+	const conf: ConvertConf = { raiBaseUrl, baseUrl, poolSize, fetch: fetchFn };
 	const expectedErr = new NotFoundError(
 		new URL("https://rai.dev/programmi/foo.json"),
 	);
@@ -59,7 +59,7 @@ test("convertFeed 404", async () => {
 
 test("convertFeed error on non-compliant JSON", async () => {
 	const fetchFn = async () => json({ foo: "bar" });
-	const conf: FeedConf = { raiBaseUrl, baseUrl, poolSize, fetch: fetchFn };
+	const conf: ConvertConf = { raiBaseUrl, baseUrl, poolSize, fetch: fetchFn };
 	const expectedErr = /^Error: failed to parse feed JSON/;
 	await assert.rejects(convertFeed(conf, "programmi/foo.json"), expectedErr);
 });

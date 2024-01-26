@@ -28,14 +28,14 @@ const schema = z.object({
 	}),
 });
 
-export type FeedConf = {
+export type ConvertConf = {
 	raiBaseUrl: URL;
 	baseUrl: URL;
 	poolSize: number;
 	fetch: typeof fetch;
 };
 export async function convertFeed(
-	c: FeedConf,
+	c: ConvertConf,
 	relUrl: string,
 ): Promise<string> {
 	const fetcher = new FeedFetcher({ raiBaseUrl: c.raiBaseUrl, fetch: c.fetch });
@@ -97,7 +97,7 @@ export class Convertor {
 
 	// TODO: feedUrl, siteUrl
 	async convert(json: unknown): Promise<string> {
-		const parseResult = schema.safeParse(json);
+		const parseResult = await schema.safeParseAsync(json);
 		if (!parseResult.success) {
 			throw new Error(`failed to parse feed JSON: ${parseResult.error}`);
 		}

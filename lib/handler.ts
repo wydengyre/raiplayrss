@@ -1,9 +1,9 @@
 import { Router, createResponse, error, html, text } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
+import { genresHtml } from "./genres.js";
 import { Logger } from "./logger.js";
 
 export type FetchHandlerConfig = {
-	indexHtml: string;
 	baseUrl: URL;
 	raiBaseUrl: URL;
 	poolSize: number;
@@ -13,11 +13,12 @@ export type FetchHandlerConfig = {
 
 type FetchHandler = (req: Request) => Promise<Response>;
 export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
-	const fetchIndex = () => index(conf.indexHtml);
+	const fetchGenres = () =>
+		html(genresHtml(conf), { headers: { "Content-Language": "it" } });
 	const fetchFeed = (request: Request) => feedHandler(conf, request);
 
 	const router = Router()
-		.get("/", fetchIndex)
+		.get("/", fetchGenres)
 		.get("/programmi/:feed.xml", fetchFeed)
 		.all("*", notFound);
 
@@ -28,7 +29,4 @@ export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
 		});
 }
 
-function index(indexHtml: string): Response {
-	return html(indexHtml, { headers: { "Content-Language": "it" } });
-}
 const notFound = () => new Response("Not found.", { status: 404 });
