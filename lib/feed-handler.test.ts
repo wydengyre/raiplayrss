@@ -2,6 +2,7 @@ import { strict as assert } from "node:assert";
 import test from "node:test";
 import { error, json } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
+import * as logger from "./logger.js";
 import feedJson from "./test/lastoriaingiallo.json";
 import expectedJson from "./test/lastoriaingiallo.parsed.json";
 import { parseFeed } from "./test/parse-feed.js";
@@ -46,6 +47,7 @@ const conf = {
 	raiBaseUrl,
 	poolSize: 1,
 	fetch: fetchFn,
+	logger: logger.disabled,
 };
 
 test("rss feed success", async () => {

@@ -1,7 +1,7 @@
 import { Router, createResponse, error, html, text } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
 import { indexHandler } from "./index-handler.js";
-import { logger } from "./logger.js";
+import { Logger } from "./logger.js";
 
 export type FetchHandlerConfig = {
 	englishIndexHtml: string;
@@ -10,6 +10,7 @@ export type FetchHandlerConfig = {
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetch: typeof fetch;
+	logger: Logger;
 };
 
 type FetchHandler = (req: Request) => Promise<Response>;
@@ -24,7 +25,7 @@ export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
 
 	return (request: Request) =>
 		router.handle(request).catch((err) => {
-			logger.error(err);
+			conf.logger.error(err);
 			return error(500, "failed to process request");
 		});
 }
