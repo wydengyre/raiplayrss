@@ -1,6 +1,5 @@
 import { strict as assert } from "node:assert";
 import { readFileSync } from "node:fs";
-import { readFile } from "node:fs/promises";
 import * as path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
@@ -14,15 +13,14 @@ import { parseFeed } from "./test/parse-feed.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const englishHtmlPath = path.join(__dirname, "english.html");
-const italianHtmlPath = path.join(__dirname, "italian.html");
+const indexHtmlPath = path.join(__dirname, "index.html");
 
 const baseUrl = new URL("https://test.dev/");
 const raiBaseUrl = new URL("https://rai.dev/");
+const indexHtml = readFileSync(indexHtmlPath, "utf8");
 
 const fetchHandler = mkFetchHandler({
-	englishIndexHtml: readFileSync(englishHtmlPath, "utf8"),
-	italianIndexHtml: readFileSync(italianHtmlPath, "utf8"),
+	indexHtml,
 	baseUrl,
 	raiBaseUrl,
 	poolSize: 1,
@@ -30,28 +28,14 @@ const fetchHandler = mkFetchHandler({
 	logger: logger.disabled,
 });
 
-test("english index", async () => {
-	const englishIndex = await readFile(englishHtmlPath, "utf8");
+test("index", async () => {
 	const req = new Request("http://localhost/");
-	const resp = await fetchHandler(req);
-
-	assert.strictEqual(resp.status, 200);
-	assert.strictEqual(resp.headers.get("Content-Language"), "en");
-	const text = await resp.text();
-	assert.strictEqual(text, englishIndex);
-});
-
-test("italian index", async () => {
-	const italianIndex = await readFile(italianHtmlPath, "utf8");
-	const req = new Request("http://localhost/", {
-		headers: { "Accept-Language": "it" },
-	});
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 200);
 	assert.strictEqual(resp.headers.get("Content-Language"), "it");
 	const text = await resp.text();
-	assert.strictEqual(text, italianIndex);
+	assert.strictEqual(text, indexHtml);
 });
 
 test("rss feed success", async () => {

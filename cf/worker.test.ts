@@ -15,8 +15,7 @@ import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const englishHtmlPath = path.join(__dirname, "../lib/english.html");
-const italianHtmlPath = path.join(__dirname, "../lib/italian.html");
+const indexHtmlPath = path.join(__dirname, "../lib/index.html");
 
 let worker: UnstableDevWorker;
 
@@ -33,28 +32,18 @@ after(async () => {
 	await worker.stop();
 });
 
-test("english index", async () => {
-	const englishIndex = await readFile(englishHtmlPath, "utf8");
-	const resp = await worker.fetch();
-	const text = await resp.text();
-
-	assert(resp.ok);
-	assert.strictEqual(resp.status, 200);
-	assert.strictEqual(resp.statusText, "OK");
-	assert.strictEqual(resp.headers.get("Content-Language"), "en");
-	assert.strictEqual(text, englishIndex);
-});
-
 test("italian index", async () => {
-	const italianIndex = await readFile(italianHtmlPath, "utf8");
-	const resp = await worker.fetch("", { headers: { "Accept-Language": "it" } });
-	const text = await resp.text();
+	const indexP = readFile(indexHtmlPath, "utf8");
+	const respP = worker.fetch("");
+	const [indexHtml, resp] = await Promise.all([indexP, respP]);
 
 	assert(resp.ok);
 	assert.strictEqual(resp.status, 200);
 	assert.strictEqual(resp.statusText, "OK");
 	assert.strictEqual(resp.headers.get("Content-Language"), "it");
-	assert.strictEqual(text, italianIndex);
+
+	const text = await resp.text();
+	assert.strictEqual(text, indexHtml);
 });
 
 test("rss feed success", async () => {

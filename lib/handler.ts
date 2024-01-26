@@ -1,11 +1,9 @@
 import { Router, createResponse, error, html, text } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
-import { indexHandler } from "./index-handler.js";
 import { Logger } from "./logger.js";
 
 export type FetchHandlerConfig = {
-	englishIndexHtml: string;
-	italianIndexHtml: string;
+	indexHtml: string;
 	baseUrl: URL;
 	raiBaseUrl: URL;
 	poolSize: number;
@@ -15,7 +13,7 @@ export type FetchHandlerConfig = {
 
 type FetchHandler = (req: Request) => Promise<Response>;
 export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
-	const fetchIndex = (request: Request) => indexHandler(conf, request);
+	const fetchIndex = () => index(conf.indexHtml);
 	const fetchFeed = (request: Request) => feedHandler(conf, request);
 
 	const router = Router()
@@ -30,4 +28,7 @@ export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
 		});
 }
 
+function index(indexHtml: string): Response {
+	return html(indexHtml, { headers: { "Content-Language": "it" } });
+}
 const notFound = () => new Response("Not found.", { status: 404 });
