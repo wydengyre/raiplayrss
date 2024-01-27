@@ -51,6 +51,7 @@ async function convertFeed404() {
 	const conf: ConvertConf = { raiBaseUrl, baseUrl, poolSize, fetch: fetchFn };
 	const expectedErr = new NotFoundError(
 		new URL("https://rai.dev/programmi/foo.json"),
+		"fetching feed",
 	);
 	await assert.rejects(convertFeed(conf, "programmi/foo.json"), expectedErr);
 }

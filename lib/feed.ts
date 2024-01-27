@@ -68,7 +68,7 @@ class FeedFetcher {
 		const res = await this.#fetch(url);
 		if (!res.ok) {
 			if (res.status === 404) {
-				throw new NotFoundError(url);
+				throw new NotFoundError(url, "fetching feed");
 			}
 			throw new Error(
 				`Failed to fetch ${url}: ${res.status} ${res.statusText}`.trim(),

@@ -28,7 +28,10 @@ async function genresHtmlNotFound() {
 	};
 	const conf = confWithFetch(fetchFn);
 
-	const expectedErr = new NotFoundError(new URL("https://rai.dev/generi.json"));
+	const expectedErr = new NotFoundError(
+		new URL("https://rai.dev/generi.json"),
+		"fetching genres",
+	);
 	const p = genresHtml(conf);
 	await assert.rejects(p, expectedErr);
 }
