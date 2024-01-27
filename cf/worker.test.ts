@@ -5,6 +5,7 @@ import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, RouterType, error, json } from "itty-router";
 import { UnstableDevWorker, unstable_dev } from "wrangler";
+import genresJson from "../lib/test/generi.json" with { type: "json" };
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
@@ -64,6 +65,10 @@ class MockRaiServer {
 }
 
 async function index() {
+	const router = Router();
+	router.get("/generi.json", () => json(genresJson));
+	await using _server = await MockRaiServer.create(router);
+
 	const resp = await worker.fetch("");
 
 	assert(resp.ok);
@@ -77,9 +82,7 @@ async function index() {
 
 async function rssFeedSuccess() {
 	const router = Router();
-	router.get("/programmi/lastoriaingiallo.json", () => {
-		return json(feedJson);
-	});
+	router.get("/programmi/lastoriaingiallo.json", () => json(feedJson));
 	router.head(
 		"*",
 		() =>

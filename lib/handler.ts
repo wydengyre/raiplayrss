@@ -13,8 +13,10 @@ export type FetchHandlerConfig = {
 
 type FetchHandler = (req: Request) => Promise<Response>;
 export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
-	const fetchGenres = () =>
-		html(genresHtml(conf), { headers: { "Content-Language": "it" } });
+	const fetchGenres = async () => {
+		const gh = await genresHtml(conf);
+		return html(gh, { headers: { "Content-Language": "it" } });
+	};
 	const fetchFeed = (request: Request) => feedHandler(conf, request);
 
 	const router = Router()
