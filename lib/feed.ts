@@ -1,6 +1,7 @@
 import { PromisePool } from "@supercharge/promise-pool";
 import { z } from "zod";
 import { Podcast } from "../build/podcast/index.js";
+import { NotFoundError } from "./error.js";
 import { Fetcher as MediaFetcher } from "./media.js";
 
 const cardSchema = z.object({
@@ -74,13 +75,6 @@ export class FeedFetcher {
 			);
 		}
 		return res.json();
-	}
-}
-
-export class NotFoundError extends Error {
-	constructor(url: URL) {
-		super(`Not found: ${url}`);
-		this.name = "NotFoundError";
 	}
 }
 
