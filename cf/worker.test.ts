@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { Server, createServer } from "node:http";
-import test, { after, before } from "node:test";
+import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, RouterType, error, json } from "itty-router";
@@ -11,21 +11,59 @@ import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 };
 
 let worker: UnstableDevWorker;
+test("worker", async (t) => {
+	t.before(startWorker);
+	t.after(stopWorker);
 
-before(async () => {
-	const experimental = { disableExperimentalWarning: true };
-	worker = await unstable_dev("cf/worker.ts", {
-		// uncomment and change level for help debugging
-		// logLevel: "info",
-		experimental,
-	});
+	await t.test(index);
+	await t.test(rssFeedSuccess);
+	await t.test(rssFeedRai404);
+	await t.test(rssFeedRai500);
+	await t.test(rssFeedFailProcessing);
+	await t.test(notFound);
+
+	async function startWorker() {
+		const experimental = { disableExperimentalWarning: true };
+		worker = await unstable_dev("cf/worker.ts", {
+			// uncomment and change level for help debugging
+			// logLevel: "info",
+			experimental,
+		});
+	}
+	async function stopWorker() {
+		await worker.stop();
+	}
 });
 
-after(async () => {
-	await worker.stop();
-});
+class MockRaiServer {
+	#server: Server;
 
-test("index", async () => {
+	private constructor(server: Server) {
+		this.#server = server;
+	}
+
+	static async create(router: RouterType): Promise<MockRaiServer> {
+		const { RAI_BASE_URL } = process.env;
+		if (RAI_BASE_URL === undefined) {
+			throw new Error("RAI_BASE_URL is undefined");
+		}
+		const url = new URL(RAI_BASE_URL);
+		const listenPort = parseInt(url.port);
+
+		const ittyServer = createServerAdapter(router);
+		const httpServer = createServer(ittyServer);
+		await new Promise<void>((resolve) =>
+			httpServer.listen(listenPort, url.hostname, resolve),
+		);
+		return new MockRaiServer(httpServer);
+	}
+
+	[Symbol.asyncDispose](): Promise<void> {
+		return this.#server[Symbol.asyncDispose]();
+	}
+}
+
+async function index() {
 	const resp = await worker.fetch("");
 
 	assert(resp.ok);
@@ -35,9 +73,9 @@ test("index", async () => {
 
 	const _text = await resp.text();
 	// TODO: validate html
-});
+}
 
-test("rss feed success", async () => {
+async function rssFeedSuccess() {
 	const router = Router();
 	router.get("/programmi/lastoriaingiallo.json", () => {
 		return json(feedJson);
@@ -68,9 +106,9 @@ test("rss feed success", async () => {
 		"http://localhost:8091/",
 	);
 	assert.deepStrictEqual(parsedFeed, trulyExpectedJSON);
-});
+}
 
-test("rss feed failure: 404 from RAI server", async () => {
+async function rssFeedRai404() {
 	const router = Router();
 	router.get("/programmi/404.json", () => {
 		return error(404, "Not found");
@@ -80,9 +118,9 @@ test("rss feed failure: 404 from RAI server", async () => {
 	const resp = await worker.fetch("/programmi/404.xml");
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 404);
-});
+}
 
-test("rss feed failure: 500 from RAI server", async () => {
+async function rssFeedRai500() {
 	const router = Router();
 	router.get("/programmi/500.json", () => {
 		return error(500, "RAI server exploded");
@@ -92,9 +130,9 @@ test("rss feed failure: 500 from RAI server", async () => {
 	const resp = await worker.fetch("/programmi/500.xml");
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
-});
+}
 
-test("rss feed failure: failure to process RAI json feed", async () => {
+async function rssFeedFailProcessing() {
 	const router = Router();
 	router.get("/programmi/invalid.json", () => {
 		return json({ foo: "bar" });
@@ -110,9 +148,9 @@ test("rss feed failure: failure to process RAI json feed", async () => {
 		text,
 		"<error><code>500</code><message>server error</message></error>",
 	);
-});
+}
 
-test("404", async () => {
+async function notFound() {
 	const resp = await worker.fetch("foo");
 
 	assert(!resp.ok);
@@ -120,34 +158,6 @@ test("404", async () => {
 	assert.strictEqual(resp.statusText, "Not Found");
 	const text = await resp.text();
 	assert.strictEqual(text, "Not found.");
-});
-
-class MockRaiServer {
-	#server: Server;
-
-	private constructor(server: Server) {
-		this.#server = server;
-	}
-
-	static async create(router: RouterType): Promise<MockRaiServer> {
-		const { RAI_BASE_URL } = process.env;
-		if (RAI_BASE_URL === undefined) {
-			throw new Error("RAI_BASE_URL is undefined");
-		}
-		const url = new URL(RAI_BASE_URL);
-		const listenPort = parseInt(url.port);
-
-		const ittyServer = createServerAdapter(router);
-		const httpServer = createServer(ittyServer);
-		await new Promise<void>((resolve) =>
-			httpServer.listen(listenPort, url.hostname, resolve),
-		);
-		return new MockRaiServer(httpServer);
-	}
-
-	[Symbol.asyncDispose](): Promise<void> {
-		return this.#server[Symbol.asyncDispose]();
-	}
 }
 
 function replaceMediaUrls(j: typeof expectedJson): typeof expectedJson {
