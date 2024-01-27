@@ -8,6 +8,13 @@ import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 };
 import { parseFeed } from "./test/parse-feed.js";
 
+test("feed-handler", async (t) => {
+	await t.test(rssFeedSuccess);
+	await t.test(rssFeedFail404);
+	await t.test(rssFeedFail500);
+	await t.test(rssFeedFailNonCompliantJson);
+});
+
 const baseUrl = new URL("https://test.dev/");
 
 const conf = {
@@ -17,8 +24,7 @@ const conf = {
 	fetch: fetchMock,
 	logger: logger.disabled,
 };
-
-test("rss feed success", async () => {
+async function rssFeedSuccess() {
 	const req = new Request("https://test.dev/programmi/lastoriaingiallo.xml");
 	const resp = await feedHandler(conf, req);
 
@@ -26,9 +32,9 @@ test("rss feed success", async () => {
 	const feed = await resp.text();
 	const parsedFeed = parseFeed(feed);
 	assert.deepStrictEqual(parsedFeed, expectedJson);
-});
+}
 
-test("rss feed failure: 404 from RAI server", async () => {
+async function rssFeedFail404() {
 	const req = new Request("https://test.dev/programmi/nonexistent.xml");
 	const resp = await feedHandler(conf, req);
 	assert.strictEqual(resp.status, 404);
@@ -38,9 +44,9 @@ test("rss feed failure: 404 from RAI server", async () => {
 		text,
 		"<error><code>404</code><message>Not Found</message></error>",
 	);
-});
+}
 
-test("rss feed failure: 500 from RAI server", async () => {
+async function rssFeedFail500() {
 	const req = new Request("https://test.dev/programmi/500.xml");
 	const resp = await feedHandler(conf, req);
 	assert.strictEqual(resp.status, 500);
@@ -50,9 +56,9 @@ test("rss feed failure: 500 from RAI server", async () => {
 		text,
 		"<error><code>500</code><message>server error</message></error>",
 	);
-});
+}
 
-test("rss feed failure: failure to process RAI json feed", async () => {
+async function rssFeedFailNonCompliantJson() {
 	const req = new Request("https://test.dev/programmi/corrupt.xml");
 	const resp = await feedHandler(conf, req);
 	assert.strictEqual(resp.status, 500);
@@ -62,4 +68,4 @@ test("rss feed failure: failure to process RAI json feed", async () => {
 		text,
 		"<error><code>500</code><message>server error</message></error>",
 	);
-});
+}
