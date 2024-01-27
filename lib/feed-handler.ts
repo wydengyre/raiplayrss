@@ -1,5 +1,6 @@
 import { createResponse } from "itty-router";
-import { NotFoundError, convertFeed } from "./feed.js";
+import { NotFoundError } from "./error.js";
+import { convertFeed } from "./feed.js";
 import { Logger } from "./logger.js";
 
 type Config = {

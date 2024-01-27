@@ -1,13 +1,13 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { error, json } from "itty-router";
+import { NotFoundError } from "./error.js";
 import {
 	Convertor,
 	ConvertorConf,
 	FeedConf,
 	FeedFetcher,
 	FetcherConf,
-	NotFoundError,
 	convertFeed,
 } from "./feed.js";
 import { Fetcher as MediaFetcher } from "./media.js";
