@@ -27,4 +27,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           wranglerVersion: '3.24.0'
           workingDirectory: 'cf'
-          env: prod
+          command: deploy --env prod
