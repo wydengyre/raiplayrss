@@ -3,7 +3,11 @@ import test, { before } from "node:test";
 import * as logger from "./logger.js";
 import { Fetcher } from "./media.js";
 
-test("fetchInfo", async () => {
+test("media", (t) => {
+	return t.test(fetchInfoSuccess);
+});
+
+async function fetchInfoSuccess() {
 	const url =
 		"https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=PE3wc6etKfssSlashNKfaoXssSlashpWcgeeqqEEqualeeqqEEqual";
 	const mediaUrl = new URL("https://test.dev/foo.mp3");
@@ -22,4 +26,4 @@ test("fetchInfo", async () => {
 		url: mediaUrl,
 		size: 123456789,
 	});
-});
+}
