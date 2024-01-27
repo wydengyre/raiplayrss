@@ -5,18 +5,23 @@ import { NotFoundError } from "./error.js";
 import { genresHtml } from "./genres.js";
 import genresJson from "./test/generi.json" with { type: "json" };
 
-test("genresHtml", async () => {
+test("genres", async (t) => {
+	await t.test(genresHtmlSuccess);
+	await t.test(genresHtmlNotFound);
+	await t.test(genresHtml500);
+});
+
+async function genresHtmlSuccess() {
 	const fetchFn: typeof fetch = async (input) => {
 		assert.strictEqual(input.toString(), "https://rai.dev/generi.json");
 		return json(genresJson);
 	};
 	const conf = confWithFetch(fetchFn);
 
-	// just making sure this runs without error
-	const _html = await genresHtml(conf);
-});
+	await genresHtml(conf);
+}
 
-test("genresHtml 404", async () => {
+async function genresHtmlNotFound() {
 	const fetchFn: typeof fetch = async (input) => {
 		assert.strictEqual(input.toString(), "https://rai.dev/generi.json");
 		return new Response("Not found", { status: 404 });
@@ -26,9 +31,9 @@ test("genresHtml 404", async () => {
 	const expectedErr = new NotFoundError(new URL("https://rai.dev/generi.json"));
 	const p = genresHtml(conf);
 	await assert.rejects(p, expectedErr);
-});
+}
 
-test("genresHtml 500", async () => {
+async function genresHtml500() {
 	const fetchFn: typeof fetch = async (input) => {
 		assert.strictEqual(input.toString(), "https://rai.dev/generi.json");
 		return new Response("Internal Server Error", { status: 500 });
@@ -40,7 +45,7 @@ test("genresHtml 500", async () => {
 	);
 	const p = genresHtml(conf);
 	await assert.rejects(p, expectedErr);
-});
+}
 
 const confWithFetch = (fetchFn: typeof fetch) => ({
 	baseUrl: new URL("https://test.dev/"),
