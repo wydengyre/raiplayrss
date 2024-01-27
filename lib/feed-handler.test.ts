@@ -1,52 +1,20 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
-import { error, json } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
 import * as logger from "./logger.js";
-import feedJson from "./test/lastoriaingiallo.json";
-import expectedJson from "./test/lastoriaingiallo.parsed.json";
+import { fetchMock, raiBaseUrl } from "./test/fetch-mock.js";
+import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
+	type: "json",
+};
 import { parseFeed } from "./test/parse-feed.js";
 
 const baseUrl = new URL("https://test.dev/");
-const raiBaseUrl = new URL("https://rai.dev/");
-const mediaBaseUrl = new URL("https://media.dev/");
-
-export const fetchFn: typeof fetch = async (input, init) => {
-	const requestUrlStr = input.toString();
-
-	if (requestUrlStr === "https://rai.dev/programmi/lastoriaingiallo.json") {
-		return json(feedJson);
-	}
-	if (requestUrlStr === "https://rai.dev/programmi/500.json") {
-		return error(500, "internal server error");
-	}
-	if (requestUrlStr === "https://rai.dev/programmi/corrupt.json") {
-		return json({ foo: "bar" });
-	}
-
-	const relinkerUrlStart = `${raiBaseUrl}relinker/relinkerServlet.htm?cont=`;
-	if (init?.method === "HEAD" && requestUrlStr.startsWith(relinkerUrlStart)) {
-		const url = `${requestUrlStr.replace(
-			relinkerUrlStart,
-			mediaBaseUrl.toString(),
-		)}.mp3`;
-		return {
-			url: url,
-			headers: new Headers({
-				"Content-Type": "audio/mpeg",
-				"Content-Length": "123456789",
-			}),
-		} as Response;
-	}
-
-	return error(404, "not found");
-};
 
 const conf = {
 	baseUrl,
 	raiBaseUrl,
 	poolSize: 1,
-	fetch: fetchFn,
+	fetch: fetchMock,
 	logger: logger.disabled,
 };
 

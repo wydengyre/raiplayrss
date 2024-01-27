@@ -6,24 +6,19 @@
     "build-podcast": "tsx --tsconfig ./tools/tsconfig.json tools/build-podcast.ts",
     "clean": "rm -rf dist",
     "check": "npm run lint && npm run typecheck",
-
     "ci": "npm run build-podcast && npm run ci-check && npm run test",
     "ci-check": "npm run ci-lint && npm run typecheck",
     "ci-lint": "biome ci cf lib",
-
     "deploy": "wrangler -c cf/wrangler.toml --env prod deploy",
     "deploy-preview": "wrangler -c cf/wrangler.toml deploy --dry-run --outdir '../dist'",
-
     "dev": "wrangler -c cf/wrangler.toml dev",
     "lint": "biome check --apply cf lib tools",
-
     "test": "npm run test-lib && npm run test-cf",
     "test-cf": "tsx --tsconfig ./cf/tsconfig.json --env-file=cf/.dev.vars --test 'cf/**/*.test.ts'",
     "test-lib": "tsx --tsconfig ./lib/tsconfig.json --test 'lib/**/*.test.ts'",
-
     "typecheck": "concurrently \"npm run typecheck-lib\" \"npm run typecheck-cf\" \"npm run typecheck-tools\"",
-		"//": "the output from typecheck can be hard to read, so we run them serially to make it easier",
-		"typecheck-serial": "npm run typecheck-lib && npm run typecheck-cf && npm run typecheck-tools",
+    "//": "the output from typecheck can be hard to read, so we run them serially to make it easier",
+    "typecheck-serial": "npm run typecheck-lib && npm run typecheck-cf && npm run typecheck-tools",
     "typecheck-cf": "npm run typecheck-cf-prod && npm run typecheck-cf-test",
     "typecheck-cf-prod": "tsc --project cf/tsconfig.json",
     "typecheck-cf-test": "tsc --project cf/tsconfig.test.json",

@@ -1,5 +1,4 @@
 import { mkFetchHandler } from "../lib/handler.js";
-import indexHtml from "../lib/index.html";
 import * as logger from "../lib/logger.js";
 
 type Env = {
@@ -18,7 +17,6 @@ export default (<ExportedHandler<Env>>{
 
 		const fetchFn = fetch.bind(globalThis);
 		const fetchHandler = mkFetchHandler({
-			indexHtml,
 			baseUrl,
 			raiBaseUrl,
 			poolSize,

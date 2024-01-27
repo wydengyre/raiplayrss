@@ -1,41 +1,32 @@
 import { strict as assert } from "node:assert";
-import { readFileSync } from "node:fs";
-import * as path from "node:path";
 import test from "node:test";
-import { fileURLToPath } from "node:url";
-import { fetchFn } from "./feed-handler.test.js";
 import { mkFetchHandler } from "./handler.js";
 import * as logger from "./logger.js";
+import { fetchMock } from "./test/fetch-mock.js";
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
 import { parseFeed } from "./test/parse-feed.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const indexHtmlPath = path.join(__dirname, "index.html");
-
 const baseUrl = new URL("https://test.dev/");
 const raiBaseUrl = new URL("https://rai.dev/");
-const indexHtml = readFileSync(indexHtmlPath, "utf8");
 
 const fetchHandler = mkFetchHandler({
-	indexHtml,
 	baseUrl,
 	raiBaseUrl,
 	poolSize: 1,
-	fetch: fetchFn,
+	fetch: fetchMock,
 	logger: logger.disabled,
 });
 
 test("index", async () => {
-	const req = new Request("http://localhost/");
+	const req = new Request("arbitrary://arbitrary/");
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 200);
 	assert.strictEqual(resp.headers.get("Content-Language"), "it");
-	const text = await resp.text();
-	assert.strictEqual(text, indexHtml);
+	const _text = await resp.text();
+	// TODO: check validity of HTML
 });
 
 test("rss feed success", async () => {
