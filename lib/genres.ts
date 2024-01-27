@@ -30,7 +30,7 @@ const fetchGenres = async (c: Conf) => {
 
 	if (!res.ok) {
 		if (res.status === 404) {
-			throw new NotFoundError(url);
+			throw new NotFoundError(url, "fetching genres");
 		}
 		throw new Error(
 			`Failed to fetch ${url} ${res.status} ${res.statusText}`.trim(),

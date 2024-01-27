@@ -1,6 +1,6 @@
 export class NotFoundError extends Error {
-	constructor(url: URL) {
-		super(`Not found: ${url}`);
+	constructor(url: URL, context: string) {
+		super(`Not found (${context}): ${url}`);
 		this.name = "NotFoundError";
 	}
 }
