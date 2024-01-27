@@ -49,12 +49,12 @@ export async function convertFeed(
 	return convertor.convert(feedJson);
 }
 
-export type FetcherConf = {
+type FetcherConf = {
 	raiBaseUrl: URL;
 	fetch: typeof fetch;
 };
 
-export class FeedFetcher {
+class FeedFetcher {
 	readonly #baseUrl: URL;
 	readonly #fetch: typeof fetch;
 
@@ -78,13 +78,13 @@ export class FeedFetcher {
 	}
 }
 
-export type ConvertorConf = {
+type ConvertorConf = {
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetcher: MediaFetcher;
 };
 
-export class Convertor {
+class Convertor {
 	readonly #raiBaseUrl: URL;
 	readonly #poolSize: number;
 	readonly #fetcher: MediaFetcher;
