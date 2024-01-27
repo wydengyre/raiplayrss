@@ -38,14 +38,13 @@ export async function convertFeed(
 	c: ConvertConf,
 	relUrl: string,
 ): Promise<string> {
-	const fetcher = new FeedFetcher({ raiBaseUrl: c.raiBaseUrl, fetch: c.fetch });
 	const mediaFetcher = new MediaFetcher(c.fetch);
 	const convertor = new Convertor({
 		raiBaseUrl: c.raiBaseUrl,
 		poolSize: c.poolSize,
 		fetcher: mediaFetcher,
 	});
-	const feedJson = await fetcher.fetch(relUrl);
+	const feedJson = await fetchFeed(c, relUrl);
 	return convertor.convert(feedJson);
 }
 
@@ -54,28 +53,21 @@ type FetcherConf = {
 	fetch: typeof fetch;
 };
 
-class FeedFetcher {
-	readonly #baseUrl: URL;
-	readonly #fetch: typeof fetch;
-
-	constructor(conf: FetcherConf) {
-		this.#baseUrl = conf.raiBaseUrl;
-		this.#fetch = conf.fetch;
-	}
-
-	async fetch(relUrl: string): Promise<unknown> {
-		const url = new URL(relUrl, this.#baseUrl);
-		const res = await this.#fetch(url);
-		if (!res.ok) {
-			if (res.status === 404) {
-				throw new NotFoundError(url, "fetching feed");
-			}
-			throw new Error(
-				`Failed to fetch ${url}: ${res.status} ${res.statusText}`.trim(),
-			);
+async function fetchFeed(
+	{ raiBaseUrl, fetch }: FetcherConf,
+	relUrl: string,
+): Promise<unknown> {
+	const url = new URL(relUrl, raiBaseUrl);
+	const res = await fetch(url);
+	if (!res.ok) {
+		if (res.status === 404) {
+			throw new NotFoundError(url, "fetching feed");
 		}
-		return res.json();
+		throw new Error(
+			`Failed to fetch ${url}: ${res.status} ${res.statusText}`.trim(),
+		);
 	}
+	return res.json();
 }
 
 type ConvertorConf = {
