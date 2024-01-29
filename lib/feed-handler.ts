@@ -3,6 +3,8 @@ import { convertFeed } from "./feed.js";
 import { FetchWithErr, NotOk } from "./fetch.js";
 import { Logger } from "./logger.js";
 
+export { Config, feedHandler };
+
 type Config = {
 	baseUrl: URL;
 	raiBaseUrl: URL;
@@ -10,10 +12,7 @@ type Config = {
 	fetchWithErr: FetchWithErr;
 	logger: Logger;
 };
-export async function feedHandler(
-	conf: Config,
-	request: Request,
-): Promise<Response> {
+async function feedHandler(conf: Config, request: Request): Promise<Response> {
 	const requestUrl = new URL(request.url);
 	const xmlPath = requestUrl.pathname;
 	const jsonPath = xmlPath.replace(/\.xml$/, ".json");

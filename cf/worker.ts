@@ -1,13 +1,6 @@
 import { mkFetchHandler } from "../lib/handler.js";
 import * as logger from "../lib/logger.js";
 
-type Env = {
-	BASE_URL: string;
-	RAI_BASE_URL: string;
-	FETCH_QUEUE_SIZE: string;
-	LOG_LEVEL: string;
-};
-
 export default (<ExportedHandler<Env>>{
 	fetch: (request, env, _ctx) => {
 		const baseUrl = new URL(env.BASE_URL);
@@ -26,3 +19,10 @@ export default (<ExportedHandler<Env>>{
 		return fetchHandler(request);
 	},
 });
+
+type Env = {
+	BASE_URL: string;
+	RAI_BASE_URL: string;
+	FETCH_QUEUE_SIZE: string;
+	LOG_LEVEL: string;
+};

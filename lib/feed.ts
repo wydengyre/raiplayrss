@@ -4,6 +4,8 @@ import { Podcast } from "../build/podcast/index.js";
 import { FetchWithErr } from "./fetch.js";
 import * as media from "./media.js";
 
+export { ConvertConf, convertFeed };
+
 const cardSchema = z.object({
 	episode_title: z.string(),
 	description: z.string(),
@@ -28,16 +30,13 @@ const schema = z.object({
 	}),
 });
 
-export type ConvertConf = {
+type ConvertConf = {
 	raiBaseUrl: URL;
 	baseUrl: URL;
 	poolSize: number;
 	fetchWithErr: FetchWithErr;
 };
-export async function convertFeed(
-	c: ConvertConf,
-	relUrl: string,
-): Promise<string> {
+async function convertFeed(c: ConvertConf, relUrl: string): Promise<string> {
 	const fetchInfo = media.mkFetchInfo(c.fetchWithErr);
 	const convertor = new Convertor({
 		raiBaseUrl: c.raiBaseUrl,

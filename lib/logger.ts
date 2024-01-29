@@ -1,21 +1,23 @@
-export type Logger = typeof all;
-export type LogLevel = keyof Logger;
+export { Logger, LogLevel, all, disabled, atLevel, atLevelStr };
 
-export const all = {
+type Logger = typeof all;
+type LogLevel = keyof Logger;
+
+const all = {
 	debug: console.debug,
 	info: console.info,
 	warn: console.warn,
 	error: console.error,
 } as const;
 
-export const disabled: Logger = {
+const disabled: Logger = {
 	debug: () => {},
 	info: () => {},
 	warn: () => {},
 	error: () => {},
 };
 
-export function atLevelStr(level: string): Logger {
+function atLevelStr(level: string): Logger {
 	if (!isLogLevel(level)) {
 		throw new Error(`Invalid log level: ${level}`);
 	}
@@ -23,7 +25,7 @@ export function atLevelStr(level: string): Logger {
 	return atLevel(level);
 }
 
-export function atLevel(level: LogLevel): Logger {
+function atLevel(level: LogLevel): Logger {
 	if (!isLogLevel(level)) {
 		`Invalid log level: ${level}, leaving unchanged`;
 	}
