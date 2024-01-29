@@ -38,7 +38,7 @@
     "@types/node": "^20.11.6",
     "@whatwg-node/server": "^0.9.23",
     "concurrently": "^8.2.2",
-    "esbuild": "0.19.12",
+    "esbuild": "0.20.0",
     "esbuild-plugin-polyfill-node": "0.3.0",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
