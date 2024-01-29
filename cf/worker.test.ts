@@ -6,6 +6,7 @@ import { createServerAdapter } from "@whatwg-node/server";
 import { Router, RouterType, error, json } from "itty-router";
 import { UnstableDevWorker, unstable_dev } from "wrangler";
 import genresJson from "../rai/test/generi.json" with { type: "json" };
+import { assertItalian } from "../server/test/headers.js";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
@@ -81,7 +82,7 @@ async function index() {
 	assert(resp.ok);
 	assert.strictEqual(resp.status, 200);
 	assert.strictEqual(resp.statusText, "OK");
-	assert.strictEqual(resp.headers.get("Content-Language"), "it");
+	assertItalian(resp);
 
 	const _text = await resp.text();
 	// TODO: validate html
@@ -106,6 +107,7 @@ async function rssFeedSuccess() {
 	const resp = await worker.fetch("/programmi/lastoriaingiallo.xml");
 	assert(resp.ok);
 	assert.strictEqual(resp.status, 200);
+	assertItalian(resp);
 
 	const feed = await resp.text();
 	const parsedFeed = parseFeed(feed);
