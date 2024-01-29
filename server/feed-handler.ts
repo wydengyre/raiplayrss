@@ -33,5 +33,5 @@ async function feedHandler(conf: Config, request: Request): Promise<Response> {
 		return new Response(body, { status, headers });
 	}
 	const rss = createResponse("application/rss+xml");
-	return rss(feedXml);
+	return rss(feedXml, { headers: { "Content-Language": "it" } });
 }

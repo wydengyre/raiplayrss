@@ -9,6 +9,7 @@ import expectedJson from "../rai/test/lastoriaingiallo.parsed.json" with {
 import { parseFeed } from "../rai/test/parse-feed.js";
 import { mkFetchHandler } from "./handler.js";
 import * as logger from "./logger.js";
+import { assertItalian } from "./test/headers.js";
 
 test("handler", async (t) => {
 	await t.test(indexSuccess);
@@ -40,6 +41,8 @@ async function rssFeedSuccess() {
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 200);
+	assertItalian(resp);
+
 	const feed = await resp.text();
 	const parsedFeed = parseFeed(feed);
 	assert.deepStrictEqual(parsedFeed, expectedJson);
