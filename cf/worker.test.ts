@@ -11,7 +11,6 @@ import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
 
-let worker: UnstableDevWorker;
 test("worker", async (t) => {
 	t.before(startWorker);
 	t.after(stopWorker);
@@ -22,19 +21,31 @@ test("worker", async (t) => {
 	await t.test(rssFeedRai500);
 	await t.test(rssFeedFailProcessing);
 	await t.test(notFound);
-
-	async function startWorker() {
-		const experimental = { disableExperimentalWarning: true };
-		worker = await unstable_dev("cf/worker.ts", {
-			// uncomment and change level for help debugging
-			// logLevel: "info",
-			experimental,
-		});
-	}
-	async function stopWorker() {
-		await worker.stop();
-	}
 });
+
+// uncomment the relevant line in startWorker() for this to take effect
+const logLevel = "debug";
+const vars = {
+	BASE_URL: "https://test.dev/",
+	RAI_BASE_URL: "http://localhost:8091/",
+	FETCH_QUEUE_SIZE: "5",
+	LOG_LEVEL: logLevel,
+};
+
+let worker: UnstableDevWorker;
+async function startWorker() {
+	const experimental = { disableExperimentalWarning: true };
+	worker = await unstable_dev("cf/worker.ts", {
+		// uncomment for help debugging
+		// logLevel,
+		experimental,
+		vars,
+	});
+}
+
+async function stopWorker() {
+	await worker.stop();
+}
 
 class MockRaiServer {
 	#server: Server;
@@ -44,11 +55,7 @@ class MockRaiServer {
 	}
 
 	static async create(router: RouterType): Promise<MockRaiServer> {
-		const { RAI_BASE_URL } = process.env;
-		if (RAI_BASE_URL === undefined) {
-			throw new Error("RAI_BASE_URL is undefined");
-		}
-		const url = new URL(RAI_BASE_URL);
+		const url = new URL(vars.RAI_BASE_URL);
 		const listenPort = parseInt(url.port);
 
 		const ittyServer = createServerAdapter(router);
