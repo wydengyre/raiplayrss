@@ -1,19 +1,19 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { error, json } from "itty-router";
-import genresJson from "../rai/test/generi.json";
+import genresJson from "../rai/test/generi.json" with { type: "json" };
 import feedJson from "../rai/test/lastoriaingiallo.json";
 import expectedJson from "../rai/test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
 import { parseFeed } from "../rai/test/parse-feed.js";
-import { mkFetchHandler } from "./handler.js";
+import { FetchHandler, mkFetchHandler } from "./handler.js";
 import * as logger from "./logger.js";
 import { assertItalian } from "./test/headers.js";
 
 test("handler", async (t) => {
 	await t.test(indexSuccess);
-	await test(rssFeedSuccess);
+	await t.test(rssFeedSuccess);
 	await t.test(rssFeedFail404);
 	await t.test(rssFeedFail500);
 	await t.test(rssFeedFailCorrupt);
@@ -26,6 +26,9 @@ const mediaBaseUrl = new URL("https://media.dev/");
 
 async function indexSuccess() {
 	const req = new Request("arbitrary://arbitrary/");
+	const fetchMock = () => Promise.resolve(json(genresJson));
+	const fetchHandler = fetchHandlerWithMock(fetchMock);
+
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 200);
@@ -38,6 +41,35 @@ async function rssFeedSuccess() {
 	const req = new Request(
 		"arbitrary://arbitrary/programmi/lastoriaingiallo.xml",
 	);
+	const fetchMock: typeof fetch = async (input) => {
+		const requestUrlStr = input.toString();
+		const { pathname, search } = new URL(requestUrlStr);
+
+		if (pathname === "/programmi/lastoriaingiallo.json") {
+			return json(feedJson);
+		}
+
+		const relinkerRel = "/relinker/relinkerServlet.htm";
+		const relinkerSearchStart = "?cont=";
+		if (pathname === relinkerRel) {
+			const urlStart = requestUrlStr.replace(
+				new URL(`${relinkerRel}${relinkerSearchStart}`, raiBaseUrl).toString(),
+				mediaBaseUrl.toString(),
+			);
+			const url = `${urlStart}.mp3`;
+			return {
+				url: url,
+				headers: new Headers({
+					"Content-Type": "audio/mpeg",
+					"Content-Length": "123456789",
+				}),
+				ok: true,
+			} as Response;
+		}
+
+		throw new Error(`unexpected request: ${requestUrlStr}`);
+	};
+	const fetchHandler = fetchHandlerWithMock(fetchMock);
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 200);
@@ -50,6 +82,8 @@ async function rssFeedSuccess() {
 
 async function rssFeedFail404() {
 	const req = new Request("arbitrary://arbitrary/programmi/nonexistent.xml");
+	const fetchMock = () => Promise.resolve(error(404, "not found"));
+	const fetchHandler = fetchHandlerWithMock(fetchMock);
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 404);
@@ -62,6 +96,8 @@ async function rssFeedFail404() {
 
 async function rssFeedFail500() {
 	const req = new Request("arbitrary://arbitrary/programmi/500.xml");
+	const fetchMock = () => Promise.resolve(error(500, "internal server error"));
+	const fetchHandler = fetchHandlerWithMock(fetchMock);
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 500);
@@ -74,6 +110,8 @@ async function rssFeedFail500() {
 
 async function rssFeedFailCorrupt() {
 	const req = new Request("arbitrary://arbitrary/programmi/corrupt.xml");
+	const fetchMock = () => Promise.resolve(json({ foo: "bar" }));
+	const fetchHandler = fetchHandlerWithMock(fetchMock);
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 500);
@@ -86,7 +124,11 @@ async function rssFeedFailCorrupt() {
 }
 
 async function notFound() {
-	const req = new Request("arbitrary://arbitrary/nonexistent");
+	const url = new URL("arbitrary://arbitrary/nonexistent");
+	const req = new Request(url);
+	const fetchMock = () =>
+		Promise.reject(new Error("this should never be called"));
+	const fetchHandler = fetchHandlerWithMock(fetchMock);
 	const resp = await fetchHandler(req);
 
 	assert.strictEqual(resp.status, 404);
@@ -94,57 +136,15 @@ async function notFound() {
 	assert.strictEqual(text, "Not found.");
 }
 
-const fetchMock: typeof fetch = async (input, init) => {
-	const requestUrlStr = input.toString();
-	const { protocol, hostname, pathname, search } = new URL(requestUrlStr);
-
-	if (!(protocol === raiBaseUrl.protocol && hostname === raiBaseUrl.hostname)) {
-		throw new Error(`unexpected request to ${requestUrlStr}`);
-	}
-
-	if (pathname === "/generi.json") {
-		return json(genresJson);
-	}
-
-	if (pathname === "/programmi/lastoriaingiallo.json") {
-		return json(feedJson);
-	}
-	if (pathname === "/programmi/500.json") {
-		return error(500, "internal server error");
-	}
-	if (pathname === "/programmi/corrupt.json") {
-		return json({ foo: "bar" });
-	}
-
-	const relinkerRel = "/relinker/relinkerServlet.htm";
-	const relinkerSearchStart = "?cont=";
-	if (
-		init?.method === "HEAD" &&
-		pathname === relinkerRel &&
-		search.startsWith(relinkerSearchStart)
-	) {
-		const urlStart = requestUrlStr.replace(
-			new URL(`${relinkerRel}${relinkerSearchStart}`, raiBaseUrl).toString(),
-			mediaBaseUrl.toString(),
-		);
-		const url = `${urlStart}.mp3`;
-		return {
-			url: url,
-			headers: new Headers({
-				"Content-Type": "audio/mpeg",
-				"Content-Length": "123456789",
-			}),
-			ok: true,
-		} as Response;
-	}
-
-	return error(404, "not found");
-};
-
-const fetchHandler = mkFetchHandler({
+const confWithFetch = (fetch: typeof globalThis.fetch) => ({
 	baseUrl,
 	raiBaseUrl,
 	poolSize: 1,
-	fetch: fetchMock,
+	fetch,
 	logger: logger.disabled,
 });
+
+function fetchHandlerWithMock(fetch: typeof globalThis.fetch): FetchHandler {
+	const conf = confWithFetch(fetch);
+	return mkFetchHandler(conf);
+}
