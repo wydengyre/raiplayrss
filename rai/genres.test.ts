@@ -1,9 +1,9 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { json } from "itty-router";
-import { FetchWithErr, NotOk, OkResponse } from "../rai/fetch.js";
-import genresJson from "../rai/test/generi.json" with { type: "json" };
+import { FetchWithErr, NotOk, OkResponse } from "./fetch.js";
 import { genresHtml } from "./genres.js";
+import genresJson from "./test/generi.json" with { type: "json" };
 
 test("genres", async (t) => {
 	await t.test(genresHtmlSuccess);

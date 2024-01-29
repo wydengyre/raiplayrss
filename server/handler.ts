@@ -1,7 +1,7 @@
 import { Router, createResponse, error, html, text } from "itty-router";
 import { mkFetchWithErr } from "../rai/fetch.js";
+import { genresHtml } from "../rai/genres.js";
 import { feedHandler } from "./feed-handler.js";
-import { genresHtml } from "./genres.js";
 import { Logger } from "./logger.js";
 
 export { Config, FetchHandler, mkFetchHandler };
