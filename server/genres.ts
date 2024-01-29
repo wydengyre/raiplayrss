@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { FetchWithErr } from "./fetch.js";
+import { FetchWithErr } from "../rai/fetch.js";
 
 export { Conf, genresHtml };
 
