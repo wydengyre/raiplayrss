@@ -1,7 +1,7 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { json } from "itty-router";
-import { NotFoundError } from "./error.js";
+import { FetchWithErr, NotOk, OkResponse } from "./fetch.js";
 import { genresHtml } from "./genres.js";
 import genresJson from "./test/generi.json" with { type: "json" };
 
@@ -12,47 +12,36 @@ test("genres", async (t) => {
 });
 
 async function genresHtmlSuccess() {
-	const fetchFn: typeof fetch = async (input) => {
-		assert.strictEqual(input.toString(), "https://rai.dev/generi.json");
-		return json(genresJson);
-	};
-	const conf = confWithFetch(fetchFn);
+	const fetchWithErr: FetchWithErr = () =>
+		Promise.resolve(json(genresJson) as OkResponse);
+	const conf = confWithFetch(fetchWithErr);
 
 	await genresHtml(conf);
 }
 
 async function genresHtmlNotFound() {
-	const fetchFn: typeof fetch = async (input) => {
-		assert.strictEqual(input.toString(), "https://rai.dev/generi.json");
-		return new Response("Not found", { status: 404 });
-	};
-	const conf = confWithFetch(fetchFn);
+	const url = new URL("https://rai.dev/generi.json");
+	const notFound = new NotOk(url, 404, "Not Found");
+	const fetchWithErr: FetchWithErr = () => Promise.reject(notFound);
+	const conf = confWithFetch(fetchWithErr);
 
-	const expectedErr = new NotFoundError(
-		new URL("https://rai.dev/generi.json"),
-		"fetching genres",
-	);
 	const p = genresHtml(conf);
-	await assert.rejects(p, expectedErr);
+	await assert.rejects(p, notFound);
 }
 
 async function genresHtml500() {
-	const fetchFn: typeof fetch = async (input) => {
-		assert.strictEqual(input.toString(), "https://rai.dev/generi.json");
-		return new Response("Internal Server Error", { status: 500 });
-	};
-	const conf = confWithFetch(fetchFn);
+	const url = new URL("https://rai.dev/generi.json");
+	const internalServerErr = new NotOk(url, 500, "Internal Server Error");
+	const fetchWithErr: FetchWithErr = () => Promise.reject(internalServerErr);
+	const conf = confWithFetch(fetchWithErr);
 
-	const expectedErr = new Error(
-		"Failed to fetch https://rai.dev/generi.json 500",
-	);
 	const p = genresHtml(conf);
-	await assert.rejects(p, expectedErr);
+	await assert.rejects(p, internalServerErr);
 }
 
-const confWithFetch = (fetchFn: typeof fetch) => ({
+const confWithFetch = (fetchWithErr: FetchWithErr) => ({
 	baseUrl: new URL("https://test.dev/"),
 	raiBaseUrl: new URL("https://rai.dev/"),
 	genresRel: "generi.json",
-	fetch: fetchFn,
+	fetchWithErr,
 });

@@ -1,13 +1,13 @@
 import { createResponse } from "itty-router";
-import { NotFoundError } from "./error.js";
 import { convertFeed } from "./feed.js";
+import { FetchWithErr, NotOk } from "./fetch.js";
 import { Logger } from "./logger.js";
 
 type Config = {
 	baseUrl: URL;
 	raiBaseUrl: URL;
 	poolSize: number;
-	fetch: typeof fetch;
+	fetchWithErr: FetchWithErr;
 	logger: Logger;
 };
 export async function feedHandler(
@@ -22,14 +22,14 @@ export async function feedHandler(
 	try {
 		feedXml = await convertFeed(conf, jsonPath);
 	} catch (e) {
-		const headers = new Headers({ "Content-Type": "application/xml" });
+		conf.logger.error("error converting feed", jsonPath, e);
+		const contentType = "application/xml";
+		const headers = new Headers({ "Content-Type": contentType });
 		let status = 500;
 		let body = "<error><code>500</code><message>server error</message></error>";
-		if (e instanceof NotFoundError) {
-			status = 404;
-			body = "<error><code>404</code><message>Not Found</message></error>";
-		} else {
-			conf.logger.error("error converting feed", jsonPath, e);
+		if (e instanceof NotOk && e.status === 404) {
+			status = e.status;
+			body = "<error><code>404</code><message>not found</message></error>";
 		}
 		return new Response(body, { status, headers });
 	}
