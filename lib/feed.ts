@@ -1,8 +1,8 @@
 import { PromisePool } from "@supercharge/promise-pool";
 import { z } from "zod";
 import { Podcast } from "../build/podcast/index.js";
-import { NotFoundError } from "./error.js";
-import { fetchInfo } from "./media.js";
+import { FetchWithErr } from "./fetch.js";
+import * as media from "./media.js";
 
 const cardSchema = z.object({
 	episode_title: z.string(),
@@ -32,58 +32,39 @@ export type ConvertConf = {
 	raiBaseUrl: URL;
 	baseUrl: URL;
 	poolSize: number;
-	fetch: typeof fetch;
+	fetchWithErr: FetchWithErr;
 };
 export async function convertFeed(
 	c: ConvertConf,
 	relUrl: string,
 ): Promise<string> {
+	const fetchInfo = media.mkFetchInfo(c.fetchWithErr);
 	const convertor = new Convertor({
 		raiBaseUrl: c.raiBaseUrl,
 		poolSize: c.poolSize,
-		fetch: c.fetch,
+		fetchInfo,
 	});
-	const feedJson = await fetchFeed(c, relUrl);
-	return convertor.convert(feedJson);
-}
-
-type FetcherConf = {
-	raiBaseUrl: URL;
-	fetch: typeof fetch;
-};
-
-async function fetchFeed(
-	{ raiBaseUrl, fetch }: FetcherConf,
-	relUrl: string,
-): Promise<unknown> {
-	const url = new URL(relUrl, raiBaseUrl);
-	const res = await fetch(url);
-	if (!res.ok) {
-		if (res.status === 404) {
-			throw new NotFoundError(url, "fetching feed");
-		}
-		throw new Error(
-			`Failed to fetch ${url}: ${res.status} ${res.statusText}`.trim(),
-		);
-	}
-	return res.json();
+	const url = new URL(relUrl, c.raiBaseUrl);
+	const resp = await c.fetchWithErr(url);
+	const json = await resp.json();
+	return convertor.convert(json);
 }
 
 type ConvertorConf = {
 	raiBaseUrl: URL;
 	poolSize: number;
-	fetch: typeof fetch;
+	fetchInfo: media.FetchInfo;
 };
 
 class Convertor {
 	readonly #raiBaseUrl: URL;
 	readonly #poolSize: number;
-	readonly #fetch: typeof fetch;
+	readonly #fetchInfo: media.FetchInfo;
 
-	constructor({ raiBaseUrl, poolSize, fetch }: ConvertorConf) {
+	constructor({ raiBaseUrl, poolSize, fetchInfo }: ConvertorConf) {
 		this.#raiBaseUrl = raiBaseUrl;
 		this.#poolSize = poolSize;
-		this.#fetch = fetch;
+		this.#fetchInfo = fetchInfo;
 	}
 
 	// TODO: feedUrl, siteUrl
@@ -125,7 +106,7 @@ class Convertor {
 	async convertCard(card: Card) {
 		const imageUrl = new URL(card.image, this.#raiBaseUrl).toString();
 		const date = new Date(card.track_info.date);
-		const mediaInfo = await fetchInfo(this.#fetch, card.downloadable_audio.url);
+		const mediaInfo = await this.#fetchInfo(card.downloadable_audio.url);
 		const url = mediaInfo.url.toString();
 		return {
 			title: card.episode_title,

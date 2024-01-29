@@ -1,5 +1,6 @@
 import { Router, createResponse, error, html, text } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
+import { mkFetchWithErr } from "./fetch.js";
 import { genresHtml } from "./genres.js";
 import { Logger } from "./logger.js";
 
@@ -13,11 +14,27 @@ export type FetchHandlerConfig = {
 
 type FetchHandler = (req: Request) => Promise<Response>;
 export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
+	const fetchWithErr = mkFetchWithErr(conf.fetch);
+
+	const fetchGenresConf = {
+		baseUrl: conf.baseUrl,
+		raiBaseUrl: conf.raiBaseUrl,
+		fetchWithErr,
+		logger: conf.logger,
+	};
 	const fetchGenres = async () => {
-		const gh = await genresHtml(conf);
+		const gh = await genresHtml(fetchGenresConf);
 		return html(gh, { headers: { "Content-Language": "it" } });
 	};
-	const fetchFeed = (request: Request) => feedHandler(conf, request);
+
+	const fetchFeedConf = {
+		baseUrl: conf.baseUrl,
+		raiBaseUrl: conf.raiBaseUrl,
+		poolSize: conf.poolSize,
+		fetchWithErr,
+		logger: conf.logger,
+	};
+	const fetchFeed = (request: Request) => feedHandler(fetchFeedConf, request);
 
 	const router = Router()
 		.get("/", fetchGenres)

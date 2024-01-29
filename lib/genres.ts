@@ -1,5 +1,7 @@
 import { z } from "zod";
-import { NotFoundError } from "./error.js";
+import { FetchWithErr } from "./fetch.js";
+
+export { Conf, genresHtml };
 
 const cardSchema = z.object({
 	title: z.string(),
@@ -13,30 +15,20 @@ const schema = z.object({
 	}),
 });
 
-export type Conf = {
+type Conf = {
 	raiBaseUrl: URL;
 	baseUrl: URL;
-	fetch: typeof fetch;
+	fetchWithErr: FetchWithErr;
 };
 
-export async function genresHtml(c: Conf): Promise<string> {
+async function genresHtml(c: Conf): Promise<string> {
 	const json = await fetchGenres(c);
 	return renderGenres(c.baseUrl, json);
 }
 
 const fetchGenres = async (c: Conf) => {
 	const url = new URL("generi.json", c.raiBaseUrl);
-	const res = await c.fetch(url.toString());
-
-	if (!res.ok) {
-		if (res.status === 404) {
-			throw new NotFoundError(url, "fetching genres");
-		}
-		throw new Error(
-			`Failed to fetch ${url} ${res.status} ${res.statusText}`.trim(),
-		);
-	}
-
+	const res = await c.fetchWithErr(url.toString());
 	return res.json();
 };
 
