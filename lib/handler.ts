@@ -4,7 +4,9 @@ import { mkFetchWithErr } from "./fetch.js";
 import { genresHtml } from "./genres.js";
 import { Logger } from "./logger.js";
 
-export type FetchHandlerConfig = {
+export { Config, FetchHandler, mkFetchHandler };
+
+type Config = {
 	baseUrl: URL;
 	raiBaseUrl: URL;
 	poolSize: number;
@@ -13,7 +15,7 @@ export type FetchHandlerConfig = {
 };
 
 type FetchHandler = (req: Request) => Promise<Response>;
-export function mkFetchHandler(conf: FetchHandlerConfig): FetchHandler {
+function mkFetchHandler(conf: Config): FetchHandler {
 	const fetchWithErr = mkFetchWithErr(conf.fetch);
 
 	const fetchGenresConf = {
