@@ -36,7 +36,7 @@
     "@podverse/podcast-feed-parser": "^1.1.1",
     "@tsconfig/node21": "^21.0.1",
     "@types/node": "^20.11.10",
-    "@whatwg-node/server": "^0.9.23",
+    "@whatwg-node/server": "^0.9.24",
     "concurrently": "^8.2.2",
     "esbuild": "0.20.0",
     "esbuild-plugin-polyfill-node": "0.3.0",
