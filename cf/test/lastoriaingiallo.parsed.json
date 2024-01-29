@@ -5,7 +5,7 @@
 		"explicit": false,
 		"funding": [],
 		"generator": "Podcast for Node",
-		"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+		"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 		"link": "http://github.com/dylang/node-rss",
 		"owner": { "name": "", "email": "" },
 		"summary": "Una ricostruzione sceneggiata catapulta l'ascoltatore sulla scena del delitto, sul quale criminologi, psichiatri e storici cercano di far luce per svelarne il mistero. Delitti diversi per dinamiche, movente, ambiente, quindi delitti passionali, politici, di serial killer o delitti in famiglia. Ma anche misteri, storie di follia e tragici destini. Andato in onda su Rai Radio 3 dal 2002 al 2010, La storia in giallo è un programma ideato e condotto da Antonella Ferrera.",
@@ -18,12 +18,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/Udy1D57wdu3G0a0oNARexgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Udy1D57wdu3G0a0oNARexgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "12. Pompeo",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 29 Sep 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Il 29 settembre del 48 a .C., il generale Pompeo viene ucciso a tradimento mentre si trova in Egitto, ed il suo capo mozzo viene regalato al rivale Giulio Cesare. L'ex triunviro aveva compiuto il giorno prima,59 anni. Il programma, che ricostruisce quel momento affascinante e complesso della storia, è come di consueto composto da una parte sceneggiata - con la voce di Gabriele Lavia - ed un dibattito volto a leggere in chiave contemporanea il personaggio. In studio assieme all' autrice Antonella Ferrera, il generale Pier Luigi Caligaris e lo psichiatra Piero Rocchini. ",
@@ -36,12 +36,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/yBh8ssSlash4p5pAXssSlash4SsPQDo6qgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yBh8ssSlash4p5pAXssSlash4SsPQDo6qgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "16. Ettore Majorana ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 27 Oct 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "L'azione si svolge in Italia, nel marzo del 1938. Il fisico Ettore Majorana, 31 anni, forse lo scienziato più promettente del gruppo di via Panisperna, scompare, dopo aver lasciato due brevi ed enigmatiche lettere, una alla famiglia, l'altra all'Università. Di lui non verranno mai ritrovate tracce, nonostante le ricerche siano condotte per le vie ufficiali (\"Voglio che si trovi\" scrisse di suo pugno Mussolini) che private.  Accanto a Giulio Scarpati, nella parte di Majorana, le voci di Francesca Muzio, Mirella Falco, Alfredo Pea, Loredana Martinez, Luca Dalla Bianca.  Al dibattito curato da Antonella Ferrera intervengono lo psichiatra Piero Rocchini ed il Professor Amaldi, figlio di quello stesso Amaldi che, all'interno dello storico gruppo creatosi attorno ad Enrico Fermi, meglio conosceva lo scienziato scomparso. ",
@@ -54,12 +54,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/9fcmbEUIwTuf6ddbqsdk9geeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=9fcmbEUIwTuf6ddbqsdk9geeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "6. Kaspar Hauser",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 26 May 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Nel 1828, a Norimberga, compare uno strano ragazzo, dice di essere vissuto recluso dal mondo fino a quel momento: un idiota o un impostore? C'è addirittura chi lo dice erede al trono. Ma il suo assassinio, altrettanto misterioso, impedirà di conoscerne mai la verità.  Con Alfredo Pea nella parte di Kaspar Hauser.  La vicenda è seguita da un dibattito curato dall'autrice Antonella Ferrera cui partecipano lo psichiatra e criminologo Piero Rocchini e Ursula Bavai, docente di letteratura tedesca.  ",
@@ -72,12 +72,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/9dnsKC1N5uDSS9i6j9vHQAeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=9dnsKC1N5uDSS9i6j9vHQAeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "19. Lucrezia Borgia - Alfonso d'Aragona ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 24 Nov 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "È Lucrezia Borgia la vera protagonista di questa puntata, anche se il delitto di cui ci occupiamo è quello del suo secondo marito, l'amato Alfonso d'Aragona, ucciso dal Valentino nell'anno 1500. Figlia di un Papa, bella, intelligente, raffinata, ed al tempo stesso accusata di incesto, intrighi, avvelenamenti, la sua figura rimane ancora uno dei grandi enigmi della storia. Le dà voce Loredana Martinez, in una puntata narrata da Walter Maestosi e Daniela Barra, mentre al dibattito, curato dall'autrice del programma, Antonella Ferrera, intervengono lo psichiatra Piero Rocchini e la scrittrice Liliana Madeo. ",
@@ -90,12 +90,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/LvpvH5xGxssSlashdIBWQo1GZAvAeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=LvpvH5xGxssSlashdIBWQo1GZAvAeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "10. Il caso Mayerling",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 23 Jun 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "La romantica storia dell'amore fra la giovanissima Mary e l'arciduca Rodolfo d'Asburgo, conclusasi con un doppio suicidio, forse non fu così romantica. E forse non fu neanche un suicidio. Si trattò probabilmente di un omicidio a sfondo politico.  Con Cristina Boraschi nella parte di Mary.   La vicenda è seguita da un dibattito curato dall'autrice Antonella Ferrera cui partecipano Ursula Bavai, docente di letteratura tedesca ed il regista Giorgio Presburger in collegamento da Budapest. ",
@@ -108,12 +108,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/nmpPpPlussO5sIMA0IOW1pek8lWaAeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=nmpPpPlussO5sIMA0IOW1pek8lWaAeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "11. Gilles de Rais/Barbablù ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 22 Sep 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Francia 1440. Viene arrestato il barone Gilles de Rais, con l'accusa di stregoneria, pedofilia ed omicidio. Gilles è un uomo ricchissimo, colto, un guerriero valoroso che ha combattuto a fianco di Giovanna d'Arco. Eppure le accuse, per sua stessa ammissione, si riveleranno fondate, dal momento che ha sodomizzato ed ucciso nel suo castello centinaia di bambini. Nell'immaginario popolare, i fanciulli si trasformeranno in mogli, e ne nascerà la favola di Barbablù raccolta da Charles Perrault.  Il programma, che vede la partecipazione dello psichiatra Piero Rocchini, intervistato da Antonella Ferrera, segna il ritorno ai microfoni di Radio Rai, dopo una lunga assenza, di uno degli attori più acclamati del nostro teatro: Gabriele Lavia nella parte di Gilles de Rais. ",
@@ -126,12 +126,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/enOFDi6DPDUUINQ5fQKdZQeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=enOFDi6DPDUUINQ5fQKdZQeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "23. Marilyn Monroe",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 22 Dec 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Il 5 agosto 1962, ad Hollywood, muore Marylin Monroe, la più bella ed amata delle attrici, forse suicida. Ma a 40 anni dalla sua scomparsa, il mistero è ancora fitto, dal momento che testimonianze, documenti, orari sono in continuo e spesso sfrontato contrasto fra loro.  La trasmissione di Antonella Ferrera cerca di darci il punto attuale della situazione, ricostruendo le ultime ore di Marilyn, mentre nell'incontro con lo psichiatra  Piero Rocchini, si tenta una lettura psicoanalitica  della donna, oltre che della diva.  Michele Mirabella dà voce allo scrittore Arthur Miller, forse il più famoso dei 4 mariti dell'attrice. ",
@@ -144,12 +144,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/I5mZdU4ovjRwmjo9YxwKdQeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=I5mZdU4ovjRwmjo9YxwKdQeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "15. La Monaca di Monza",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 20 Oct 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Alessandro Manzoni, nel creare la Monaca di Monza, uno dei personaggi più famosi dei Promessi Sposi, si rifece ad un personaggio realmente esistito, la nobile Virginia de Leyva, che all'inizio del 600 aveva trascorso ben 14 anni in cella per scontare i reati di cui si era macchiata, omicidio compreso, delitti a cui l'aveva spinta il suo amante, il bellissimo Paolo Osio.  Nella ricostruzione della doppia storia, accanto alle pagine del Manzoni lette da Gabriele Lavia, non mancano i documenti d'epoca e citazioni dal dramma di Giovanni Testori recitate da Loredana Martinez ed Alfredo Pea, con Francesca Muzio e Luca Dalla Bianca. Al dibattito che segue lo sceneggiato l'autrice Antonella Ferrera intervista lo psichiatra Piero Rocchini e Liliana Madeo, autrice del libro \"Donne cattive\".  ",
@@ -162,12 +162,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/nNz3YyPGaPJK83Hj2vHPnAeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=nNz3YyPGaPJK83Hj2vHPnAeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "5. Abramo Lincoln",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 19 May 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "La sera del 14 aprile 1865 il presidente degli Stati Uniti d'America, Abramo Lincoln, si reca a teatro: un sudista e attore fallito di nome Booth, lo uccide con un colpo di pistola. Con Ivo Garrani nella ricostruzione sceneggiata. La vicenda è seguita da un dibattito cui partecipano lo psichiatra e criminologo Piero Rocchini e Daniele Fiorentino, esperto di storia americana, intervistati dall'autrice Antonella Ferrera.",
@@ -180,12 +180,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/yVpWLxIXkqllt7wvAJb5yQeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yVpWLxIXkqllt7wvAJb5yQeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "9. Concino Concini",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 16 Jun 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Nella Francia del '600, alla corte di Maria dei Medici, cresce a dismisura la fortuna del suo consigliere e, forse amante, Concino Concini. Ma il giovane re non  perdonerà al fiorentino  tanta arroganza e fortuna e lo farà pugnalare. Il ruolo del protagonista è interpretato da Paolo Ferrari. La vicenda è seguita da un dibattito curato da Antonella Ferrera cui partecipano Marina D'Amelia, storica, e Mimmo De Masi, sociologo. ",
@@ -198,12 +198,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/XlssSlashbvRBAvSS9K4nT2sVcdgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=XlssSlashbvRBAvSS9K4nT2sVcdgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "22. Charles Manson ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 15 Dec 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Nell'estate del 1969, a Los Angeles, una banda di fanatici guidati da Charles Manson penetra nella villa del regista Roman Polanski e massacra le 5 persone che vi si trovano, compresa Sharon Tate, la giovane e bellissima moglie del regista, incinta di 8 mesi. Seguirà il più lungo processo per omicidio della storia americana, durato nove mesi e mezzo, e il più costoso, un milione di dollari.  Questa puntata segna l'inizio della partecipazione di Michele Mirabella al programma. L'artista, che ha alle spalle anche una lunga carriera di attore, sarà anche Arthur Miller nel caso Marylin Monroe, e Charyl Chessman.  Dopo lo sceneggiato, l'autrice Antonella Ferrera intervista lo psichiatra e scrittore Vittorino Andreoli, autore del recente best-seller \"Il lato oscuro\".  Una ghost-track, una traccia nascosta da un CD dei Guns and Roses, contenente una canzone composta dallo stesso Manson, conclude la trasmissione. Manson aveva infatti ambizioni di musicista, ed era convinto di poter diventare un giorno il quinto dei Beatles. ",
@@ -216,12 +216,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/fPYobPcV53LAHuHF8CeIwgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=fPYobPcV53LAHuHF8CeIwgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "2. Agrippina",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 14 Apr 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Nella primavera del 59 d.C., nei pressi del lago Lucrino, fu uccisa Agrippina per ordine di suo figlio, l'imperatore Nerone, che non ne sopportava più l'eccessiva invadenza. È il più grande matricidio della storia antica, ricostruito nella trasmissione, \"La storia in giallo\", domenica 14 aprile alle 19 su Radio 3, dapprima in forma sceneggiata, e poi oggetto di un dibattito cui hanno partecipato al fianco dell'autrice Antonella Ferrera lo storico Furio Sanpoli, lo psichiatra Piero Rocchini e la scrittrice Danila Comastri Montanari, specializzata in gialli ambientati nella Roma antica.   L'imperatore Nerone era giunto al trono grazie all'appoggio della madre Agrippina, ed uccidendo Britannico, legittimo erede al trono. Non potendo più sopportare la forte personalità della madre che non voleva rinunciare e regnare per suo tramite, l'imperatore la fa salire su di una nave, Agrippina si salva a nuoto, ma una volta tornata nella sua villa, non potrà sfuggire ai sicari del figlio.   Nella ricostruzione sono citati testi antichi e non - Seneca, Tacito, Svetonio, Racine -, mentre nel dibattito le opinioni sono a contrasto, a dimostrare quanto tutt'oggi sia vivo questo caso di Storia in Giallo. L'attrice protagonista è Anna Maria Gherardi, ed accanto a lei Paolo Ferrari, Alfredo Pea, Cesare Barbetti, Anna Melato. ",
@@ -234,12 +234,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/OIHlMnBfbxM7ttMZPQdk7QeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=OIHlMnBfbxM7ttMZPQdk7QeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "14. Aleksandr Puskin ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 13 Oct 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Aleksandr Puskin, grande poeta e narratore russo, autore di \"Eugenio Oneghin\", \"Boris Godunov\", \"La figlia del capitano\", muore a Mosca il 29 gennaio del 1837 per le ferite riportate in duello. Un duello che aveva voluto lui, sfidando un francese, presunto amante di sua moglie, la bellissima Natalia, ma un adulterio che era stato Puskin stesso a volere. Questa puntata segna il debutto radiofonico di Giulio Scarpati, l'attore divenuto popolare in TV con \"Un medico in famiglia\" ed in teatro con \"L'idiota\" di Dostojewsky. Scarpati  protagonista di altri due episodi della serie radiofonica di Antonella Ferrera. Oltre ad interpretare il ruolo grande scrittore russo Aleksandr Puskin, sarà anche il fisico Ettore Majorana, e lo psicanalista Tausk, allievo odiato-amato di Sigmund Freud.  Nel dibattito, a cura di Antonella Ferrera, interviene lo psichiatra Piero Rocchini.  ",
@@ -252,12 +252,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/yYIQessSlashrwtTDUQrmA3rNpPpPlussKweeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yYIQessSlashrwtTDUQrmA3rNpPpPlussKweeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "18. Victor Tausk",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 10 Nov 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Il 3 luglio del 1919 si suicida a Vienna, Victor Tausk, psicanalista, allievo amato-odiato di Sigmund Freud, ed ex amante della leggendaria Lou Andreas-Salomé. Bello, intelligente, inquieto, giovane, Tausk sembra pagare con la vita l'impossibilità di trovare un equilibrio e il duro scontro con il maestro Freud, che, se in pubblico avrà parole di cordoglio per la perdita dell'allievo, in privato scriverà: \"devo confessare di non sentire veramente la mancanza di Tausk; già da tempo l'avevo giudicato inutile\".  Tausk è interpretato da Giulio Scarpati. Accanto a lui Francesca Muzio, Alfredo Pea, Loredana Martinez, Luca Dalla Bianca. Al dibattito partecipa lo psichiatra Piero Rocchini, intervistato dall'autrice Antonella Ferrera. ",
@@ -270,12 +270,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/8n5lHUeTzXSQV2y8DqCypPpPlussAeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=8n5lHUeTzXSQV2y8DqCypPpPlussAeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "8. La contessa Bathory",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 09 Jun 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Nell'Ungheria del 500 si svolge la vicenda che ha per protagonista la Contessa Bathory. Ossessionata dal timore di perdere la sua straordinaria bellezza, la contessa è convinta di poterla conservare solo bagnandosi nel sangue di fanciulle belle ed aristocratiche. Entrerà nella leggenda come \"la vampira\", anche se recenti studi sostengono che la leggenda sulla contessa Bathory fu creata ad arte perché le fossero tolte le sue enormi ricchezze.   Nella fiction radiofonica Ludovica Modugno interpreta il ruolo di Erszebet Bathory.   Alla ricostruzione sceneggiata fa seguito la consueta intervista di Antonella Ferrera cui partecipano il regista Giorgio Presburger e Gianni Pilo, direttore della collana del fantastico della Newton&Compton.  ",
@@ -288,12 +288,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/PE3wc6etKfssSlashNKfaoXssSlashpWcgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=PE3wc6etKfssSlashNKfaoXssSlashpWcgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "21. Akhenaton ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 08 Dec 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "\"La storia in giallo\" affronta questa volta  il più antico dei suoi personaggi: il faraone Akhenaton. Protagonista della grande rivoluzione religiosa del Nuovo Regno, il sovrano fu il primo ad affermare ufficialmente una religione monoteista e probabilmente a pagarne lo scotto morendo assassinato, come già aveva ricostruito l'archeologo Milka Waltari in un romanzo - e poi film - di grande successo: \"Sinuhe l'egiziano\". Gli attori sono Paolo Lombardi, Francesca Gatto, Francesco Meoni. Al termine dello sceneggiato l'autrice Antonella Ferrera intervista l'archeologo e scrittore Valerio Manfredi. ",
@@ -306,12 +306,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/E0zKUvykCUpPpPlussQC7Bdt8qzTgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=E0zKUvykCUpPpPlussQC7Bdt8qzTgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "1. Joe Petrosino",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 07 Apr 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "La sera del 12 marzo 1909, a Piazza Marina, Palermo, viene ucciso il poliziotto italo-americano Joe Petrosino, giunto in Sicilia per colpire alle radici l'organizzazione criminale della Mano Nera. È il primo grande delitto di mafia. Petrosino è già, per il suo coraggio e la sua durezza, una figura mitica. Presto diventerà un personaggio dei fumetti e negli anni '70, il regista Daniele D'Anza ne farà un film di culto per la TV.  La versione radiofonica vede protagonista Enrico Lo Verso, giunto al successo con \"Il ladro di bambini\", l'attore siciliano è al suo debutto radiofonico. Accanto a lui le voci di Paolo Ferrari, Cesare Barbetti, Ivo Garrani.  Nel dibattito che segue la ricostruzione sceneggiata, l'autrice Antonella Ferrera intervista Roberto Alajmo, esperto di antimafia, e Roberto Olla, autore di documentari storici. ",
@@ -324,12 +324,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/6nCrJpssSlashzJ7qXgxssSlashyi5DrbgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=6nCrJpssSlashzJ7qXgxssSlashyi5DrbgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "13. Michelangelo da Caravaggio ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 06 Oct 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Il 10 luglio del 1610, all'età di 40 anni, muore, forse di malaria, Michelangelo da Caravaggio, il pittore scandalo, l'artista del XVII secolo più amato nei tempi moderni. Una morte di cui spesso si è parlato e si parla, il più delle volte con gravi inesattezze. Anche in questo caso l'autrice Antonella Ferrera ha scritto i testi avvalendosi di documenti originali, cui dà voce Gabriele Lavia. In studio, in compagnia di Antonella Ferrera, lo psichiatra e criminologo Piero Rocchini.   ",
@@ -342,12 +342,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/yHxBWSOlKOiJmAXHkwPb2weeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=yHxBWSOlKOiJmAXHkwPb2weeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "4. Jack lo squartatore",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 05 May 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "All'alba di venerdì 31 agosto 1888, a Whitechapel, Londra, una donna viene trucidata. Era una prostituta di 41 anni. Con questa morte ha inizio un periodo di terrore in tutta la città quello di Jack the Ripper, ovvero Jack lo squartatore. Per molto tempo, voci mai confermate attribuirono i delitti al duca di Clarence, nipote della regina Vittoria, che venne ad un certo punto internato in un manicomio. Comunque, a tutt'oggi, Jack non ha un nome e tutte le domeniche viene organizzato, alle 19.30 in punto, un giro turistico per l'East End, per visitare i luoghi del delitto e - chissà - anche nella vaga speranza di trovarlo. La drammatica vicenda ebbe comunque il merito di portare l'attenzione di filantropi e politici su questa zona degradata della città e di migliorarne considerevolmente le condizioni. La trasmissione ricostruisce con un breve sceneggiato - arricchito dai giornali d'epoca e dalle lettere di Jack alla polizia -la vicenda, ed è seguita da un dibattito in cui l'autrice del programma Antonella Ferrera analizza il caso con la giallista Danila Comastri Montanari e lo psichiatra Piero Rocchini. La voce di Jack è di Cesare Barbetti, accanto a lui Paolo Ferrari ed Alfredo Pea.  ",
@@ -360,12 +360,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/Oa8dZ5rKxRqKiRJs8MkcssSlashgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Oa8dZ5rKxRqKiRJs8MkcssSlashgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "3. Beatrice Cenci",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 05 May 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "È l'ombra dell'incesto a pesare sulla morte del nobile romano Francesco Cenci, che venne ucciso per volontà della figlia, la giovane e bella Beatrice, modello ideale di femminilità nei secoli seguenti per pittori e poeti.   La protagonista della ricostruzione sceneggiata è Micaela Esdra.   La fiction dedicata a Beatrice Cenci, è seguita da un dibattito curato da Antonella Ferrera cui partecipano lo psichiatra Piero Rocchini e la storica Marina D'Amelia.  ",
@@ -378,12 +378,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/uk5SpPpPlussYzLq3nqPI7BVmFlRgeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=uk5SpPpPlussYzLq3nqPI7BVmFlRgeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "17. Charlotte Corday – Marat ",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 03 Nov 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Il 13 luglio è al Palais Royal, acquista un capello nero a nastrini verdi per non dare nell'occhio e un coltello da cucina con una lama di dodici centimetri. Quando entra nella stanza, Marat è nel bagno, disteso in una tinozza, Charlotte gioca con lui e con la sua morbosa passione cospirativa, elencandogli una falsa lista di traditori, poi, improvvisamente si alza dalla sedia e sferra un colpo fatale sotto la clavicola, sul fianco destro della vittima squarciandogli la carotide. Dopo la ricostruzione sceneggiata Antonella Ferrera intervista Roberto Olla, autore di documentari storici per la Rai ed il criminologo Piero Rocchini.   ",
@@ -396,12 +396,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/Hkiw8C9VwiLJCFuQIXfupweeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=Hkiw8C9VwiLJCFuQIXfupweeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "7. Leonarda Cianciulli",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 02 Jun 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "Una storia del 1946 questa della \"saponificatrice\". Ma uccideva le sue vittime per interesse o per mistica follia? Pensare che questa donna, che faceva a pezzi con la scure le sue vittime prima di bollirle, era piccola, dalle unghie curate e dagli impeccabili ricciolini.  Con Anna Melato nel ruolo della protagonista.   La vicenda è seguita da un dibattito in cui l'autrice Antonella Ferrera analizza il caso con lo psichiatra e criminologo Piero Rocchini.  ",
@@ -414,12 +414,12 @@
 			"enclosure": {
 				"length": "123456789",
 				"type": "audio/mpeg",
-				"url": "https://media.test.dev/esexSWiPJJwWIpPpPlussQCYoPFZAeeqqEEqualeeqqEEqual.mp3"
+				"url": "http://localhost:8091/relinker/relinkerServlet.htm?cont=esexSWiPJJwWIpPpPlussQCYoPFZAeeqqEEqualeeqqEEqual"
 			},
 			"explicit": false,
 			"funding": [],
 			"guid": "20. Rasputin",
-			"imageURL": "https://test.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
+			"imageURL": "http://localhost:8091/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
 			"pubDate": "Sun, 01 Dec 2002 00:00:00 GMT",
 			"soundbite": [],
 			"summary": "La notte del 19 dicembre 1916, un cadavere affiora tra l'acqua ed il ghiaccio di un canale di Pietrogrado. La gente lo riconosce, urla al miracolo, corre a riempire secchi e fiasche con l'acqua miracolosa, perché si tratta del misterioso Rasputin, l'eminenza grigia della corte degli Zar, l'uomo che nonostante il veleno, le pugnalate, i colpi di pistola, l'assideramento, lotta ancora nell'acqua ghiacciata per liberare le mani dalle corde.  Il ruolo del  protagonista è di Paolo Lombardi, l'attore senese che per tanti anni è stato la voce italiana di Alfred Hitchcock.  Segue un'intervista di Antonella Ferrera al giornalista Renzo Foa che vede il personaggio di Rasputin con gli occhi del presente, fuori della leggenda. ",
