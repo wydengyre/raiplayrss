@@ -26,11 +26,11 @@ async function genresHtml(c: Conf): Promise<string> {
 	return renderGenres(c.baseUrl, json);
 }
 
-const fetchGenres = async (c: Conf) => {
+async function fetchGenres(c: Conf) {
 	const url = new URL("generi.json", c.raiBaseUrl);
 	const res = await c.fetchWithErr(url.toString());
 	return res.json();
-};
+}
 
 async function renderGenres(baseUrl: URL, json: unknown): Promise<string> {
 	const parseResult = await schema.safeParseAsync(json);
