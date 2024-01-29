@@ -112,12 +112,7 @@ async function rssFeedSuccess() {
 	const feed = await resp.text();
 	const parsedFeed = parseFeed(feed);
 
-	const trulyExpectedJSON = replaceImageUrls(replaceMediaUrls(expectedJson));
-	trulyExpectedJSON.meta.imageURL = trulyExpectedJSON.meta.imageURL.replace(
-		/^https:\/\/test.dev\//,
-		"http://localhost:8091/",
-	);
-	assert.deepStrictEqual(parsedFeed, trulyExpectedJSON);
+	assert.deepStrictEqual(parsedFeed, expectedJson);
 }
 
 async function rssFeedRai404() {
@@ -170,26 +165,6 @@ async function notFound() {
 	assert.strictEqual(resp.statusText, "Not Found");
 	const text = await resp.text();
 	assert.strictEqual(text, "Not found.");
-}
-
-function replaceMediaUrls(j: typeof expectedJson): typeof expectedJson {
-	for (const e of j.episodes) {
-		e.enclosure.url = e.enclosure.url.replace(
-			/^https:\/\/media.test.dev\/(.+)\.mp3$/,
-			(_, p1) =>
-				`http://localhost:8091/relinker/relinkerServlet.htm?cont=${p1}`,
-		);
-	}
-	return j;
-}
-function replaceImageUrls(j: typeof expectedJson): typeof expectedJson {
-	for (const e of j.episodes) {
-		e.imageURL = e.imageURL.replace(
-			/^https:\/\/test.dev\//,
-			"http://localhost:8091/",
-		);
-	}
-	return j;
 }
 
 function parseFeed(feed: string): object {
