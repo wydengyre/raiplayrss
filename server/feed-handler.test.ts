@@ -23,63 +23,49 @@ const baseUrl = new URL("https://test.dev/");
 const raiBaseUrl = new URL("https://rai.dev/");
 const mediaBaseUrl = new URL("https://media.dev/");
 
-const fetchMock: FetchWithErr = async (input, init) => {
-	const requestUrlStr = input.toString();
-	const url = new URL(requestUrlStr);
-	const { protocol, hostname, pathname, search } = url;
-
-	if (!(protocol === raiBaseUrl.protocol && hostname === raiBaseUrl.hostname)) {
-		throw new Error(`unexpected request to ${requestUrlStr}`);
-	}
-
-	if (pathname === "/generi.json") {
-		return json(genresJson) as OkResponse;
-	}
-
-	if (pathname === "/programmi/lastoriaingiallo.json") {
-		return json(feedJson) as OkResponse;
-	}
-	if (pathname === "/programmi/500.json") {
-		throw new NotOk(url, 500, "server error");
-	}
-	if (pathname === "/programmi/corrupt.json") {
-		return json({ foo: "bar" }) as OkResponse;
-	}
-
-	const relinkerRel = "/relinker/relinkerServlet.htm";
-	const relinkerSearchStart = "?cont=";
-	if (
-		init?.method === "HEAD" &&
-		pathname === relinkerRel &&
-		search.startsWith(relinkerSearchStart)
-	) {
-		const urlStart = requestUrlStr.replace(
-			new URL(`${relinkerRel}${relinkerSearchStart}`, raiBaseUrl).toString(),
-			mediaBaseUrl.toString(),
-		);
-		const url = `${urlStart}.mp3`;
-		return {
-			url: url,
-			headers: new Headers({
-				"Content-Type": "audio/mpeg",
-				"Content-Length": "123456789",
-			}),
-		} as OkResponse;
-	}
-
-	throw new NotOk(url, 404, "not found");
-};
-
-const conf = {
+const confWithFetch = (fetchWithErr: FetchWithErr) => ({
 	baseUrl,
 	raiBaseUrl,
-	poolSize: 1,
-	fetchWithErr: fetchMock,
+	poolSize: 5,
+	fetchWithErr,
 	logger: logger.disabled,
-};
+});
 
 async function rssFeedSuccess() {
 	const req = new Request("https://test.dev/programmi/lastoriaingiallo.xml");
+	const fetchMock: FetchWithErr = async (input, init) => {
+		const requestUrlStr = input.toString();
+		const url = new URL(requestUrlStr);
+		const { pathname, search } = url;
+
+		if (pathname === "/generi.json") {
+			return json(genresJson) as OkResponse;
+		}
+
+		if (pathname === "/programmi/lastoriaingiallo.json") {
+			return json(feedJson) as OkResponse;
+		}
+
+		const relinkerRel = "/relinker/relinkerServlet.htm";
+		const relinkerSearchStart = "?cont=";
+		if (pathname === relinkerRel) {
+			const urlStart = requestUrlStr.replace(
+				new URL(`${relinkerRel}${relinkerSearchStart}`, raiBaseUrl).toString(),
+				mediaBaseUrl.toString(),
+			);
+			const url = `${urlStart}.mp3`;
+			return {
+				url: url,
+				headers: new Headers({
+					"Content-Type": "audio/mpeg",
+					"Content-Length": "123456789",
+				}),
+			} as OkResponse;
+		}
+
+		throw new Error(`unexpected request: ${requestUrlStr}`);
+	};
+	const conf = confWithFetch(fetchMock);
 	const resp = await feedHandler(conf, req);
 
 	assert.strictEqual(resp.status, 200);
@@ -90,7 +76,10 @@ async function rssFeedSuccess() {
 }
 
 async function rssFeedFail404() {
-	const req = new Request("https://test.dev/programmi/nonexistent.xml");
+	const url = new URL("https://test.dev/programmi/nonexistent.xml");
+	const req = new Request(url);
+	const fetchMock = () => Promise.reject(new NotOk(url, 404, "not found"));
+	const conf = confWithFetch(fetchMock);
 	const resp = await feedHandler(conf, req);
 	assert.strictEqual(resp.status, 404);
 	assert.strictEqual(resp.headers.get("Content-Type"), "application/xml");
@@ -102,7 +91,10 @@ async function rssFeedFail404() {
 }
 
 async function rssFeedFail500() {
-	const req = new Request("https://test.dev/programmi/500.xml");
+	const url = new URL("https://test.dev/programmi/500.xml");
+	const req = new Request(url);
+	const fetchMock = () => Promise.reject(new NotOk(url, 500, "server error"));
+	const conf = confWithFetch(fetchMock);
 	const resp = await feedHandler(conf, req);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.headers.get("Content-Type"), "application/xml");
@@ -115,6 +107,9 @@ async function rssFeedFail500() {
 
 async function rssFeedFailNonCompliantJson() {
 	const req = new Request("https://test.dev/programmi/corrupt.xml");
+	const fetchMock = () => Promise.resolve(json({ foo: "bar" }) as OkResponse);
+
+	const conf = confWithFetch(fetchMock);
 	const resp = await feedHandler(conf, req);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.headers.get("Content-Type"), "application/xml");
