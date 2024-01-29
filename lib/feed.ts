@@ -2,7 +2,7 @@ import { PromisePool } from "@supercharge/promise-pool";
 import { z } from "zod";
 import { Podcast } from "../build/podcast/index.js";
 import { NotFoundError } from "./error.js";
-import { Fetcher as MediaFetcher } from "./media.js";
+import { fetchInfo } from "./media.js";
 
 const cardSchema = z.object({
 	episode_title: z.string(),
@@ -38,11 +38,10 @@ export async function convertFeed(
 	c: ConvertConf,
 	relUrl: string,
 ): Promise<string> {
-	const mediaFetcher = new MediaFetcher(c.fetch);
 	const convertor = new Convertor({
 		raiBaseUrl: c.raiBaseUrl,
 		poolSize: c.poolSize,
-		fetcher: mediaFetcher,
+		fetch: c.fetch,
 	});
 	const feedJson = await fetchFeed(c, relUrl);
 	return convertor.convert(feedJson);
@@ -73,18 +72,18 @@ async function fetchFeed(
 type ConvertorConf = {
 	raiBaseUrl: URL;
 	poolSize: number;
-	fetcher: MediaFetcher;
+	fetch: typeof fetch;
 };
 
 class Convertor {
 	readonly #raiBaseUrl: URL;
 	readonly #poolSize: number;
-	readonly #fetcher: MediaFetcher;
+	readonly #fetch: typeof fetch;
 
-	constructor({ raiBaseUrl, poolSize, fetcher }: ConvertorConf) {
+	constructor({ raiBaseUrl, poolSize, fetch }: ConvertorConf) {
 		this.#raiBaseUrl = raiBaseUrl;
 		this.#poolSize = poolSize;
-		this.#fetcher = fetcher;
+		this.#fetch = fetch;
 	}
 
 	// TODO: feedUrl, siteUrl
@@ -126,9 +125,7 @@ class Convertor {
 	async convertCard(card: Card) {
 		const imageUrl = new URL(card.image, this.#raiBaseUrl).toString();
 		const date = new Date(card.track_info.date);
-		const mediaInfo = await this.#fetcher.fetchInfo(
-			card.downloadable_audio.url,
-		);
+		const mediaInfo = await fetchInfo(this.#fetch, card.downloadable_audio.url);
 		const url = mediaInfo.url.toString();
 		return {
 			title: card.episode_title,
