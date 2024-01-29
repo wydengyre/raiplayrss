@@ -13,9 +13,6 @@ import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 };
 
 test("worker", async (t) => {
-	t.before(startWorker);
-	t.after(stopWorker);
-
 	await t.test(index);
 	await t.test(rssFeedSuccess);
 	await t.test(rssFeedRai404);
@@ -25,59 +22,14 @@ test("worker", async (t) => {
 });
 
 // uncomment the relevant line in startWorker() for this to take effect
-const logLevel = "debug";
-const vars = {
-	BASE_URL: "https://test.dev/",
-	RAI_BASE_URL: "http://localhost:8091/",
-	FETCH_QUEUE_SIZE: "5",
-	LOG_LEVEL: logLevel,
-};
-
-let worker: UnstableDevWorker;
-async function startWorker() {
-	const experimental = { disableExperimentalWarning: true };
-	worker = await unstable_dev("cf/worker.ts", {
-		// uncomment for help debugging
-		// logLevel,
-		experimental,
-		vars,
-	});
-}
-
-async function stopWorker() {
-	await worker.stop();
-}
-
-class MockRaiServer {
-	#server: Server;
-
-	private constructor(server: Server) {
-		this.#server = server;
-	}
-
-	static async create(router: RouterType): Promise<MockRaiServer> {
-		const url = new URL(vars.RAI_BASE_URL);
-		const listenPort = parseInt(url.port);
-
-		const ittyServer = createServerAdapter(router);
-		const httpServer = createServer(ittyServer);
-		await new Promise<void>((resolve) =>
-			httpServer.listen(listenPort, url.hostname, resolve),
-		);
-		return new MockRaiServer(httpServer);
-	}
-
-	[Symbol.asyncDispose](): Promise<void> {
-		return this.#server[Symbol.asyncDispose]();
-	}
-}
+const logLevel = "info";
 
 async function index() {
 	const router = Router();
 	router.get("/generi.json", () => json(genresJson));
-	await using _server = await MockRaiServer.create(router);
+	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await worker.fetch("");
+	const resp = await servers.worker.fetch("");
 
 	assert(resp.ok);
 	assert.strictEqual(resp.status, 200);
@@ -90,7 +42,6 @@ async function index() {
 
 async function rssFeedSuccess() {
 	const router = Router();
-	router.get("/programmi/lastoriaingiallo.json", () => json(feedJson));
 	router.head(
 		"*",
 		() =>
@@ -102,9 +53,24 @@ async function rssFeedSuccess() {
 				},
 			}),
 	);
-	await using _server = await MockRaiServer.create(router);
+	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await worker.fetch("/programmi/lastoriaingiallo.xml");
+	// defining this here because we need the server port
+	router.get("/programmi/lastoriaingiallo.json", () => {
+		const feedJsonCopy = JSON.parse(
+			JSON.stringify(feedJson),
+		) as typeof feedJson;
+		const raiServerPortStr = servers.raiServerPort.toString(10);
+		for (const card of feedJsonCopy.block.cards) {
+			card.downloadable_audio.url = card.downloadable_audio.url.replace(
+				"RAI_SERVER_PORT",
+				raiServerPortStr,
+			);
+		}
+		return json(feedJsonCopy);
+	});
+
+	const resp = await servers.worker.fetch("/programmi/lastoriaingiallo.xml");
 	assert(resp.ok);
 	assert.strictEqual(resp.status, 200);
 	assertItalian(resp);
@@ -112,7 +78,25 @@ async function rssFeedSuccess() {
 	const feed = await resp.text();
 	const parsedFeed = parseFeed(feed);
 
-	assert.deepStrictEqual(parsedFeed, expectedJson);
+	const expectedJsonCopy = JSON.parse(
+		JSON.stringify(expectedJson),
+	) as typeof expectedJson;
+	expectedJsonCopy.meta.imageURL = expectedJsonCopy.meta.imageURL.replace(
+		"RAI_SERVER_PORT",
+		servers.raiServerPort.toString(10),
+	);
+	for (const episode of expectedJsonCopy.episodes) {
+		episode.enclosure.url = episode.enclosure.url.replace(
+			"RAI_SERVER_PORT",
+			servers.raiServerPort.toString(10),
+		);
+		episode.imageURL = episode.imageURL.replace(
+			"RAI_SERVER_PORT",
+			servers.raiServerPort.toString(10),
+		);
+	}
+
+	assert.deepStrictEqual(parsedFeed, expectedJsonCopy);
 }
 
 async function rssFeedRai404() {
@@ -120,9 +104,9 @@ async function rssFeedRai404() {
 	router.get("/programmi/404.json", () => {
 		return error(404, "Not found");
 	});
-	await using _ = await MockRaiServer.create(router);
+	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await worker.fetch("/programmi/404.xml");
+	const resp = await servers.worker.fetch("/programmi/404.xml");
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 404);
 }
@@ -132,9 +116,9 @@ async function rssFeedRai500() {
 	router.get("/programmi/500.json", () => {
 		return error(500, "RAI server exploded");
 	});
-	await using _ = await MockRaiServer.create(router);
+	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await worker.fetch("/programmi/500.xml");
+	const resp = await servers.worker.fetch("/programmi/500.xml");
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
 }
@@ -144,9 +128,9 @@ async function rssFeedFailProcessing() {
 	router.get("/programmi/invalid.json", () => {
 		return json({ foo: "bar" });
 	});
-	await using _server = await MockRaiServer.create(router);
+	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await worker.fetch("/programmi/invalid.xml");
+	const resp = await servers.worker.fetch("/programmi/invalid.xml");
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.statusText, "Internal Server Error");
@@ -158,13 +142,78 @@ async function rssFeedFailProcessing() {
 }
 
 async function notFound() {
-	const resp = await worker.fetch("foo");
+	await using servers = await Servers.createWithRaiRouter(Router());
+	const resp = await servers.worker.fetch("foo");
 
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 404);
 	assert.strictEqual(resp.statusText, "Not Found");
 	const text = await resp.text();
 	assert.strictEqual(text, "Not found.");
+}
+
+class Servers {
+	readonly worker: UnstableDevWorker;
+	readonly #mockRaiServer: Server;
+
+	private constructor(worker: UnstableDevWorker, mockRaiServer: Server) {
+		this.worker = worker;
+		this.#mockRaiServer = mockRaiServer;
+	}
+
+	static async createWithRaiRouter(router: RouterType): Promise<Servers> {
+		const ittyServer = createServerAdapter(router);
+		const httpServer = createServer(ittyServer);
+		await new Promise<void>((resolve) =>
+			httpServer.listen(undefined, "localhost", resolve),
+		);
+
+		const raiAddress = httpServer.address();
+		if (raiAddress === null) {
+			throw new Error("RAI server address is null");
+		}
+		if (typeof raiAddress === "string") {
+			throw new Error(
+				`RAI server address is a string, we want an object: ${raiAddress}`,
+			);
+		}
+
+		const RAI_BASE_URL = `http://localhost:${raiAddress.port}`;
+		const vars = {
+			BASE_URL: "http://test.dev/",
+			RAI_BASE_URL,
+			FETCH_QUEUE_SIZE: Number(5).toString(),
+			LOG_LEVEL: logLevel,
+		};
+
+		const experimental = { disableExperimentalWarning: true };
+		const worker = await unstable_dev("cf/worker.ts", {
+			// uncomment for help debugging
+			// logLevel,
+			experimental,
+			vars,
+		});
+
+		return new Servers(worker, httpServer);
+	}
+
+	get raiServerPort(): number {
+		const raiAddress = this.#mockRaiServer.address();
+		if (raiAddress === null) {
+			throw new Error("RAI server address is null");
+		}
+		if (typeof raiAddress === "string") {
+			throw new Error(
+				`RAI server address is a string, we want an object: ${raiAddress}`,
+			);
+		}
+		return raiAddress.port;
+	}
+
+	async [Symbol.asyncDispose](): Promise<void> {
+		await this.#mockRaiServer[Symbol.asyncDispose]();
+		await this.worker.stop();
+	}
 }
 
 function parseFeed(feed: string): object {
