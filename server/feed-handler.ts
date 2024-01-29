@@ -1,6 +1,6 @@
 import { createResponse } from "itty-router";
-import { convertFeed } from "./feed.js";
-import { FetchWithErr, NotOk } from "./fetch.js";
+import { convertFeed } from "../rai/feed.js";
+import { FetchWithErr, NotOk } from "../rai/fetch.js";
 import { Logger } from "./logger.js";
 
 export { Config, feedHandler };

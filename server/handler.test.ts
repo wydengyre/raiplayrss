@@ -1,14 +1,14 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { error, json } from "itty-router";
-import { mkFetchHandler } from "./handler.js";
-import * as logger from "./logger.js";
-import genresJson from "./test/generi.json";
-import feedJson from "./test/lastoriaingiallo.json";
-import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
+import genresJson from "../rai/test/generi.json";
+import feedJson from "../rai/test/lastoriaingiallo.json";
+import expectedJson from "../rai/test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
-import { parseFeed } from "./test/parse-feed.js";
+import { parseFeed } from "../rai/test/parse-feed.js";
+import { mkFetchHandler } from "./handler.js";
+import * as logger from "./logger.js";
 
 test("handler", async (t) => {
 	await t.test(indexSuccess);

@@ -1,5 +1,5 @@
-import { mkFetchHandler } from "../lib/handler.js";
-import * as logger from "../lib/logger.js";
+import { mkFetchHandler } from "../server/handler.js";
+import * as logger from "../server/logger.js";
 
 export default (<ExportedHandler<Env>>{
 	fetch: (request, env, _ctx) => {
