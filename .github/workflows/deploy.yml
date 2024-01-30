@@ -19,8 +19,6 @@ jobs:
           cache: 'npm'
       - name: Install npm dependencies
         run: npm ci
-      - name: Build podcast lib
-        run: npm run build-podcast
       - name: Deploy
         uses: cloudflare/wrangler-action@7c01cc48d88a1f83b4716e0557c168854a9dcdb8 # v3.4.1
         with:

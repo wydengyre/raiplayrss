@@ -1,4 +1,5 @@
 import { strict as assert } from "node:assert";
+import { writeFile } from "node:fs/promises";
 import { Server, createServer } from "node:http";
 import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
@@ -95,7 +96,6 @@ async function rssFeedSuccess() {
 			servers.raiServerPort.toString(10),
 		);
 	}
-
 	assert.deepStrictEqual(parsedFeed, expectedJsonCopy);
 }
 
