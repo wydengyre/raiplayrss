@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "description": "",
 	"private": true,
-	"workspaces": ["./rai", "./server", "./cf"],
+	"workspaces": ["packages/*"],
   "scripts": {
-    "ci-lint": "biome ci rai server cf",
-    "lint": "biome check --apply rai server cf"
+    "ci-lint": "biome ci .",
+    "lint": "biome check --apply ."
   },
   "author": "",
   "license": "ISC",
