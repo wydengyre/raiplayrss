@@ -1,5 +1,4 @@
 import { strict as assert } from "node:assert";
-import { writeFile } from "node:fs/promises";
 import { Server, createServer } from "node:http";
 import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
@@ -187,7 +186,7 @@ class Servers {
 		};
 
 		const experimental = { disableExperimentalWarning: true };
-		const worker = await unstable_dev("cf/worker.ts", {
+		const worker = await unstable_dev("worker.ts", {
 			// uncomment for help debugging
 			// logLevel,
 			experimental,
