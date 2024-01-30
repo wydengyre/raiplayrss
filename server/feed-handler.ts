@@ -1,5 +1,5 @@
 import { createResponse } from "itty-router";
-import { convertFeed } from "../rai/feed.js";
+import { feedToRss } from "../rai/feed.js";
 import { FetchWithErr, NotOk } from "../rai/fetch.js";
 import { Logger } from "./logger.js";
 
@@ -19,7 +19,7 @@ async function feedHandler(conf: Config, request: Request): Promise<Response> {
 
 	let feedXml: string;
 	try {
-		feedXml = await convertFeed(conf, jsonPath);
+		feedXml = await feedToRss(conf, jsonPath);
 	} catch (e) {
 		conf.logger.error("error converting feed", jsonPath, e);
 		const contentType = "application/xml";
