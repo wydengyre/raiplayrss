@@ -1,6 +1,6 @@
-import { Router, createResponse, error, html, text } from "itty-router";
-import { mkFetchWithErr } from "../rai/fetch.js";
-import { genresHtml } from "../rai/genres.js";
+import { mkFetchWithErr } from "@raiplayrss/rai/fetch.js";
+import { genresHtml } from "@raiplayrss/rai/genres.js";
+import { Router, error, html } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
 import { Logger } from "./logger.js";
 

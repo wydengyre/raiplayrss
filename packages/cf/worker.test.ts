@@ -2,11 +2,11 @@ import { strict as assert } from "node:assert";
 import { Server, createServer } from "node:http";
 import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
+import genresJson from "@raiplayrss/rai/test/generi.json" with { type: "json" };
+import { assertItalian } from "@raiplayrss/server/test/headers.js";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, RouterType, error, json } from "itty-router";
 import { UnstableDevWorker, unstable_dev } from "wrangler";
-import genresJson from "../rai/test/generi.json" with { type: "json" };
-import { assertItalian } from "../server/test/headers.js";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
