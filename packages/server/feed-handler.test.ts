@@ -1,12 +1,12 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
-import { json } from "itty-router";
-import { FetchWithErr, NotOk, OkResponse } from "../rai/fetch.js";
-import genresJson from "../rai/test/generi.json";
-import feedJson from "../rai/test/lastoriaingiallo.json";
-import expectedJson from "../rai/test/lastoriaingiallo.parsed.json" with {
+import { FetchWithErr, NotOk, OkResponse } from "@raiplayrss/rai/fetch.js";
+import genresJson from "@raiplayrss/rai/test/generi.json";
+import feedJson from "@raiplayrss/rai/test/lastoriaingiallo.json";
+import expectedJson from "@raiplayrss/rai/test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
+import { json } from "itty-router";
 import { parseFeed } from "../rai/test/parse-feed.js";
 import { feedHandler } from "./feed-handler.js";
 import * as logger from "./logger.js";

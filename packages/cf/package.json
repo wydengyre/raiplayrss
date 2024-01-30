@@ -1,5 +1,5 @@
 {
-	"name": "cf",
+	"name": "@raiplayrss/cf",
 	"version": "0.0.0",
 	"description": "",
 	"private": true,
@@ -21,6 +21,10 @@
 		"@types/node": "^20.11.10",
 		"tsx": "^4.7.0",
 		"typescript": "^5.3.3",
-		"wrangler": "^3.25.0"
+		"wrangler": "^3.25.0",
+		"@raiplayrss/rai": "*"
+	},
+	"dependencies": {
+		"@raiplayrss/server": "*"
 	}
 }

@@ -4,6 +4,6 @@
 	"compilerOptions": {
 		"types": ["node"]
 	},
-	"include": ["*.test.ts", "declarations.d.ts"],
+	"include": ["*.test.ts", "test/*.ts"],
 	"exclude": []
 }
