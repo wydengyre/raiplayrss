@@ -4,7 +4,7 @@ import { Podcast } from "../build/podcast/index.js";
 import { FetchWithErr } from "./fetch.js";
 import * as media from "./media.js";
 
-export { ConvertConf, convertFeed };
+export { RssConvertConf, feedToRss };
 
 const cardSchema = z.object({
 	episode_title: z.string(),
@@ -30,15 +30,15 @@ const schema = z.object({
 	}),
 });
 
-type ConvertConf = {
+type RssConvertConf = {
 	raiBaseUrl: URL;
 	baseUrl: URL;
 	poolSize: number;
 	fetchWithErr: FetchWithErr;
 };
-async function convertFeed(c: ConvertConf, relUrl: string): Promise<string> {
+async function feedToRss(c: RssConvertConf, relUrl: string): Promise<string> {
 	const fetchInfo = media.mkFetchInfo(c.fetchWithErr);
-	const convertor = new Convertor({
+	const convertor = new RssConvertor({
 		raiBaseUrl: c.raiBaseUrl,
 		poolSize: c.poolSize,
 		fetchInfo,
@@ -49,18 +49,18 @@ async function convertFeed(c: ConvertConf, relUrl: string): Promise<string> {
 	return convertor.convert(json);
 }
 
-type ConvertorConf = {
+type RssConvertorConf = {
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetchInfo: media.FetchInfo;
 };
 
-class Convertor {
+class RssConvertor {
 	readonly #raiBaseUrl: URL;
 	readonly #poolSize: number;
 	readonly #fetchInfo: media.FetchInfo;
 
-	constructor({ raiBaseUrl, poolSize, fetchInfo }: ConvertorConf) {
+	constructor({ raiBaseUrl, poolSize, fetchInfo }: RssConvertorConf) {
 		this.#raiBaseUrl = raiBaseUrl;
 		this.#poolSize = poolSize;
 		this.#fetchInfo = fetchInfo;
