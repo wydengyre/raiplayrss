@@ -39,7 +39,8 @@ async function renderGenres(baseUrl: URL, json: unknown): Promise<string> {
 	}
 	const gs = parseResult.data;
 
-	return `<div class="genre">
+	return `<meta charset="UTF-8">
+	<div class="genre">
 			<h1>Genres</h1>
 			<div class="genre-list">
 				${gs.block.cards
