@@ -1,6 +1,6 @@
+import { feedToRss } from "@raiplayrss/rai/feed.js";
+import { FetchWithErr, NotOk } from "@raiplayrss/rai/fetch.js";
 import { createResponse } from "itty-router";
-import { feedToRss } from "../rai/feed.js";
-import { FetchWithErr, NotOk } from "../rai/fetch.js";
 import { Logger } from "./logger.js";
 
 export { Config, feedHandler };
