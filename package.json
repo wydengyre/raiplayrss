@@ -3,16 +3,15 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "build-podcast": "tsx --tsconfig ./tools/tsconfig.json tools/build-podcast.ts",
     "clean": "rm -rf dist",
     "check": "npm run lint && npm run typecheck",
-    "ci": "npm run build-podcast && npm run ci-check && npm run test",
+    "ci": "npm run ci-check && npm run test",
     "ci-check": "npm run ci-lint && npm run typecheck",
-    "ci-lint": "biome ci rai server cf tools",
+    "ci-lint": "biome ci rai server cf",
     "deploy": "wrangler -c cf/wrangler.toml --env prod deploy",
     "deploy-preview": "wrangler -c cf/wrangler.toml deploy --dry-run --outdir '../dist'",
     "dev": "wrangler -c cf/wrangler.toml dev",
-    "lint": "biome check --apply rai server cf tools",
+    "lint": "biome check --apply rai server cf",
     "test": "npm run test-rai && npm run test-server && npm run test-cf",
     "test-cf": "tsx --tsconfig ./cf/tsconfig.json --test 'cf/**/*.test.ts'",
 		"test-cf-only": "tsx --tsconfig ./cf/tsconfig.json --test --test-only 'cf/**/*.test.ts'",
@@ -20,9 +19,9 @@
 		"test-server-only": "tsx --tsconfig ./server/tsconfig.json --test --test-only 'server/**/*.test.ts'",
 		"test-rai": "tsx --tsconfig ./rai/tsconfig.json --test 'rai/**/*.test.ts'",
 		"test-rai-only": "tsx --tsconfig ./rai/tsconfig.json --test --test-only 'rai/**/*.test.ts'",
-    "typecheck": "concurrently \"npm run typecheck-rai\" \"npm run typecheck-server\" \"npm run typecheck-cf\" \"npm run typecheck-tools\"",
+    "typecheck": "concurrently \"npm run typecheck-rai\" \"npm run typecheck-server\" \"npm run typecheck-cf\"",
     "//": "the output from typecheck can be hard to read, so we run them serially to make it easier",
-    "typecheck-serial": "npm run typecheck-rai && npm run typecheck-server && npm run typecheck-cf && npm run typecheck-tools",
+    "typecheck-serial": "npm run typecheck-rai && npm run typecheck-server && npm run typecheck-cf",
     "typecheck-cf": "npm run typecheck-cf-prod && npm run typecheck-cf-test",
     "typecheck-cf-prod": "tsc --project cf/tsconfig.json",
     "typecheck-cf-test": "tsc --project cf/tsconfig.test.json",
@@ -31,8 +30,7 @@
     "typecheck-server-test": "tsc --project server/tsconfig.test.json",
 		"typecheck-rai": "npm run typecheck-rai-prod && npm run typecheck-rai-test",
 		"typecheck-rai-prod": "tsc --project rai/tsconfig.json",
-		"typecheck-rai-test": "tsc --project rai/tsconfig.test.json",
-    "typecheck-tools": "tsc --project tools/tsconfig.json"
+		"typecheck-rai-test": "tsc --project rai/tsconfig.test.json"
   },
   "author": "",
   "license": "ISC",
@@ -45,8 +43,6 @@
     "@types/node": "^20.11.10",
     "@whatwg-node/server": "^0.9.24",
     "concurrently": "^8.2.2",
-    "esbuild": "0.20.0",
-    "esbuild-plugin-polyfill-node": "0.3.0",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
     "wrangler": "^3.25.0"
@@ -54,7 +50,6 @@
   "dependencies": {
     "@supercharge/promise-pool": "^3.1.0",
     "itty-router": "^4.0.27",
-    "podcast": "^2.0.1",
     "zod": "^3.22.4"
   }
 }

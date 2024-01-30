@@ -4,10 +4,7 @@
 		"description": "Una ricostruzione sceneggiata catapulta l'ascoltatore sulla scena del delitto, sul quale criminologi, psichiatri e storici cercano di far luce per svelarne il mistero. Delitti diversi per dinamiche, movente, ambiente, quindi delitti passionali, politici, di serial killer o delitti in famiglia. Ma anche misteri, storie di follia e tragici destini. Andato in onda su Rai Radio 3 dal 2002 al 2010, La storia in giallo è un programma ideato e condotto da Antonella Ferrera.",
 		"explicit": false,
 		"funding": [],
-		"generator": "Podcast for Node",
 		"imageURL": "https://rai.dev/dl/img/2024/01/11/1704978749483_La%20storia%20in%20giallo-2048x2048.jpg",
-		"link": "http://github.com/dylang/node-rss",
-		"owner": { "name": "", "email": "" },
 		"summary": "Una ricostruzione sceneggiata catapulta l'ascoltatore sulla scena del delitto, sul quale criminologi, psichiatri e storici cercano di far luce per svelarne il mistero. Delitti diversi per dinamiche, movente, ambiente, quindi delitti passionali, politici, di serial killer o delitti in famiglia. Ma anche misteri, storie di follia e tragici destini. Andato in onda su Rai Radio 3 dal 2002 al 2010, La storia in giallo è un programma ideato e condotto da Antonella Ferrera.",
 		"title": "La storia in giallo",
 		"value": null
