@@ -1,5 +1,5 @@
 .idea
 *.iml
 node_modules
-cf/.wrangler
-cf/dist
+packages/cf/.wrangler
+packages/cf/dist

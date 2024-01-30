@@ -10,7 +10,7 @@
 		}
 	},
 	"files": {
-		"include": ["*.json", "rai/**/*.ts", "rai/**/*.json", "server/**/*.ts", "server/**/*.json", "cf/**/*.ts", "cf/**/*.json"],
-		"ignore": ["cf/.wrangler"]
+		"include": ["*.json", "packages/**/*.ts", "packages/**/*.json"],
+		"ignore": ["packages/cf/.wrangler"]
 	}
 }

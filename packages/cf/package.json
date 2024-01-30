@@ -7,8 +7,8 @@
 		"deploy": "wrangler --env prod deploy",
 		"deploy-preview": "wrangler deploy --dry-run --outdir dist",
 
-		"test": "tsx --tsconfig ./tsconfig.json --test '**/*.test.ts'",
-		"test-only": "tsx --tsconfig ./tsconfig.json --test --test-only '**/*.test.ts'",
+		"test": "tsx --tsconfig tsconfig.json --test '**/*.test.ts'",
+		"test-only": "tsx --tsconfig tsconfig.json --test --test-only '**/*.test.ts'",
 
 		"typecheck": "npm run typecheck-prod && npm run typecheck-test",
 		"typecheck-prod": "tsc",
