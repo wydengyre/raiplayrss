@@ -2,54 +2,16 @@
   "name": "raiplayrss",
   "version": "0.0.0",
   "description": "",
+	"private": true,
+	"workspaces": ["./rai", "./server", "./cf"],
   "scripts": {
-    "clean": "rm -rf dist",
-    "check": "npm run lint && npm run typecheck",
-    "ci": "npm run ci-check && npm run test",
-    "ci-check": "npm run ci-lint && npm run typecheck",
     "ci-lint": "biome ci rai server cf",
-    "deploy": "wrangler -c cf/wrangler.toml --env prod deploy",
-    "deploy-preview": "wrangler -c cf/wrangler.toml deploy --dry-run --outdir '../dist'",
-    "dev": "wrangler -c cf/wrangler.toml dev",
-    "lint": "biome check --apply rai server cf",
-    "test": "npm run test-rai && npm run test-server && npm run test-cf",
-    "test-cf": "tsx --tsconfig ./cf/tsconfig.json --test 'cf/**/*.test.ts'",
-		"test-cf-only": "tsx --tsconfig ./cf/tsconfig.json --test --test-only 'cf/**/*.test.ts'",
-    "test-server": "tsx --tsconfig ./server/tsconfig.json --test 'server/**/*.test.ts'",
-		"test-server-only": "tsx --tsconfig ./server/tsconfig.json --test --test-only 'server/**/*.test.ts'",
-		"test-rai": "tsx --tsconfig ./rai/tsconfig.json --test 'rai/**/*.test.ts'",
-		"test-rai-only": "tsx --tsconfig ./rai/tsconfig.json --test --test-only 'rai/**/*.test.ts'",
-    "typecheck": "concurrently \"npm run typecheck-rai\" \"npm run typecheck-server\" \"npm run typecheck-cf\"",
-    "//": "the output from typecheck can be hard to read, so we run them serially to make it easier",
-    "typecheck-serial": "npm run typecheck-rai && npm run typecheck-server && npm run typecheck-cf",
-    "typecheck-cf": "npm run typecheck-cf-prod && npm run typecheck-cf-test",
-    "typecheck-cf-prod": "tsc --project cf/tsconfig.json",
-    "typecheck-cf-test": "tsc --project cf/tsconfig.test.json",
-    "typecheck-server": "npm run typecheck-server-prod && npm run typecheck-server-test",
-    "typecheck-server-prod": "tsc --project server/tsconfig.json",
-    "typecheck-server-test": "tsc --project server/tsconfig.test.json",
-		"typecheck-rai": "npm run typecheck-rai-prod && npm run typecheck-rai-test",
-		"typecheck-rai-prod": "tsc --project rai/tsconfig.json",
-		"typecheck-rai-test": "tsc --project rai/tsconfig.test.json"
+    "lint": "biome check --apply rai server cf"
   },
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
-    "@cloudflare/workers-types": "^4.20240129.0",
-    "@podverse/podcast-feed-parser": "^1.1.1",
-    "@tsconfig/node21": "^21.0.1",
-    "@types/node": "^20.11.10",
-    "@whatwg-node/server": "^0.9.24",
-    "concurrently": "^8.2.2",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.3",
-    "wrangler": "^3.25.0"
-  },
-  "dependencies": {
-    "@supercharge/promise-pool": "^3.1.0",
-    "itty-router": "^4.0.27",
-    "zod": "^3.22.4"
+    "@biomejs/biome": "1.5.3"
   }
 }
