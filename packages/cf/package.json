@@ -18,7 +18,7 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20240129.0",
 		"@podverse/podcast-feed-parser": "^1.1.1",
-		"@types/node": "^20.11.10",
+		"@types/node": "^20.11.13",
 		"tsx": "^4.7.0",
 		"typescript": "^5.3.3",
 		"wrangler": "^3.25.0",
