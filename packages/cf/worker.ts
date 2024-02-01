@@ -1,5 +1,5 @@
-import { mkFetchHandler } from "../server/handler.js";
-import * as logger from "../server/logger.js";
+import { mkFetchHandler } from "@raiplayrss/server/handler.js";
+import * as logger from "@raiplayrss/server/logger.js";
 
 export default (<ExportedHandler<Env>>{
 	fetch: (request, env, _ctx) => {
