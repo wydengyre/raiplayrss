@@ -16,13 +16,12 @@ const mkFetchWithErr =
 	(fetchFn: typeof fetch): FetchWithErr =>
 	async (input, init) => {
 		const res = await fetchFn(input, init);
-		if (!res.ok) {
+		if (!isOk(res)) {
 			// maybe we should use the url from the response?
 			const url = new URL(input.toString());
 			throw new NotOk(url, res.status, res.statusText);
 		}
-		// this assertion really shouldn't be necessary...
-		return res as OkResponse;
+		return res;
 	};
 
 /**
@@ -45,4 +44,8 @@ class NotOk extends Error {
 		this.status = status;
 		this.statusText = statusText;
 	}
+}
+
+function isOk(res: Response): res is OkResponse {
+	return res.ok;
 }
