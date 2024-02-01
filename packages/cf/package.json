@@ -21,7 +21,7 @@
 		"@types/node": "^20.11.14",
 		"tsx": "^4.7.0",
 		"typescript": "^5.3.3",
-		"wrangler": "^3.25.0",
+		"wrangler": "^3.26.0",
 		"@raiplayrss/rai": "*"
 	},
 	"dependencies": {
