@@ -26,5 +26,6 @@ async function fetchInfoSuccess() {
 	assert.deepStrictEqual(info, {
 		url: mediaUrl,
 		size: 123456789,
+		type: "audio/mpeg",
 	});
 }
