@@ -9,6 +9,7 @@ type MediaUrl = URL;
 type MediaInfo = {
 	url: URL;
 	size: number;
+	type: string;
 };
 
 const relinkerRe = /^\?cont=[a-zA-Z0-9]+$/;
@@ -32,21 +33,18 @@ const mkFetchInfo =
 		};
 		const resp = await fetchWithErr(url, chromeHeadInit);
 
-		const expectedContentType = "audio/mpeg";
-		const contentType = resp.headers.get("content-type");
-		if (contentType !== expectedContentType) {
-			throw new Error(
-				`Invalid content type: ${contentType}, wanted ${expectedContentType}`,
-			);
-		}
-
 		const contentLength = resp.headers.get("content-length");
 		const length = Number(contentLength);
 		if (Number.isNaN(length)) {
 			throw new Error(`Invalid content length: ${contentLength}`);
 		}
 
-		return { url: new URL(resp.url), size: length };
+		const type = resp.headers.get("content-type");
+		if (type === null) {
+			throw new Error("Missing content type");
+		}
+
+		return { url: new URL(resp.url), size: length, type };
 	};
 
 function mkMediaUrl(urlStr: string): MediaUrl | string {

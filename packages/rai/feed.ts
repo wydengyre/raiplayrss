@@ -90,7 +90,7 @@ class RssConvertor {
 		const podcast: Podcast = {
 			title: feed.title,
 			description: feed.podcast_info.description,
-			// TODO: maybe this podcasts have this info?
+			// TODO: maybe the podcasts have this info?
 			language: "it",
 			image,
 			items: results,
@@ -111,6 +111,7 @@ class RssConvertor {
 			url: mediaInfo.url,
 			length: mediaInfo.size,
 			image,
+			contentType: mediaInfo.type,
 		};
 	}
 }
@@ -132,6 +133,7 @@ type PodcastItem = {
 	url: URL;
 	length: number;
 	image: URL;
+	contentType: string;
 };
 
 function podcastRss(p: Podcast): string {
@@ -158,7 +160,7 @@ function itemRss(pi: PodcastItem): string {
 			<description>${cdata(pi.description)}</description>
 			<guid isPermaLink="false">${pi.guid}</guid>
 			<pubDate>${pi.pubDate.toUTCString()}</pubDate>
-			<enclosure url="${pi.url}" length="${pi.length}" type="audio/mpeg"/>
+			<enclosure url="${pi.url}" length="${pi.length}" type="${pi.contentType}"/>
 			<itunes:summary>${cdata(pi.description)}</itunes:summary>
 			<itunes:explicit>false</itunes:explicit>
 			<itunes:image href="${pi.image}"/>
