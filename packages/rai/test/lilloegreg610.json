@@ -1,0 +1,4918 @@
+{
+	"page_updated": {
+		"date": "22 Febbraio 2024",
+		"hour": "20:05"
+	},
+	"uniquename": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+	"title": "Lillo e Greg 610",
+	"podcast_info": {
+		"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+		"type": "RaiPlaySound Programma Item",
+		"create_date": "11-09-2020",
+		"create_time": "04:36",
+		"year": "2020",
+		"date_tracking": "2020-09-11",
+		"title": "Lillo e Greg 610",
+		"description": "Gag esilaranti, quiz assurdi, rubriche pazze e molto di più! Il programma di Lillo e Greg vi propone la sua ricetta umoristica unica, a base di sketch surreali e ironia nonsense. Da quest'anno potete vederli anche su RaiPlay sempre affiancati nella conduzione da Carolina Di Domenico. Vi terranno compagnia ogni giorno con Trailer, spot, radiodrammi e una galleria di personaggi inimitabile: dal Grande Capo Estiqaatsi al campione di Calabrese Estremo Pasquale Dianomarina, passando per l'incomprensibile Arnoldo Fogazzari. Cosa aspettate a sintonizzarvi? È bello per davvero, è 610! In redazione: Laura Zullo e Maria Vittoria Scartozzi Autore: Valerio Lundini Regia: Danilo Paoni A cura di Roberto Deidda ",
+		"onair_date": "Il sabato e la domenica dalle 10.35 alle 12.00",
+		"images": {
+			"landscape": "/dl/img/2021/12/15/1639606199484_LilloeGreg610_2048x1152.jpg",
+			"landscape_43_logo": "/dl/img/2023/12/18/1702890391210_Lillo%20e%20Greg%20610-LOGO-DAB-2048x1536.jpg",
+			"landscape_logo": "/dl/img/2023/12/15/1702635180158_Lillo%20e%20Greg%20610_logo_2048x1152.jpg",
+			"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+			"square_external": null
+		},
+		"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+		"hex_color": "#0d0606",
+		"weblink": "/programmi/lilloegreg610",
+		"path_id": "/programmi/lilloegreg610.json",
+		"channel": {
+			"name": "Rai Radio 2",
+			"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+			"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+			"category_path": "radio2",
+			"palinsesto_url": "rai-radio-2",
+			"palinsesto_name": "Radio 2",
+			"hex_color": "#e61c23"
+		},
+		"typology": "Programmi radio",
+		"genres": [
+			{
+				"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+				"name": "Intrattenimento",
+				"pipe": "Intrattenimento|Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+				"principal": true
+			},
+			{
+				"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+				"name": "Comico",
+				"pipe": "Comico|Category-2d4e5552-f295-4be5-8941-988f6cce6a7f"
+			}
+		],
+		"subgenres": [
+			{
+				"id": "Category-3e930755-badf-4c19-9ba8-5abf3d1ddad8",
+				"name": "Comico",
+				"pipe": "Comico|Category-3e930755-badf-4c19-9ba8-5abf3d1ddad8",
+				"principal": true
+			},
+			{
+				"id": "Category-f2f71a4c-53c7-49cd-a4bd-a5752e34fdc5",
+				"name": "Intrattenimento",
+				"pipe": "Intrattenimento|Category-f2f71a4c-53c7-49cd-a4bd-a5752e34fdc5"
+			},
+			{
+				"id": "Category-d96a124f-b609-4638-a026-287085755d73",
+				"name": "Parodia",
+				"pipe": "Parodia|Category-d96a124f-b609-4638-a026-287085755d73"
+			}
+		],
+		"editor": "Rai Radio 2",
+		"socials": [],
+		"contacts": {
+			"email": "610@rai.it",
+			"phone_number": null,
+			"sms": null,
+			"whatsapp": null,
+			"newsletter": null
+		},
+		"people": [
+			{
+				"image": "/dl/img/2017/12/06/1512564502165_Lillo.png",
+				"name": "Lillo",
+				"type": "RaiPlaySound Personaggio Item",
+				"uniquename": "ContentItem-13ffbf4b-877e-453a-af62-ec55af0d4b52",
+				"role": "conduttore"
+			},
+			{
+				"image": "/dl/img/2017/12/06/1512564864545_Greg.png",
+				"name": "Greg",
+				"type": "RaiPlaySound Personaggio Item",
+				"uniquename": "ContentItem-b5c6b421-d86f-4fa0-a793-7d9a0fd06755",
+				"role": "conduttore"
+			},
+			{
+				"image": "/dl/img/2017/12/11/1512996709646_Carolina-Di-Domenico.png",
+				"name": "Carolina Di Domenico",
+				"type": "RaiPlaySound Personaggio Item",
+				"uniquename": "ContentItem-c2a148ba-4588-4de8-a994-aab82c4c3675",
+				"role": "conduttore"
+			}
+		],
+		"metadata": {
+			"product_sources": [
+				{
+					"id": "Category-4cbb5b4e-f80d-4017-9cc0-f3e7f5cb9437",
+					"name": "Messa in onda Radio",
+					"pipe": "Messa in onda Radio|Category-4cbb5b4e-f80d-4017-9cc0-f3e7f5cb9437",
+					"principal": true
+				}
+			],
+			"targets": [],
+			"school_levels": [],
+			"languages": [],
+			"audiodescription": []
+		},
+		"adv": true,
+		"noroll": false,
+		"nobanner": false,
+		"nofloorad": false,
+		"nodmp": false,
+		"play_inverted": true,
+		"layout": "multi",
+		"seriale": false,
+		"dfp": {
+			"escaped_name": "LilloeGreg610",
+			"label": "intra",
+			"escaped_genres": [
+				{
+					"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+					"name": "Intrattenimento"
+				},
+				{
+					"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+					"name": "Comico"
+				}
+			],
+			"escaped_typology": [
+				{
+					"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+					"name": "Programmiradio"
+				}
+			]
+		}
+	},
+	"tab_menu": [
+		{
+			"content_type": "episodi",
+			"label": "Episodi",
+			"weblink": "/programmi/lilloegreg610",
+			"path_id": "/programmi/lilloegreg610.json",
+			"sub_type": "RaiPlaySound Puntate Block",
+			"active": true
+		},
+		{
+			"content_type": "playlist",
+			"label": "Playlist",
+			"weblink": "/programmi/lilloegreg610/playlist",
+			"path_id": "/programmi/lilloegreg610/playlist.json",
+			"sub_type": "RaiPlaySound Contenitore Playlist Block",
+			"active": false
+		}
+	],
+	"block": {
+		"uniquename": "PublishingBlock-8eb06a48-04d3-4d25-adbc-12294661145c",
+		"title": "Puntate",
+		"type": "RaiPlaySound Puntate Block",
+		"content_type": "episodi",
+		"create_date": "11-09-2020 04:36:33",
+		"update_date": "08-09-2023 08:32:21",
+		"path": "puntate",
+		"cards": [
+			{
+				"uniquename": "ContentItem-936396af-af29-4a4c-80dc-0b894636531a",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "18-02-2024",
+				"create_time": "12:43",
+				"title": "Lillo e Greg 610 del 18/02/2024",
+				"toptitle": "Lillo e Greg 610 del 18/02/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò e Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 18/02/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 18/02/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=oQTCL27O4ssSlashN79ZChbMnWbweeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:18:46"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/02/Lillo-e-Greg-610-del-18022024-936396af-af29-4a4c-80dc-0b894636531a.html",
+				"path_id": "/audio/2024/02/Lillo-e-Greg-610-del-18022024-936396af-af29-4a4c-80dc-0b894636531a.json",
+				"literal_publication_date": "18 Feb 2024",
+				"literal_duration": "78 min",
+				"duration_small_format": "1:18:46",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-936396af-af29-4a4c-80dc-0b894636531a",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 18/02/2024",
+					"channel": "rai radio 2",
+					"date": "2024-02-18",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 18/02/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 18/02/2024 - ContentItem-936396af-af29-4a4c-80dc-0b894636531a",
+					"page_url": "/audio/2024/02/Lillo-e-Greg-610-del-18022024-936396af-af29-4a4c-80dc-0b894636531a.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-d9f85e09-9196-49ff-98a3-4623883c3564",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-02-2024",
+				"create_time": "12:08",
+				"title": "Lillo e Greg 610 del 17/02/2024",
+				"toptitle": "Lillo e Greg 610 del 17/02/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò e Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 17/02/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 17/02/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=nO7ssSlashmzuouaIkWSA2RmJqvAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:13:29"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/02/Lillo-e-Greg-610-del-17022024-d9f85e09-9196-49ff-98a3-4623883c3564.html",
+				"path_id": "/audio/2024/02/Lillo-e-Greg-610-del-17022024-d9f85e09-9196-49ff-98a3-4623883c3564.json",
+				"literal_publication_date": "17 Feb 2024",
+				"literal_duration": "73 min",
+				"duration_small_format": "1:13:29",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-d9f85e09-9196-49ff-98a3-4623883c3564",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 17/02/2024",
+					"channel": "rai radio 2",
+					"date": "2024-02-17",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 17/02/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 17/02/2024 - ContentItem-d9f85e09-9196-49ff-98a3-4623883c3564",
+					"page_url": "/audio/2024/02/Lillo-e-Greg-610-del-17022024-d9f85e09-9196-49ff-98a3-4623883c3564.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-2156b46a-a462-49b3-b6ba-641497b76b39",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "11-02-2024",
+				"create_time": "12:06",
+				"title": "Lillo e Greg 610 del 11/02/2024",
+				"toptitle": "Lillo e Greg 610 del 11/02/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610  di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò e Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 11/02/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 11/02/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=cFqpPpPlusstL6tca6iztA3PiQXNQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:16:29"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/02/Lillo-e-Greg-610-del-11022024-2156b46a-a462-49b3-b6ba-641497b76b39.html",
+				"path_id": "/audio/2024/02/Lillo-e-Greg-610-del-11022024-2156b46a-a462-49b3-b6ba-641497b76b39.json",
+				"literal_publication_date": "11 Feb 2024",
+				"literal_duration": "76 min",
+				"duration_small_format": "1:16:29",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-2156b46a-a462-49b3-b6ba-641497b76b39",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 11/02/2024",
+					"channel": "rai radio 2",
+					"date": "2024-02-11",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 11/02/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 11/02/2024 - ContentItem-2156b46a-a462-49b3-b6ba-641497b76b39",
+					"page_url": "/audio/2024/02/Lillo-e-Greg-610-del-11022024-2156b46a-a462-49b3-b6ba-641497b76b39.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-ad95dcd5-8045-48bc-b250-9433a643c201",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "10-02-2024",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 10/02/2024",
+				"toptitle": "Lillo e Greg 610 del 10/02/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610  di Lillo e Greg  Con Carolina Di Domenico in diretta da Sanremo Regia di Danilo Paoni A cura di Angelica Scianò e Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 10/02/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 10/02/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=iYn57srP9Dulv2oo6QQSZAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:15:50"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/02/Lillo-e-Greg-610-del-10022024-ad95dcd5-8045-48bc-b250-9433a643c201.html",
+				"path_id": "/audio/2024/02/Lillo-e-Greg-610-del-10022024-ad95dcd5-8045-48bc-b250-9433a643c201.json",
+				"literal_publication_date": "10 Feb 2024",
+				"literal_duration": "75 min",
+				"duration_small_format": "1:15:50",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-ad95dcd5-8045-48bc-b250-9433a643c201",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 10/02/2024",
+					"channel": "rai radio 2",
+					"date": "2024-02-10",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 10/02/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 10/02/2024 - ContentItem-ad95dcd5-8045-48bc-b250-9433a643c201",
+					"page_url": "/audio/2024/02/Lillo-e-Greg-610-del-10022024-ad95dcd5-8045-48bc-b250-9433a643c201.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-9baedb65-fd2c-4854-92e0-6a80d71e1e5a",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "04-02-2024",
+				"create_time": "12:03",
+				"title": "Lillo e Greg 610 del 04/02/2024",
+				"toptitle": "Lillo e Greg 610 del 04/02/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò e Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 04/02/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 04/02/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=orqDeeXwTY1wDIzwBF1JQAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:15:37"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/02/Lillo-e-Greg-610-del-04022024-9baedb65-fd2c-4854-92e0-6a80d71e1e5a.html",
+				"path_id": "/audio/2024/02/Lillo-e-Greg-610-del-04022024-9baedb65-fd2c-4854-92e0-6a80d71e1e5a.json",
+				"literal_publication_date": "04 Feb 2024",
+				"literal_duration": "75 min",
+				"duration_small_format": "1:15:37",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-9baedb65-fd2c-4854-92e0-6a80d71e1e5a",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 04/02/2024",
+					"channel": "rai radio 2",
+					"date": "2024-02-04",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 04/02/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 04/02/2024 - ContentItem-9baedb65-fd2c-4854-92e0-6a80d71e1e5a",
+					"page_url": "/audio/2024/02/Lillo-e-Greg-610-del-04022024-9baedb65-fd2c-4854-92e0-6a80d71e1e5a.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-4ffd05cf-dd4e-4300-b155-51b5ae5890e0",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "03-02-2024",
+				"create_time": "12:16",
+				"title": "Lillo e Greg 610 del 03/02/2024",
+				"toptitle": "Lillo e Greg 610 del 03/02/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò e Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 03/02/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 03/02/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=qFXPqfmWIAKB9c4VudepPpPlussfgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:12:09"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/02/Lillo-e-Greg-610-del-03022024-4ffd05cf-dd4e-4300-b155-51b5ae5890e0.html",
+				"path_id": "/audio/2024/02/Lillo-e-Greg-610-del-03022024-4ffd05cf-dd4e-4300-b155-51b5ae5890e0.json",
+				"literal_publication_date": "03 Feb 2024",
+				"literal_duration": "72 min",
+				"duration_small_format": "1:12:09",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-4ffd05cf-dd4e-4300-b155-51b5ae5890e0",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 03/02/2024",
+					"channel": "rai radio 2",
+					"date": "2024-02-03",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 03/02/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 03/02/2024 - ContentItem-4ffd05cf-dd4e-4300-b155-51b5ae5890e0",
+					"page_url": "/audio/2024/02/Lillo-e-Greg-610-del-03022024-4ffd05cf-dd4e-4300-b155-51b5ae5890e0.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-5bb3d6d1-1cd4-4c83-9600-4569468182b3",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "28-01-2024",
+				"create_time": "12:10",
+				"title": "Lillo e Greg 610 del 28/01/2024",
+				"toptitle": "Lillo e Greg 610 del 28/01/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò e Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 28/01/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 28/01/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=8qAAzH0UBoQuo4jhQ9eusweeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:18:16"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/01/Lillo-e-Greg-610-del-28012024-5bb3d6d1-1cd4-4c83-9600-4569468182b3.html",
+				"path_id": "/audio/2024/01/Lillo-e-Greg-610-del-28012024-5bb3d6d1-1cd4-4c83-9600-4569468182b3.json",
+				"literal_publication_date": "28 Gen 2024",
+				"literal_duration": "78 min",
+				"duration_small_format": "1:18:16",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-5bb3d6d1-1cd4-4c83-9600-4569468182b3",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 28/01/2024",
+					"channel": "rai radio 2",
+					"date": "2024-01-28",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 28/01/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 28/01/2024 - ContentItem-5bb3d6d1-1cd4-4c83-9600-4569468182b3",
+					"page_url": "/audio/2024/01/Lillo-e-Greg-610-del-28012024-5bb3d6d1-1cd4-4c83-9600-4569468182b3.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-eec291ff-ffef-468b-a29f-126c2d5fd252",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "27-01-2024",
+				"create_time": "12:04",
+				"title": "Lillo e Greg 610 del 27/01/2024",
+				"toptitle": "Lillo e Greg 610 del 27/01/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Roberto Deidda",
+				"episode_title": "Lillo e Greg 610 del 27/01/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 27/01/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=h7SX7buzxiwahRGbFzzd9weeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:14:43"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/01/Lillo-e-Greg-610-del-27012024-eec291ff-ffef-468b-a29f-126c2d5fd252.html",
+				"path_id": "/audio/2024/01/Lillo-e-Greg-610-del-27012024-eec291ff-ffef-468b-a29f-126c2d5fd252.json",
+				"literal_publication_date": "27 Gen 2024",
+				"literal_duration": "74 min",
+				"duration_small_format": "1:14:43",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-eec291ff-ffef-468b-a29f-126c2d5fd252",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 27/01/2024",
+					"channel": "rai radio 2",
+					"date": "2024-01-27",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 27/01/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 27/01/2024 - ContentItem-eec291ff-ffef-468b-a29f-126c2d5fd252",
+					"page_url": "/audio/2024/01/Lillo-e-Greg-610-del-27012024-eec291ff-ffef-468b-a29f-126c2d5fd252.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-fcf71cb6-2303-49f6-9ab3-f91b72a79ba2",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "21-01-2024",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 21/01/2024",
+				"toptitle": "Lillo e Greg 610 del 21/01/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 21/01/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 21/01/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=tCfCIuXzZpPpPlusscerOjUkl18lQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:15:52"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/01/Lillo-e-Greg-610-del-21012024-fcf71cb6-2303-49f6-9ab3-f91b72a79ba2.html",
+				"path_id": "/audio/2024/01/Lillo-e-Greg-610-del-21012024-fcf71cb6-2303-49f6-9ab3-f91b72a79ba2.json",
+				"literal_publication_date": "21 Gen 2024",
+				"literal_duration": "75 min",
+				"duration_small_format": "1:15:52",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-fcf71cb6-2303-49f6-9ab3-f91b72a79ba2",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 21/01/2024",
+					"channel": "rai radio 2",
+					"date": "2024-01-21",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 21/01/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 21/01/2024 - ContentItem-fcf71cb6-2303-49f6-9ab3-f91b72a79ba2",
+					"page_url": "/audio/2024/01/Lillo-e-Greg-610-del-21012024-fcf71cb6-2303-49f6-9ab3-f91b72a79ba2.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-80a8a2ef-00e9-4715-9f5e-4161664af34e",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "20-01-2024",
+				"create_time": "12:11",
+				"title": "Lillo e Greg 610 del 20/01/2024",
+				"toptitle": "Lillo e Greg 610 del 20/01/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 20/01/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 20/01/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=ebtgBALEZtNVbwB3LDF5jQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:08:16"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/01/Lillo-e-Greg-610-del-20012024-80a8a2ef-00e9-4715-9f5e-4161664af34e.html",
+				"path_id": "/audio/2024/01/Lillo-e-Greg-610-del-20012024-80a8a2ef-00e9-4715-9f5e-4161664af34e.json",
+				"literal_publication_date": "20 Gen 2024",
+				"literal_duration": "68 min",
+				"duration_small_format": "1:08:16",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-80a8a2ef-00e9-4715-9f5e-4161664af34e",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 20/01/2024",
+					"channel": "rai radio 2",
+					"date": "2024-01-20",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 20/01/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 20/01/2024 - ContentItem-80a8a2ef-00e9-4715-9f5e-4161664af34e",
+					"page_url": "/audio/2024/01/Lillo-e-Greg-610-del-20012024-80a8a2ef-00e9-4715-9f5e-4161664af34e.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-984272ab-85f3-4211-9bb4-7f44071427f4",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "14-01-2024",
+				"create_time": "12:26",
+				"title": "Lillo e Greg 610 del 14/01/2024",
+				"toptitle": "Lillo e Greg 610 del 14/01/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 14/01/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 14/01/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=WpfDKHKXTcWQCeZCrSzyWAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:16:27"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/01/Lillo-e-Greg-610-del-14012024-984272ab-85f3-4211-9bb4-7f44071427f4.html",
+				"path_id": "/audio/2024/01/Lillo-e-Greg-610-del-14012024-984272ab-85f3-4211-9bb4-7f44071427f4.json",
+				"literal_publication_date": "14 Gen 2024",
+				"literal_duration": "76 min",
+				"duration_small_format": "1:16:27",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-984272ab-85f3-4211-9bb4-7f44071427f4",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 14/01/2024",
+					"channel": "rai radio 2",
+					"date": "2024-01-14",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 14/01/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 14/01/2024 - ContentItem-984272ab-85f3-4211-9bb4-7f44071427f4",
+					"page_url": "/audio/2024/01/Lillo-e-Greg-610-del-14012024-984272ab-85f3-4211-9bb4-7f44071427f4.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-fabb7c24-d7a4-419a-ac43-314c031c8733",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "13-01-2024",
+				"create_time": "12:05",
+				"title": "Lillo e Greg 610 del 13/01/2024",
+				"toptitle": "Lillo e Greg 610 del 13/01/2024",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 13/01/2024",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 13/01/2024",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=6zXCVTclSeP5pI218JP95AeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:15:38"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/01/Lillo-e-Greg-610-del-13012024-fabb7c24-d7a4-419a-ac43-314c031c8733.html",
+				"path_id": "/audio/2024/01/Lillo-e-Greg-610-del-13012024-fabb7c24-d7a4-419a-ac43-314c031c8733.json",
+				"literal_publication_date": "13 Gen 2024",
+				"literal_duration": "75 min",
+				"duration_small_format": "1:15:38",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-fabb7c24-d7a4-419a-ac43-314c031c8733",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 13/01/2024",
+					"channel": "rai radio 2",
+					"date": "2024-01-13",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 13/01/2024",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 13/01/2024 - ContentItem-fabb7c24-d7a4-419a-ac43-314c031c8733",
+					"page_url": "/audio/2024/01/Lillo-e-Greg-610-del-13012024-fabb7c24-d7a4-419a-ac43-314c031c8733.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-639d4590-8030-4e41-844e-372465f577e3",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "03-01-2024",
+				"create_time": "11:25",
+				"title": "LILLO E GREG 610 DA VENT'ANNI",
+				"toptitle": "Lillo e Greg  610 da vent'anni",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg  610 da vent'anni dalla Sala Petrassi dell'Auditorium Parco della Musica di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg  610 da vent'anni",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "LILLO E GREG 610 DA VENT'ANNI",
+					"poster": "/dl/img/2024/01/03/1704277544738_LilloGreg610%20da%20ventanni-2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=1stooUg4jP71Cn5d8SiweAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "02:01:29"
+				},
+				"images": {
+					"square": "/dl/img/2024/01/03/1704277544738_LilloGreg610%20da%20ventanni-2048x2048.jpg",
+					"cover": "/dl/img/2024/01/03/1704277544737_LilloGreg610%20da%20ventanni-LOGO-2048x1152.jpg",
+					"landscape": "/dl/img/2024/01/03/1704277544737_LilloGreg610%20da%20ventanni-LOGO-2048x1152.jpg"
+				},
+				"image": "/dl/img/2024/01/03/1704277544738_LilloGreg610%20da%20ventanni-2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2024/01/LILLO-E-GREG-610-DA-VENTANNI-639d4590-8030-4e41-844e-372465f577e3.html",
+				"path_id": "/audio/2024/01/LILLO-E-GREG-610-DA-VENTANNI-639d4590-8030-4e41-844e-372465f577e3.json",
+				"literal_publication_date": "07 Gen 2024",
+				"literal_duration": "121 min",
+				"duration_small_format": "2:01:29",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-639d4590-8030-4e41-844e-372465f577e3",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2024",
+					"edit_year": "2024",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 da vent'anni",
+					"channel": "rai radio 2",
+					"date": "2024-01-07",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2024",
+					"season": "2024",
+					"episode_number": "",
+					"episode_title": "lillo e greg  610 da vent'anni",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg  610 da vent'anni - ContentItem-639d4590-8030-4e41-844e-372465f577e3",
+					"page_url": "/audio/2024/01/LILLO-E-GREG-610-DA-VENTANNI-639d4590-8030-4e41-844e-372465f577e3.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-f56f0666-8286-472b-866d-b77cb4434b78",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-12-2023",
+				"create_time": "12:08",
+				"title": "Lillo e Greg 610 del 17/12/2023",
+				"toptitle": "Lillo e Greg 610 del 17/12/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 17/12/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 17/12/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=ZC0Ooia086CHqMIJaJW4JQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:19:54"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/12/Lillo-e-Greg-610-del-17122023-f56f0666-8286-472b-866d-b77cb4434b78.html",
+				"path_id": "/audio/2023/12/Lillo-e-Greg-610-del-17122023-f56f0666-8286-472b-866d-b77cb4434b78.json",
+				"literal_publication_date": "17 Dic 2023",
+				"literal_duration": "79 min",
+				"duration_small_format": "1:19:54",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-f56f0666-8286-472b-866d-b77cb4434b78",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 17/12/2023",
+					"channel": "rai radio 2",
+					"date": "2023-12-17",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 17/12/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 17/12/2023 - ContentItem-f56f0666-8286-472b-866d-b77cb4434b78",
+					"page_url": "/audio/2023/12/Lillo-e-Greg-610-del-17122023-f56f0666-8286-472b-866d-b77cb4434b78.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-099b7b22-7059-41e2-9c52-7838937ea209",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "16-12-2023",
+				"create_time": "12:19",
+				"title": "Lillo e Greg 610 del 16/12/2023",
+				"toptitle": "Lillo e Greg 610 del 16/12/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 16/12/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 16/12/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=cQyUs9pPpPlussVoosXZnGpPpPlussNptGKAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:15:02"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/12/Lillo-e-Greg-610-del-16122023-099b7b22-7059-41e2-9c52-7838937ea209.html",
+				"path_id": "/audio/2023/12/Lillo-e-Greg-610-del-16122023-099b7b22-7059-41e2-9c52-7838937ea209.json",
+				"literal_publication_date": "16 Dic 2023",
+				"literal_duration": "75 min",
+				"duration_small_format": "1:15:02",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-099b7b22-7059-41e2-9c52-7838937ea209",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 16/12/2023",
+					"channel": "rai radio 2",
+					"date": "2023-12-16",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 16/12/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 16/12/2023 - ContentItem-099b7b22-7059-41e2-9c52-7838937ea209",
+					"page_url": "/audio/2023/12/Lillo-e-Greg-610-del-16122023-099b7b22-7059-41e2-9c52-7838937ea209.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-604d0df7-9a92-47d8-9bc9-7acd3771208c",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "10-12-2023",
+				"create_time": "12:11",
+				"title": "Lillo e Greg 610 del 10/12/2023",
+				"toptitle": "Lillo e Greg 610 del 10/12/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 10/12/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 10/12/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=jlmIvjS5o27xXawQTO1F7weeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:16:30"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/12/Lillo-e-Greg-610-del-10122023-604d0df7-9a92-47d8-9bc9-7acd3771208c.html",
+				"path_id": "/audio/2023/12/Lillo-e-Greg-610-del-10122023-604d0df7-9a92-47d8-9bc9-7acd3771208c.json",
+				"literal_publication_date": "10 Dic 2023",
+				"literal_duration": "76 min",
+				"duration_small_format": "1:16:30",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-604d0df7-9a92-47d8-9bc9-7acd3771208c",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 10/12/2023",
+					"channel": "rai radio 2",
+					"date": "2023-12-10",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 10/12/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 10/12/2023 - ContentItem-604d0df7-9a92-47d8-9bc9-7acd3771208c",
+					"page_url": "/audio/2023/12/Lillo-e-Greg-610-del-10122023-604d0df7-9a92-47d8-9bc9-7acd3771208c.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-c0a78fd5-c76f-4682-9c0f-396662c9f899",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "09-12-2023",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 09/12/2023",
+				"toptitle": "Lillo e Greg 610 del 09/12/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 09/12/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 09/12/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=GTFfVWbwD5eyOOuoA2xDzQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:13:52"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/12/Lillo-e-Greg-610-del-09122023-c0a78fd5-c76f-4682-9c0f-396662c9f899.html",
+				"path_id": "/audio/2023/12/Lillo-e-Greg-610-del-09122023-c0a78fd5-c76f-4682-9c0f-396662c9f899.json",
+				"literal_publication_date": "09 Dic 2023",
+				"literal_duration": "73 min",
+				"duration_small_format": "1:13:52",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-c0a78fd5-c76f-4682-9c0f-396662c9f899",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 09/12/2023",
+					"channel": "rai radio 2",
+					"date": "2023-12-09",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 09/12/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 09/12/2023 - ContentItem-c0a78fd5-c76f-4682-9c0f-396662c9f899",
+					"page_url": "/audio/2023/12/Lillo-e-Greg-610-del-09122023-c0a78fd5-c76f-4682-9c0f-396662c9f899.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-f7e89bc6-1d1b-4bb1-a856-29bc5646c845",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "03-12-2023",
+				"create_time": "12:09",
+				"title": "Lillo e Greg 610 del 03/12/2023",
+				"toptitle": "Lillo e Greg 610 del 03/12/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 03/12/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 03/12/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=gnxXTjmjzrZA11RP5lajWQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:17:01"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/12/Lillo-e-Greg-610-del-03122023-f7e89bc6-1d1b-4bb1-a856-29bc5646c845.html",
+				"path_id": "/audio/2023/12/Lillo-e-Greg-610-del-03122023-f7e89bc6-1d1b-4bb1-a856-29bc5646c845.json",
+				"literal_publication_date": "03 Dic 2023",
+				"literal_duration": "77 min",
+				"duration_small_format": "1:17:01",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-f7e89bc6-1d1b-4bb1-a856-29bc5646c845",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 03/12/2023",
+					"channel": "rai radio 2",
+					"date": "2023-12-03",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 03/12/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 03/12/2023 - ContentItem-f7e89bc6-1d1b-4bb1-a856-29bc5646c845",
+					"page_url": "/audio/2023/12/Lillo-e-Greg-610-del-03122023-f7e89bc6-1d1b-4bb1-a856-29bc5646c845.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-cab1bf59-3b17-433c-9e50-543692778c6b",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "02-12-2023",
+				"create_time": "12:09",
+				"title": "Lillo e Greg 610 del 02/12/2023",
+				"toptitle": "Lillo e Greg 610 del 02/12/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 02/12/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 02/12/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=GigHWAd70VwhhjCeJyoh7weeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:15:43"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/12/Lillo-e-Greg-610-del-02122023-cab1bf59-3b17-433c-9e50-543692778c6b.html",
+				"path_id": "/audio/2023/12/Lillo-e-Greg-610-del-02122023-cab1bf59-3b17-433c-9e50-543692778c6b.json",
+				"literal_publication_date": "02 Dic 2023",
+				"literal_duration": "75 min",
+				"duration_small_format": "1:15:43",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-cab1bf59-3b17-433c-9e50-543692778c6b",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 02/12/2023",
+					"channel": "rai radio 2",
+					"date": "2023-12-02",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 02/12/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 02/12/2023 - ContentItem-cab1bf59-3b17-433c-9e50-543692778c6b",
+					"page_url": "/audio/2023/12/Lillo-e-Greg-610-del-02122023-cab1bf59-3b17-433c-9e50-543692778c6b.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-4dfa5e42-215b-4fd6-b06a-46bb13965786",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "26-11-2023",
+				"create_time": "12:19",
+				"title": "Lillo e Greg 610 del 26/11/2023",
+				"toptitle": "Lillo e Greg 610 del 26/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 26/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 26/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=DVpwvMLTV8oGRMGLuKNwTQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:17:24"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-26112023-4dfa5e42-215b-4fd6-b06a-46bb13965786.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-26112023-4dfa5e42-215b-4fd6-b06a-46bb13965786.json",
+				"literal_publication_date": "26 Nov 2023",
+				"literal_duration": "77 min",
+				"duration_small_format": "1:17:24",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-4dfa5e42-215b-4fd6-b06a-46bb13965786",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 26/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-26",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 26/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 26/11/2023 - ContentItem-4dfa5e42-215b-4fd6-b06a-46bb13965786",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-26112023-4dfa5e42-215b-4fd6-b06a-46bb13965786.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-32d412cb-26de-42b8-8396-a69c161f5533",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "25-11-2023",
+				"create_time": "12:12",
+				"title": "Lillo e Greg 610 del 25/11/2023",
+				"toptitle": "Lillo e Greg 610 del 25/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 25/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 25/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=Csi2YuK0N0pPpPlussqhBOAKvjrpPpPlussQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:14:43"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-25112023-32d412cb-26de-42b8-8396-a69c161f5533.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-25112023-32d412cb-26de-42b8-8396-a69c161f5533.json",
+				"literal_publication_date": "25 Nov 2023",
+				"literal_duration": "74 min",
+				"duration_small_format": "1:14:43",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-32d412cb-26de-42b8-8396-a69c161f5533",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 25/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-25",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 25/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 25/11/2023 - ContentItem-32d412cb-26de-42b8-8396-a69c161f5533",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-25112023-32d412cb-26de-42b8-8396-a69c161f5533.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-b4eacdc1-7660-4d16-900b-be810a0dc7d8",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "19-11-2023",
+				"create_time": "12:18",
+				"title": "Lillo e Greg 610 del 19/11/2023",
+				"toptitle": "Lillo e Greg 610 del 19/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 19/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 19/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=WgqOclB85U7zpPpPlussyG7OdUzxAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:39:36"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-19112023-b4eacdc1-7660-4d16-900b-be810a0dc7d8.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-19112023-b4eacdc1-7660-4d16-900b-be810a0dc7d8.json",
+				"literal_publication_date": "19 Nov 2023",
+				"literal_duration": "39 min",
+				"duration_small_format": "39:36",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-b4eacdc1-7660-4d16-900b-be810a0dc7d8",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 19/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-19",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 19/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 19/11/2023 - ContentItem-b4eacdc1-7660-4d16-900b-be810a0dc7d8",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-19112023-b4eacdc1-7660-4d16-900b-be810a0dc7d8.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-3c27fec5-6dd6-44a0-892a-4428be8803c5",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "18-11-2023",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 18/11/2023",
+				"toptitle": "Lillo e Greg 610 del 18/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 18/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 18/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=S8tpPpPlussd1qWi8lPBspPpPlussVSzYnCgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:16:58"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-18112023-3c27fec5-6dd6-44a0-892a-4428be8803c5.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-18112023-3c27fec5-6dd6-44a0-892a-4428be8803c5.json",
+				"literal_publication_date": "18 Nov 2023",
+				"literal_duration": "76 min",
+				"duration_small_format": "1:16:58",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-3c27fec5-6dd6-44a0-892a-4428be8803c5",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 18/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-18",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 18/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 18/11/2023 - ContentItem-3c27fec5-6dd6-44a0-892a-4428be8803c5",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-18112023-3c27fec5-6dd6-44a0-892a-4428be8803c5.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-b2736a29-774c-49a0-85f5-f9a22bbe0e6e",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "12-11-2023",
+				"create_time": "12:05",
+				"title": "Lillo e Greg 610 del 12/11/2023",
+				"toptitle": "Lillo e Greg 610 del 12/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 12/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 12/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=1sMJazssSlasheu095oeWtQxqOEAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:45:36"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-12112023-b2736a29-774c-49a0-85f5-f9a22bbe0e6e.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-12112023-b2736a29-774c-49a0-85f5-f9a22bbe0e6e.json",
+				"literal_publication_date": "12 Nov 2023",
+				"literal_duration": "45 min",
+				"duration_small_format": "45:36",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-b2736a29-774c-49a0-85f5-f9a22bbe0e6e",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 12/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-12",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 12/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 12/11/2023 - ContentItem-b2736a29-774c-49a0-85f5-f9a22bbe0e6e",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-12112023-b2736a29-774c-49a0-85f5-f9a22bbe0e6e.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-8a14ff21-a2dc-442a-9a6e-df06afe5459e",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "11-11-2023",
+				"create_time": "12:17",
+				"title": "Lillo e Greg 610 del 11/11/2023",
+				"toptitle": "Lillo e Greg 610 del 11/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 11/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 11/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=7pxoXssSlashp65kpL37AkZuj27geeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:45:37"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-11112023-8a14ff21-a2dc-442a-9a6e-df06afe5459e.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-11112023-8a14ff21-a2dc-442a-9a6e-df06afe5459e.json",
+				"literal_publication_date": "11 Nov 2023",
+				"literal_duration": "45 min",
+				"duration_small_format": "45:37",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-8a14ff21-a2dc-442a-9a6e-df06afe5459e",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 11/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-11",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 11/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 11/11/2023 - ContentItem-8a14ff21-a2dc-442a-9a6e-df06afe5459e",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-11112023-8a14ff21-a2dc-442a-9a6e-df06afe5459e.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-c6b17396-35e7-465b-90a4-6c113cb0914d",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "05-11-2023",
+				"create_time": "12:12",
+				"title": "Lillo e Greg 610 del 05/11/2023",
+				"toptitle": "Lillo e Greg 610 del 05/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 05/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 05/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=fGNFHugVe95ZaIQTQaSMUQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:47:31"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-05112023-c6b17396-35e7-465b-90a4-6c113cb0914d.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-05112023-c6b17396-35e7-465b-90a4-6c113cb0914d.json",
+				"literal_publication_date": "05 Nov 2023",
+				"literal_duration": "47 min",
+				"duration_small_format": "47:31",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-c6b17396-35e7-465b-90a4-6c113cb0914d",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 05/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-05",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 05/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 05/11/2023 - ContentItem-c6b17396-35e7-465b-90a4-6c113cb0914d",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-05112023-c6b17396-35e7-465b-90a4-6c113cb0914d.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-1dabab13-b086-49f8-9d6d-465450bf24de",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "04-11-2023",
+				"create_time": "12:10",
+				"title": "Lillo e Greg 610 del 04/11/2023",
+				"toptitle": "Lillo e Greg 610 del 04/11/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 04/11/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 04/11/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=CNGV1U6hdvbuu3r4dLW39geeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:48:45"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/11/Lillo-e-Greg-610-del-04112023-1dabab13-b086-49f8-9d6d-465450bf24de.html",
+				"path_id": "/audio/2023/11/Lillo-e-Greg-610-del-04112023-1dabab13-b086-49f8-9d6d-465450bf24de.json",
+				"literal_publication_date": "04 Nov 2023",
+				"literal_duration": "48 min",
+				"duration_small_format": "48:45",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-1dabab13-b086-49f8-9d6d-465450bf24de",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 04/11/2023",
+					"channel": "rai radio 2",
+					"date": "2023-11-04",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 04/11/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 04/11/2023 - ContentItem-1dabab13-b086-49f8-9d6d-465450bf24de",
+					"page_url": "/audio/2023/11/Lillo-e-Greg-610-del-04112023-1dabab13-b086-49f8-9d6d-465450bf24de.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-179930d0-6205-4011-9a40-9891e2062403",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "29-10-2023",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 29/10/2023",
+				"toptitle": "Lillo e Greg 610 del 29/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 29/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 29/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=BJhssSlash1Hy3jSRS1INwMxwSeAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:40:49"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-29102023-179930d0-6205-4011-9a40-9891e2062403.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-29102023-179930d0-6205-4011-9a40-9891e2062403.json",
+				"literal_publication_date": "29 Ott 2023",
+				"literal_duration": "40 min",
+				"duration_small_format": "40:49",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-179930d0-6205-4011-9a40-9891e2062403",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 29/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-29",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 29/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 29/10/2023 - ContentItem-179930d0-6205-4011-9a40-9891e2062403",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-29102023-179930d0-6205-4011-9a40-9891e2062403.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-0a816a0f-0d47-4e38-8ff3-8f3b9d02d98a",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "28-10-2023",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 28/10/2023",
+				"toptitle": "Lillo e Greg 610 del 28/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 28/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 28/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=MqptXBx3U3RwDpPpPluss6EaCpPpPluss0yAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:44:52"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-28102023-0a816a0f-0d47-4e38-8ff3-8f3b9d02d98a.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-28102023-0a816a0f-0d47-4e38-8ff3-8f3b9d02d98a.json",
+				"literal_publication_date": "28 Ott 2023",
+				"literal_duration": "44 min",
+				"duration_small_format": "44:52",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-0a816a0f-0d47-4e38-8ff3-8f3b9d02d98a",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 28/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-28",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 28/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 28/10/2023 - ContentItem-0a816a0f-0d47-4e38-8ff3-8f3b9d02d98a",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-28102023-0a816a0f-0d47-4e38-8ff3-8f3b9d02d98a.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-3e2c1227-7929-4d5d-a4fb-4733658113c4",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "22-10-2023",
+				"create_time": "12:04",
+				"title": "Lillo e Greg 610 del 22/10/2023",
+				"toptitle": "Lillo e Greg 610 del 22/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 22/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 22/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=AL1r4p3D5TQjNTXspPpPlussmELDweeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:16:17"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-22102023-3e2c1227-7929-4d5d-a4fb-4733658113c4.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-22102023-3e2c1227-7929-4d5d-a4fb-4733658113c4.json",
+				"literal_publication_date": "22 Ott 2023",
+				"literal_duration": "76 min",
+				"duration_small_format": "1:16:17",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-3e2c1227-7929-4d5d-a4fb-4733658113c4",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 22/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-22",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 22/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 22/10/2023 - ContentItem-3e2c1227-7929-4d5d-a4fb-4733658113c4",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-22102023-3e2c1227-7929-4d5d-a4fb-4733658113c4.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-04f6a1a4-9162-4694-9bb1-338d15f63044",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "21-10-2023",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 21/10/2023",
+				"toptitle": "Lillo e Greg 610 del 21/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 21/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 21/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=l6FGr3667qhjZiktxCkC2QeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "01:13:10"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-21102023-04f6a1a4-9162-4694-9bb1-338d15f63044.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-21102023-04f6a1a4-9162-4694-9bb1-338d15f63044.json",
+				"literal_publication_date": "21 Ott 2023",
+				"literal_duration": "73 min",
+				"duration_small_format": "1:13:10",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-04f6a1a4-9162-4694-9bb1-338d15f63044",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 21/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-21",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 21/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 21/10/2023 - ContentItem-04f6a1a4-9162-4694-9bb1-338d15f63044",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-21102023-04f6a1a4-9162-4694-9bb1-338d15f63044.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-d02afd12-6da5-4c54-b1c8-28b8b9bbe70c",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "15-10-2023",
+				"create_time": "12:08",
+				"title": "Lillo e Greg 610 del 15/10/2023",
+				"toptitle": "Lillo e Greg 610 del 15/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 15/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 15/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=Y9IYS4ssSlash6yG1pfrvU5rxqSgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:42:49"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-15102023-d02afd12-6da5-4c54-b1c8-28b8b9bbe70c.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-15102023-d02afd12-6da5-4c54-b1c8-28b8b9bbe70c.json",
+				"literal_publication_date": "15 Ott 2023",
+				"literal_duration": "42 min",
+				"duration_small_format": "42:49",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-d02afd12-6da5-4c54-b1c8-28b8b9bbe70c",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 15/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-15",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 15/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 15/10/2023 - ContentItem-d02afd12-6da5-4c54-b1c8-28b8b9bbe70c",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-15102023-d02afd12-6da5-4c54-b1c8-28b8b9bbe70c.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-65657749-cdb8-4977-b91d-b56c3369c8a4",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "14-10-2023",
+				"create_time": "12:07",
+				"title": "Lillo e Greg 610 del 14/10/2023",
+				"toptitle": "Lillo e Greg 610 del 14/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 14/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 14/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=9HX2ZP71ddKzNrAllcqmsQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:45:31"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-14102023-65657749-cdb8-4977-b91d-b56c3369c8a4.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-14102023-65657749-cdb8-4977-b91d-b56c3369c8a4.json",
+				"literal_publication_date": "14 Ott 2023",
+				"literal_duration": "45 min",
+				"duration_small_format": "45:31",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-65657749-cdb8-4977-b91d-b56c3369c8a4",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 14/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-14",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 14/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 14/10/2023 - ContentItem-65657749-cdb8-4977-b91d-b56c3369c8a4",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-14102023-65657749-cdb8-4977-b91d-b56c3369c8a4.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-2ab0c636-45c1-4059-a8c4-993a301405ff",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "08-10-2023",
+				"create_time": "12:05",
+				"title": "Lillo e Greg 610 del 08/10/2023",
+				"toptitle": "Lillo e Greg 610 del 08/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 08/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 08/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=reIuhzXohvone3VCfPB6vgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:46:13"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-08102023-2ab0c636-45c1-4059-a8c4-993a301405ff.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-08102023-2ab0c636-45c1-4059-a8c4-993a301405ff.json",
+				"literal_publication_date": "08 Ott 2023",
+				"literal_duration": "46 min",
+				"duration_small_format": "46:13",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-2ab0c636-45c1-4059-a8c4-993a301405ff",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 08/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-08",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 08/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 08/10/2023 - ContentItem-2ab0c636-45c1-4059-a8c4-993a301405ff",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-08102023-2ab0c636-45c1-4059-a8c4-993a301405ff.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-6542c7cd-a425-4cac-8629-64b0c534387a",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "07-10-2023",
+				"create_time": "12:13",
+				"title": "Lillo e Greg 610 del 07/10/2023",
+				"toptitle": "Lillo e Greg 610 del 07/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 07/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 07/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=gtY6bfQaqssSlashrW453zXpPpPluss214geeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:38:57"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-07102023-6542c7cd-a425-4cac-8629-64b0c534387a.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-07102023-6542c7cd-a425-4cac-8629-64b0c534387a.json",
+				"literal_publication_date": "07 Ott 2023",
+				"literal_duration": "38 min",
+				"duration_small_format": "38:57",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-6542c7cd-a425-4cac-8629-64b0c534387a",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 07/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-07",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 07/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 07/10/2023 - ContentItem-6542c7cd-a425-4cac-8629-64b0c534387a",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-07102023-6542c7cd-a425-4cac-8629-64b0c534387a.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-f262d700-29ec-4abb-bfb1-e522783a7ca7",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "01-10-2023",
+				"create_time": "12:11",
+				"title": "Lillo e Greg 610 del 01/10/2023",
+				"toptitle": "Lillo e Greg 610 del 01/10/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 01/10/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 01/10/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=dechENXssSlashm4pLuHmHNXWUDQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:43:04"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/10/Lillo-e-Greg-610-del-01102023-f262d700-29ec-4abb-bfb1-e522783a7ca7.html",
+				"path_id": "/audio/2023/10/Lillo-e-Greg-610-del-01102023-f262d700-29ec-4abb-bfb1-e522783a7ca7.json",
+				"literal_publication_date": "01 Ott 2023",
+				"literal_duration": "43 min",
+				"duration_small_format": "43:04",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-f262d700-29ec-4abb-bfb1-e522783a7ca7",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 01/10/2023",
+					"channel": "rai radio 2",
+					"date": "2023-10-01",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 01/10/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 01/10/2023 - ContentItem-f262d700-29ec-4abb-bfb1-e522783a7ca7",
+					"page_url": "/audio/2023/10/Lillo-e-Greg-610-del-01102023-f262d700-29ec-4abb-bfb1-e522783a7ca7.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-dd98af73-53eb-4221-a0d6-4eef3ed18a7e",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "30-09-2023",
+				"create_time": "12:06",
+				"title": "Lillo e Greg 610 del 30/09/2023",
+				"toptitle": "Lillo e Greg 610 del 30/09/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 30/09/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 30/09/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=HpPpPlussihP9G5oFu9Ww09YNInQQeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:40:23"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/09/Lillo-e-Greg-610-del-30092023-dd98af73-53eb-4221-a0d6-4eef3ed18a7e.html",
+				"path_id": "/audio/2023/09/Lillo-e-Greg-610-del-30092023-dd98af73-53eb-4221-a0d6-4eef3ed18a7e.json",
+				"literal_publication_date": "30 Set 2023",
+				"literal_duration": "40 min",
+				"duration_small_format": "40:23",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-dd98af73-53eb-4221-a0d6-4eef3ed18a7e",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 30/09/2023",
+					"channel": "rai radio 2",
+					"date": "2023-09-30",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 30/09/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 30/09/2023 - ContentItem-dd98af73-53eb-4221-a0d6-4eef3ed18a7e",
+					"page_url": "/audio/2023/09/Lillo-e-Greg-610-del-30092023-dd98af73-53eb-4221-a0d6-4eef3ed18a7e.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-dd06bbaa-953a-4884-88e6-fe043254b4a2",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "24-09-2023",
+				"create_time": "12:04",
+				"title": "Lillo e Greg 610 del 24/09/2023",
+				"toptitle": "Lillo e Greg 610 del 24/09/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 24/09/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 24/09/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=rX91h3uExGjpPpPlussQm3rwSGu0AeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:40:50"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/09/Lillo-e-Greg-610-del-24092023-dd06bbaa-953a-4884-88e6-fe043254b4a2.html",
+				"path_id": "/audio/2023/09/Lillo-e-Greg-610-del-24092023-dd06bbaa-953a-4884-88e6-fe043254b4a2.json",
+				"literal_publication_date": "24 Set 2023",
+				"literal_duration": "40 min",
+				"duration_small_format": "40:50",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-dd06bbaa-953a-4884-88e6-fe043254b4a2",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 24/09/2023",
+					"channel": "rai radio 2",
+					"date": "2023-09-24",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 24/09/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 24/09/2023 - ContentItem-dd06bbaa-953a-4884-88e6-fe043254b4a2",
+					"page_url": "/audio/2023/09/Lillo-e-Greg-610-del-24092023-dd06bbaa-953a-4884-88e6-fe043254b4a2.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-875351d6-15d7-431d-86fe-49e29f1f30e0",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "23-09-2023",
+				"create_time": "12:05",
+				"title": "Lillo e Greg 610 del 23/09/2023",
+				"toptitle": "Lillo e Greg 610 del 23/09/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 23/09/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 23/09/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=3JhXnDDzz9H6TX4u74hTUgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:41:18"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/09/Lillo-e-Greg-610-del-23092023-875351d6-15d7-431d-86fe-49e29f1f30e0.html",
+				"path_id": "/audio/2023/09/Lillo-e-Greg-610-del-23092023-875351d6-15d7-431d-86fe-49e29f1f30e0.json",
+				"literal_publication_date": "23 Set 2023",
+				"literal_duration": "41 min",
+				"duration_small_format": "41:18",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-875351d6-15d7-431d-86fe-49e29f1f30e0",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 23/09/2023",
+					"channel": "rai radio 2",
+					"date": "2023-09-23",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 23/09/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 23/09/2023 - ContentItem-875351d6-15d7-431d-86fe-49e29f1f30e0",
+					"page_url": "/audio/2023/09/Lillo-e-Greg-610-del-23092023-875351d6-15d7-431d-86fe-49e29f1f30e0.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-f0fccb2c-10d8-4e3c-8ab2-f85ee2709b44",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "17-09-2023",
+				"create_time": "12:06",
+				"title": "Lillo e Greg 610 del 17/09/2023",
+				"toptitle": "Lillo e Greg 610 del 17/09/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 17/09/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 17/09/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=lx06s5na8CFuxeiHYk26mgeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:49:34"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/09/Lillo-e-Greg-610-del-17092023-f0fccb2c-10d8-4e3c-8ab2-f85ee2709b44.html",
+				"path_id": "/audio/2023/09/Lillo-e-Greg-610-del-17092023-f0fccb2c-10d8-4e3c-8ab2-f85ee2709b44.json",
+				"literal_publication_date": "17 Set 2023",
+				"literal_duration": "49 min",
+				"duration_small_format": "49:34",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-f0fccb2c-10d8-4e3c-8ab2-f85ee2709b44",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 17/09/2023",
+					"channel": "rai radio 2",
+					"date": "2023-09-17",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 17/09/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 17/09/2023 - ContentItem-f0fccb2c-10d8-4e3c-8ab2-f85ee2709b44",
+					"page_url": "/audio/2023/09/Lillo-e-Greg-610-del-17092023-f0fccb2c-10d8-4e3c-8ab2-f85ee2709b44.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			},
+			{
+				"uniquename": "ContentItem-7e486894-c586-40a4-a3f3-1ed44059d4ef",
+				"type": "RaiPlaySound Audio Item",
+				"create_date": "16-09-2023",
+				"create_time": "12:11",
+				"title": "Lillo e Greg 610 del 16/09/2023",
+				"toptitle": "Lillo e Greg 610 del 16/09/2023",
+				"subtitle": "Lillo e Greg 610",
+				"channel": {
+					"name": "Rai Radio 2",
+					"logo": "/dl/components/img/sound/loghi/logo-rairadio2-transparent.png",
+					"logo_svg": "/assets/img/canali/logo-rairadio2-transparent.svg",
+					"category_path": "radio2",
+					"palinsesto_url": "rai-radio-2",
+					"palinsesto_name": "Radio 2"
+				},
+				"description": "Lillo e Greg   610 di Lillo e Greg  Con Carolina Di Domenico Regia di Danilo Paoni A cura di Angelica Scianò",
+				"episode_title": "Lillo e Greg 610 del 16/09/2023",
+				"episode": null,
+				"season": null,
+				"form": "Integrale",
+				"audio": {
+					"title": "Lillo e Greg 610 del 16/09/2023",
+					"poster": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"url": "https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=jCMjaASJLqHeGCmdYlMRgAeeqqEEqualeeqqEEqual",
+					"type": "audio",
+					"duration": "00:50:10"
+				},
+				"images": {
+					"square": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+					"cover": null,
+					"landscape": null
+				},
+				"image": "/dl/img/2021/12/15/1639606226508_LilloeGreg610_2048x2048.jpg",
+				"program": {
+					"id": "Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"name": "Lillo e Greg 610",
+					"pipe": "Lillo e Greg 610|Category-8d6446f2-f40a-464a-bf72-501f0f24d239",
+					"category_path": "lilloegreg610",
+					"weblink": "/programmi/lilloegreg610",
+					"configuratore": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"contestual_page": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+					"path_id": "/programmi/lilloegreg610.json"
+				},
+				"weblink": "/audio/2023/09/Lillo-e-Greg-610-del-16092023-7e486894-c586-40a4-a3f3-1ed44059d4ef.html",
+				"path_id": "/audio/2023/09/Lillo-e-Greg-610-del-16092023-7e486894-c586-40a4-a3f3-1ed44059d4ef.json",
+				"literal_publication_date": "16 Set 2023",
+				"literal_duration": "50 min",
+				"duration_small_format": "50:10",
+				"podcast_info": {
+					"uniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d",
+					"name": "Lillo e Greg 610",
+					"path_id": "/programmi/lilloegreg610.json",
+					"weblink": "/programmi/lilloegreg610"
+				},
+				"dfp": {
+					"escaped_name": "LilloeGreg610",
+					"label": "intra",
+					"escaped_genres": [
+						{
+							"id": "Category-4804f75f-1a76-44dd-98ca-f4a7a7b176db",
+							"name": "Intrattenimento"
+						},
+						{
+							"id": "Category-2d4e5552-f295-4be5-8941-988f6cce6a7f",
+							"name": "Comico"
+						}
+					],
+					"escaped_typology": [
+						{
+							"id": "Category-0aa7449f-a576-44ef-b6b3-1ff8e668f245",
+							"name": "Programmiradio"
+						}
+					]
+				},
+				"poeple": [],
+				"track_info": {
+					"id": "ContentItem-7e486894-c586-40a4-a3f3-1ed44059d4ef",
+					"domain": "raiplaysound",
+					"platform": "[platform]",
+					"media_type": "aod",
+					"page_type": "audio",
+					"editor": "rai radio 2",
+					"year": "2023",
+					"edit_year": "2023",
+					"section": "audio",
+					"sub_section": "",
+					"content": "pagina foglia",
+					"title": "lillo e greg 610 del 16/09/2023",
+					"channel": "rai radio 2",
+					"date": "2023-09-16",
+					"typology": "programmi radio",
+					"genres": ["intrattenimento", "comico"],
+					"sub_genres": ["comico", "intrattenimento", "parodia"],
+					"program_title": "lillo e greg 610",
+					"program_typology": "programmi radio",
+					"edition": "2023",
+					"season": "2023",
+					"episode_number": "",
+					"episode_title": "lillo e greg 610 del 16/09/2023",
+					"form": "integrale",
+					"media_container": {
+						"title": "Lillo e Greg 610",
+						"type": "programma",
+						"contextUniquename": "ContentItem-8c349c6c-9b93-4ae2-8241-81a55babe27d"
+					},
+					"media_name": "raiplaysound - aod - lillo e greg 610 - lillo e greg 610 del 16/09/2023 - ContentItem-7e486894-c586-40a4-a3f3-1ed44059d4ef",
+					"page_url": "/audio/2023/09/Lillo-e-Greg-610-del-16092023-7e486894-c586-40a4-a3f3-1ed44059d4ef.html",
+					"nodmp": false,
+					"origin": "Messa in onda Radio",
+					"target": ""
+				}
+			}
+		]
+	},
+	"filters": [
+		{
+			"active": true,
+			"path": "stagione-2023-24",
+			"label": "Stagione 2023-24",
+			"weblink": "/programmi/lilloegreg610/puntate/stagione-2023-24",
+			"path_id": "/programmi/lilloegreg610/ContentSet-c01bba85-4b18-41c6-b7e1-c3315c8eea52.json",
+			"content_size": {
+				"number": 41,
+				"label": "41 contenuti"
+			}
+		},
+		{
+			"active": false,
+			"path": "stagione-2022-23",
+			"label": "Stagione 2022-23",
+			"weblink": "/programmi/lilloegreg610/puntate/stagione-2022-23",
+			"path_id": "/programmi/lilloegreg610/ContentSet-667ba7db-2906-4dee-b28f-22cbb2722ee2.json",
+			"content_size": {
+				"number": 75,
+				"label": "75 contenuti"
+			}
+		},
+		{
+			"active": false,
+			"path": "stagione-2021-22",
+			"label": "Stagione 2021-22",
+			"weblink": "/programmi/lilloegreg610/puntate/stagione-2021-22",
+			"path_id": "/programmi/lilloegreg610/ContentSet-b45cfa98-da7b-43ff-bcfc-69928d52f091.json",
+			"content_size": {
+				"number": 77,
+				"label": "77 contenuti"
+			}
+		},
+		{
+			"active": false,
+			"path": "stagione-2020-21",
+			"label": "Stagione 2020-21",
+			"weblink": "/programmi/lilloegreg610/puntate/stagione-2020-21",
+			"path_id": "/programmi/lilloegreg610/ContentSet-094e0adb-7d80-43fe-9737-f844e669ebb0.json",
+			"content_size": {
+				"number": 71,
+				"label": "71 contenuti"
+			}
+		}
+	],
+	"actions": [
+		{
+			"action": "live",
+			"path_id": "/radio2.json",
+			"label": "ASCOLTA LA DIRETTA"
+		},
+		{
+			"action": "play",
+			"label": "ASCOLTA",
+			"label_keepwatching": "RIPRENDI"
+		},
+		{
+			"action": "episodi",
+			"label": "LISTA EPISODI",
+			"weblink": "/programmi/lilloegreg610",
+			"path_id": "/programmi/lilloegreg610.json",
+			"sub_type": "RaiPlaySound Puntate Block"
+		},
+		{
+			"action": "playlist",
+			"label": "PLAYLIST",
+			"weblink": "/programmi/lilloegreg610/playlist",
+			"path_id": "/programmi/lilloegreg610/playlist.json",
+			"sub_type": "RaiPlaySound Contenitore Playlist Block"
+		},
+		{
+			"action": "favourite",
+			"label": "SEGUI",
+			"label_followed": "SEGUITO"
+		},
+		{
+			"action": "similar",
+			"label": "CONTENUTI SIMILI"
+		}
+	],
+	"track_info": {
+		"id": "Page-fe352d00-983c-4783-a8bc-36192283e336",
+		"domain": "raiplaysound",
+		"platform": "[platform]",
+		"media_type": "aod",
+		"page_type": "info programma",
+		"editor": "rai radio 2",
+		"year": "2020",
+		"edit_year": "2020",
+		"section": "info programma",
+		"sub_section": "",
+		"content": "scheda programma",
+		"title": "lillo e greg 610",
+		"channel": "rai radio 2",
+		"date": "2020-09-11",
+		"typology": "programmi radio",
+		"genres": ["intrattenimento", "comico"],
+		"sub_genres": ["comico", "intrattenimento", "parodia"],
+		"program_title": "lillo e greg 610",
+		"program_typology": "programmi radio",
+		"edition": "",
+		"season": "",
+		"episode_number": "",
+		"episode_title": "",
+		"form": "",
+		"listaDateMo": [],
+		"create_date": "11-09-2020",
+		"page_url": "/programmi/lilloegreg610",
+		"nodmp": false
+	}
+}

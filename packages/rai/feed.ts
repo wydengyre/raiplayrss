@@ -9,7 +9,7 @@ const cardSchema = z.object({
 	episode_title: z.string(),
 	description: z.string(),
 	image: z.string(),
-	downloadable_audio: z.object({
+	audio: z.object({
 		url: z.string().url(),
 	}),
 	track_info: z.object({
@@ -102,7 +102,7 @@ class RssConvertor {
 	async convertCard(card: Card): Promise<PodcastItem> {
 		const image = new URL(card.image, this.#raiBaseUrl);
 		const pubDate = new Date(card.track_info.date);
-		const mediaInfo = await this.#fetchInfo(card.downloadable_audio.url);
+		const mediaInfo = await this.#fetchInfo(card.audio.url);
 		return {
 			title: card.episode_title,
 			description: card.description,
