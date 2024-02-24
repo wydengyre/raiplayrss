@@ -19,8 +19,6 @@ const baseUrl = new URL("https://test.dev/");
 const raiBaseUrl = new URL("https://rai.dev/");
 const poolSize = 5; // arbitrary
 
-const feedFetchFn: FetchWithErr = () =>
-	Promise.resolve(json(feedJson) as OkResponse);
 const mediaFetchFn: FetchWithErr = (input) =>
 	Promise.resolve({
 		url: input
@@ -36,7 +34,7 @@ const mediaFetchFn: FetchWithErr = (input) =>
 async function convertFeedSuccess() {
 	const fetchWithErr: FetchWithErr = async (input) => {
 		return input.toString().endsWith("foo.json")
-			? feedFetchFn(input)
+			? Promise.resolve(json(feedJson) as OkResponse)
 			: mediaFetchFn(input);
 	};
 	const conf: RssConvertConf = { raiBaseUrl, baseUrl, poolSize, fetchWithErr };
