@@ -89,7 +89,7 @@ async function rssFeedRai404() {
 
 	const resp = await servers.worker.fetch("/programmi/404.xml");
 	assert(!resp.ok);
-	assert.strictEqual(resp.status, 404);
+	assert.strictEqual(resp.status, 500);
 }
 
 async function rssFeedRai500() {

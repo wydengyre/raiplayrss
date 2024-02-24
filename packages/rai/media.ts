@@ -1,5 +1,3 @@
-import { FetchWithErr } from "./fetch.js";
-
 export { FetchInfo, MediaInfo, MediaUrl, mkFetchInfo };
 
 type FetchInfo = (url: string) => Promise<MediaInfo>;
@@ -15,7 +13,7 @@ type MediaInfo = {
 const relinkerRe = /^\?cont=[a-zA-Z0-9]+$/;
 
 const mkFetchInfo =
-	(fetchWithErr: FetchWithErr): FetchInfo =>
+	(fetch: typeof globalThis.fetch): FetchInfo =>
 	async (url) => {
 		const mediaUrl = mkMediaUrl(url);
 		if (typeof mediaUrl === "string") {
@@ -31,7 +29,11 @@ const mkFetchInfo =
 				"User-Agent": chromeAgent,
 			},
 		};
-		const resp = await fetchWithErr(url, chromeHeadInit);
+
+		const resp = await fetch(url, chromeHeadInit);
+		if (!resp.ok) {
+			throw new Error(`Failed to fetch: ${resp.status} ${resp.statusText}`);
+		}
 
 		const contentLength = resp.headers.get("content-length");
 		const length = Number(contentLength);

@@ -1,6 +1,5 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
-import { FetchWithErr, OkResponse } from "./fetch.js";
 import { mkFetchInfo } from "./media.js";
 
 test("media", (t) => {
@@ -11,15 +10,16 @@ async function fetchInfoSuccess() {
 	const url =
 		"https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=PE3wc6etKfssSlashNKfaoXssSlashpWcgeeqqEEqualeeqqEEqual";
 	const mediaUrl = new URL("https://test.dev/foo.mp3");
-	const fetch: FetchWithErr = async () =>
+	const fetch = async () =>
 		({
+			ok: true,
 			url: mediaUrl.toString(),
 			status: 200,
 			headers: new Headers({
 				"content-type": "audio/mpeg",
 				"content-length": "123456789",
 			}),
-		}) as OkResponse;
+		}) as Response;
 	const fetchInfo = mkFetchInfo(fetch);
 
 	const info = await fetchInfo(url);
