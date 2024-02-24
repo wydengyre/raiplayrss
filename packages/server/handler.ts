@@ -1,5 +1,4 @@
 import { mkFetchWithErr } from "@raiplayrss/rai/fetch.js";
-import { genresHtml } from "@raiplayrss/rai/genres.js";
 import { Router, error, html } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
 import { Logger } from "./logger.js";
@@ -18,17 +17,6 @@ type FetchHandler = (req: Request) => Promise<Response>;
 function mkFetchHandler(conf: Config): FetchHandler {
 	const fetchWithErr = mkFetchWithErr(conf.fetch);
 
-	const fetchGenresConf = {
-		baseUrl: conf.baseUrl,
-		raiBaseUrl: conf.raiBaseUrl,
-		fetchWithErr,
-		logger: conf.logger,
-	};
-	const fetchGenres = async () => {
-		const gh = await genresHtml(fetchGenresConf);
-		return html(gh, { headers: { "Content-Language": "it" } });
-	};
-
 	const fetchFeedConf = {
 		baseUrl: conf.baseUrl,
 		raiBaseUrl: conf.raiBaseUrl,
@@ -39,7 +27,6 @@ function mkFetchHandler(conf: Config): FetchHandler {
 	const fetchFeed = (request: Request) => feedHandler(fetchFeedConf, request);
 
 	const router = Router()
-		.get("/", fetchGenres)
 		.get("/programmi/:feed.xml", fetchFeed)
 		.all("*", notFound);
 

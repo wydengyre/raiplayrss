@@ -2,7 +2,6 @@ import { strict as assert } from "node:assert";
 import { Server, createServer } from "node:http";
 import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
-import genresJson from "@raiplayrss/rai/test/generi.json" with { type: "json" };
 import { assertItalian } from "@raiplayrss/server/test/headers.js";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, RouterType, error, json } from "itty-router";
@@ -13,7 +12,6 @@ import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 };
 
 test("worker", async (t) => {
-	await t.test(index);
 	await t.test(rssFeedSuccess);
 	await t.test(rssFeedRai404);
 	await t.test(rssFeedRai500);
@@ -23,22 +21,6 @@ test("worker", async (t) => {
 
 // uncomment the relevant line in startWorker() for this to take effect
 const logLevel = "info";
-
-async function index() {
-	const router = Router();
-	router.get("/generi.json", () => json(genresJson));
-	await using servers = await Servers.createWithRaiRouter(router);
-
-	const resp = await servers.worker.fetch("");
-
-	assert(resp.ok);
-	assert.strictEqual(resp.status, 200);
-	assert.strictEqual(resp.statusText, "OK");
-	assertItalian(resp);
-
-	const _text = await resp.text();
-	// TODO: validate html
-}
 
 async function rssFeedSuccess() {
 	const router = Router();
