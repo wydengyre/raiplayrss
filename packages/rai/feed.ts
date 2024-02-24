@@ -34,7 +34,7 @@ type RssConvertConf = {
 	fetch: typeof fetch;
 };
 async function feedToRss(c: RssConvertConf, relUrl: string): Promise<string> {
-	const fetchInfo = media.mkFetchInfo(c.fetch);
+	const fetchInfo = media.mkFetchInfo(fetch);
 	const convertor = new RssConvertor({
 		raiBaseUrl: c.raiBaseUrl,
 		poolSize: c.poolSize,
@@ -63,15 +63,12 @@ class RssConvertor {
 		this.#fetchInfo = fetchInfo;
 	}
 
-	// TODO: feedUrl, siteUrl
 	async convert(json: unknown): Promise<string> {
 		const parseResult = await schema.safeParseAsync(json);
 		if (!parseResult.success) {
 			throw new Error(`failed to parse feed JSON: ${parseResult.error}`);
 		}
 		const feed = parseResult.data;
-
-		// TODO: categories
 
 		const image = new URL(feed.podcast_info.image, this.#raiBaseUrl);
 

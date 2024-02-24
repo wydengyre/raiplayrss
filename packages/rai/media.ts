@@ -28,12 +28,19 @@ const mkFetchInfo =
 			headers: {
 				"User-Agent": chromeAgent,
 			},
+			redirect: "manual",
 		};
 
 		const resp = await fetch(url, chromeHeadInit);
-		if (!resp.ok) {
-			throw new Error(`Failed to fetch: ${resp.status} ${resp.statusText}`);
+		if (resp.status !== 302)	 {
+			throw new Error(`Unexpected status code: ${resp.status}`);
 		}
+
+		const location = resp.headers.get("location");
+		if (location === null) {
+			throw new Error(`Missing location header: ${JSON.stringify(resp.headers)}`);
+		}
+		const locationUrl = new URL(location);
 
 		const contentLength = resp.headers.get("content-length");
 		const length = Number(contentLength);
@@ -46,7 +53,7 @@ const mkFetchInfo =
 			throw new Error("Missing content type");
 		}
 
-		return { url: new URL(resp.url), size: length, type };
+		return { url: locationUrl, size: length, type };
 	};
 
 function mkMediaUrl(urlStr: string): MediaUrl | string {
