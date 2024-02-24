@@ -1,6 +1,5 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
-import genresJson from "@raiplayrss/rai/test/generi.json" with { type: "json" };
 import feedJson from "@raiplayrss/rai/test/lastoriaingiallo.json";
 import expectedJson from "@raiplayrss/rai/test/lastoriaingiallo.parsed.json" with {
 	type: "json",
@@ -12,7 +11,6 @@ import * as logger from "./logger.js";
 import { assertItalian } from "./test/headers.js";
 
 test("handler", async (t) => {
-	await t.test(indexSuccess);
 	await t.test(rssFeedSuccess);
 	await t.test(rssFeedFail404);
 	await t.test(rssFeedFail500);
@@ -23,19 +21,6 @@ test("handler", async (t) => {
 const baseUrl = new URL("https://test.dev/");
 const raiBaseUrl = new URL("https://rai.dev/");
 const mediaBaseUrl = new URL("https://media.dev/");
-
-async function indexSuccess() {
-	const req = new Request("arbitrary://arbitrary/");
-	const fetchMock = () => Promise.resolve(json(genresJson));
-	const fetchHandler = fetchHandlerWithMock(fetchMock);
-
-	const resp = await fetchHandler(req);
-
-	assert.strictEqual(resp.status, 200);
-	assert.strictEqual(resp.headers.get("Content-Language"), "it");
-	const _text = await resp.text();
-	// TODO: check validity of HTML
-}
 
 async function rssFeedSuccess() {
 	const req = new Request(

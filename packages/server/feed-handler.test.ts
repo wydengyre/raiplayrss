@@ -1,7 +1,6 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { FetchWithErr, NotOk, OkResponse } from "@raiplayrss/rai/fetch.js";
-import genresJson from "@raiplayrss/rai/test/generi.json";
 import feedJson from "@raiplayrss/rai/test/lastoriaingiallo.json";
 import expectedJson from "@raiplayrss/rai/test/lastoriaingiallo.parsed.json" with {
 	type: "json",
@@ -37,10 +36,6 @@ async function rssFeedSuccess() {
 		const requestUrlStr = input.toString();
 		const url = new URL(requestUrlStr);
 		const { pathname, search } = url;
-
-		if (pathname === "/generi.json") {
-			return json(genresJson) as OkResponse;
-		}
 
 		if (pathname === "/programmi/lastoriaingiallo.json") {
 			return json(feedJson) as OkResponse;
