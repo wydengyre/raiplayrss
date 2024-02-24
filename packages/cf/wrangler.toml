@@ -2,7 +2,7 @@ name = "raiplayrss"
 main = "./worker.ts"
 compatibility_date = "2024-01-16"
 
-[env.prod.vars]
+[vars]
 RAI_BASE_URL = "https://www.raiplaysound.it/"
 FETCH_QUEUE_SIZE = 5
 LOG_LEVEL = "info"
