@@ -9,5 +9,4 @@ LOG_LEVEL = "info"
 
 [env.staging.vars]
 RAI_BASE_URL = "https://www.raiplaysound.it/"
-FETCH_QUEUE_SIZE = 5
 LOG_LEVEL = "info"

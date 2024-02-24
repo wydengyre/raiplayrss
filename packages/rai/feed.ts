@@ -1,7 +1,5 @@
-import { PromisePool } from "@supercharge/promise-pool";
 import { z } from "zod";
 import { FetchWithErr } from "./fetch.js";
-import * as media from "./media.js";
 
 export { RssConvertConf, feedToRss };
 
@@ -30,89 +28,62 @@ const schema = z.object({
 });
 
 type RssConvertConf = {
+	relinkerUrl: URL;
 	raiBaseUrl: URL;
-	poolSize: number;
 	fetchWithErr: FetchWithErr;
 };
 async function feedToRss(c: RssConvertConf, relUrl: string): Promise<string> {
-	const fetchInfo = media.mkFetchInfo(c.fetchWithErr);
-	const convertor = new RssConvertor({
-		raiBaseUrl: c.raiBaseUrl,
-		poolSize: c.poolSize,
-		fetchInfo,
-	});
 	const url = new URL(relUrl, c.raiBaseUrl);
 	const resp = await c.fetchWithErr(url);
 	const json = await resp.json();
-	return convertor.convert(json);
+	return convert(c.relinkerUrl, c.raiBaseUrl, json);
 }
 
-type RssConvertorConf = {
-	raiBaseUrl: URL;
-	poolSize: number;
-	fetchInfo: media.FetchInfo;
-};
-
-class RssConvertor {
-	readonly #raiBaseUrl: URL;
-	readonly #poolSize: number;
-	readonly #fetchInfo: media.FetchInfo;
-
-	constructor({ raiBaseUrl, poolSize, fetchInfo }: RssConvertorConf) {
-		this.#raiBaseUrl = raiBaseUrl;
-		this.#poolSize = poolSize;
-		this.#fetchInfo = fetchInfo;
+async function convert(
+	relinkerUrl: URL,
+	raiBaseUrl: URL,
+	json: unknown,
+): Promise<string> {
+	const parseResult = await schema.safeParseAsync(json);
+	if (!parseResult.success) {
+		throw new Error(`failed to parse feed JSON: ${parseResult.error}`);
 	}
 
-	// TODO: feedUrl, siteUrl
-	async convert(json: unknown): Promise<string> {
-		const parseResult = await schema.safeParseAsync(json);
-		if (!parseResult.success) {
-			throw new Error(`failed to parse feed JSON: ${parseResult.error}`);
-		}
-		const feed = parseResult.data;
+	const feed = parseResult.data;
+	const image = new URL(feed.podcast_info.image, raiBaseUrl);
+	const results = feed.block.cards.map((card) =>
+		convertCard(relinkerUrl, raiBaseUrl, card),
+	);
 
-		// TODO: categories
+	const podcast: Podcast = {
+		title: feed.title,
+		description: feed.podcast_info.description,
+		language: "it",
+		image,
+		items: results,
+	};
+	return podcastRss(podcast);
+}
 
-		const image = new URL(feed.podcast_info.image, this.#raiBaseUrl);
-
-		const { results } = await PromisePool.for(feed.block.cards)
-			.withConcurrency(this.#poolSize)
-			.useCorrespondingResults()
-			.handleError(async (err, card) => {
-				throw new Error(
-					`Failed to convert card ${card.episode_title}: ${err.message}`,
-				);
-			})
-			.process(this.convertCard.bind(this));
-
-		const podcast: Podcast = {
-			title: feed.title,
-			description: feed.podcast_info.description,
-			// TODO: maybe the podcasts have this info?
-			language: "it",
-			image,
-			items: results,
-		};
-
-		return podcastRss(podcast);
-	}
-
-	async convertCard(card: Card): Promise<PodcastItem> {
-		const image = new URL(card.image, this.#raiBaseUrl);
-		const pubDate = new Date(card.track_info.date);
-		const mediaInfo = await this.#fetchInfo(card.audio.url);
-		return {
-			title: card.episode_title,
-			description: card.description,
-			guid: card.episode_title, // TODO: revisit this
-			pubDate,
-			url: mediaInfo.url,
-			length: mediaInfo.size,
-			image,
-			contentType: mediaInfo.type,
-		};
-	}
+function convertCard(
+	relinkerUrl: URL,
+	raiBaseUrl: URL,
+	card: Card,
+): PodcastItem {
+	const image = new URL(card.image, raiBaseUrl);
+	const pubDate = new Date(card.track_info.date);
+	const audioUrl = new URL(card.audio.url);
+	const afterOrigin =
+		audioUrl.host + audioUrl.pathname + audioUrl.search + audioUrl.hash;
+	const url = new URL(afterOrigin, relinkerUrl);
+	return {
+		title: card.episode_title,
+		description: card.description,
+		guid: card.episode_title,
+		pubDate,
+		url,
+		image,
+	};
 }
 
 // what about category?
@@ -130,9 +101,7 @@ type PodcastItem = {
 	guid: string; // figure this out (?)
 	pubDate: Date;
 	url: URL;
-	length: number;
 	image: URL;
-	contentType: string;
 };
 
 function podcastRss(p: Podcast): string {
@@ -159,7 +128,7 @@ function itemRss(pi: PodcastItem): string {
 			<description>${cdata(pi.description)}</description>
 			<guid isPermaLink="false">${pi.guid}</guid>
 			<pubDate>${pi.pubDate.toUTCString()}</pubDate>
-			<enclosure url="${pi.url}" length="${pi.length}" type="${pi.contentType}"/>
+			<enclosure url="${pi.url}"/>
 			<itunes:summary>${cdata(pi.description)}</itunes:summary>
 			<itunes:explicit>false</itunes:explicit>
 			<itunes:image href="${pi.image}"/>

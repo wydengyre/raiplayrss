@@ -20,8 +20,8 @@ test("feed", async (t) => {
 	await t.test(convertFeedNonCompliantJson);
 });
 
+const relinkerUrl = new URL("https://local.dev/relinker/");
 const raiBaseUrl = new URL("https://rai.dev/");
-const poolSize = 5; // arbitrary
 
 const mediaFetchFn: FetchWithErr = (input) =>
 	Promise.resolve({
@@ -41,7 +41,7 @@ async function convertFeedSuccess() {
 			? Promise.resolve(json(feedJson) as OkResponse)
 			: mediaFetchFn(input);
 	};
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
+	const conf: RssConvertConf = { relinkerUrl, raiBaseUrl, fetchWithErr };
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson);
@@ -53,7 +53,7 @@ async function convertFeed610Success() {
 			? Promise.resolve(json(feedJson610) as OkResponse)
 			: mediaFetchFn(input);
 	};
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
+	const conf: RssConvertConf = { relinkerUrl, raiBaseUrl, fetchWithErr };
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson610);
@@ -63,14 +63,14 @@ async function convertFeed404() {
 	const url = new URL("https://rai.dev/programmi/foo.json");
 	const notFound = new NotOk(url, 404, "Not Found");
 	const fetchWithErr = () => Promise.reject(notFound);
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
+	const conf: RssConvertConf = { relinkerUrl, raiBaseUrl, fetchWithErr };
 	await assert.rejects(feedToRss(conf, "programmi/foo.json"), notFound);
 }
 
 async function convertFeedNonCompliantJson() {
 	const fetchWithErr = () =>
 		Promise.resolve(json({ foo: "bar" }) as OkResponse);
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
+	const conf: RssConvertConf = { relinkerUrl, raiBaseUrl, fetchWithErr };
 	const expectedErr = /^Error: failed to parse feed JSON/;
 	await assert.rejects(feedToRss(conf, "programmi/foo.json"), expectedErr);
 }

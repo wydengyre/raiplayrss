@@ -7,18 +7,20 @@ export { Config, feedHandler };
 
 type Config = {
 	raiBaseUrl: URL;
-	poolSize: number;
 	fetchWithErr: FetchWithErr;
 	logger: Logger;
 };
 async function feedHandler(conf: Config, request: Request): Promise<Response> {
 	const requestUrl = new URL(request.url);
+	const localBaseUrl = new URL(requestUrl.origin);
+	const relinkerUrl = new URL("/relinker/", localBaseUrl);
 	const xmlPath = requestUrl.pathname;
 	const jsonPath = xmlPath.replace(/\.xml$/, ".json");
+	const conversionConf = { ...conf, relinkerUrl };
 
 	let feedXml: string;
 	try {
-		feedXml = await feedToRss(conf, jsonPath);
+		feedXml = await feedToRss(conversionConf, jsonPath);
 	} catch (e) {
 		conf.logger.error("error converting feed", jsonPath, e);
 		const contentType = "application/xml";
