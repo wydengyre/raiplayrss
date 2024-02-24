@@ -6,7 +6,6 @@ import { Logger } from "./logger.js";
 export { Config, feedHandler };
 
 type Config = {
-	baseUrl: URL;
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetchWithErr: FetchWithErr;

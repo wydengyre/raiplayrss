@@ -18,12 +18,10 @@ test("feed-handler", async (t) => {
 	await t.test(rssFeedFailNonCompliantJson);
 });
 
-const baseUrl = new URL("https://test.dev/");
 const raiBaseUrl = new URL("https://rai.dev/");
 const mediaBaseUrl = new URL("https://media.dev/");
 
 const confWithFetch = (fetchWithErr: FetchWithErr) => ({
-	baseUrl,
 	raiBaseUrl,
 	poolSize: 5,
 	fetchWithErr,

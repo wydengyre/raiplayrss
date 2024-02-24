@@ -18,7 +18,6 @@ test("handler", async (t) => {
 	await t.test(notFound);
 });
 
-const baseUrl = new URL("https://test.dev/");
 const raiBaseUrl = new URL("https://rai.dev/");
 const mediaBaseUrl = new URL("https://media.dev/");
 
@@ -122,7 +121,6 @@ async function notFound() {
 }
 
 const confWithFetch = (fetch: typeof globalThis.fetch) => ({
-	baseUrl,
 	raiBaseUrl,
 	poolSize: 1,
 	fetch,

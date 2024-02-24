@@ -6,7 +6,6 @@ import { Logger } from "./logger.js";
 export { Config, FetchHandler, mkFetchHandler };
 
 type Config = {
-	baseUrl: URL;
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetch: typeof fetch;
@@ -18,7 +17,6 @@ function mkFetchHandler(conf: Config): FetchHandler {
 	const fetchWithErr = mkFetchWithErr(conf.fetch);
 
 	const fetchFeedConf = {
-		baseUrl: conf.baseUrl,
 		raiBaseUrl: conf.raiBaseUrl,
 		poolSize: conf.poolSize,
 		fetchWithErr,
