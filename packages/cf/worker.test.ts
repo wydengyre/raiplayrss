@@ -161,7 +161,6 @@ class Servers {
 
 		const RAI_BASE_URL = `http://localhost:${raiAddress.port}`;
 		const vars = {
-			BASE_URL: "http://test.dev/",
 			RAI_BASE_URL,
 			FETCH_QUEUE_SIZE: Number(5).toString(),
 			LOG_LEVEL: logLevel,

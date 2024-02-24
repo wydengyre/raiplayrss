@@ -31,7 +31,6 @@ const schema = z.object({
 
 type RssConvertConf = {
 	raiBaseUrl: URL;
-	baseUrl: URL;
 	poolSize: number;
 	fetchWithErr: FetchWithErr;
 };
