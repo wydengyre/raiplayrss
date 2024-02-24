@@ -62,7 +62,7 @@ async function rssFeedSuccess() {
 		) as typeof feedJson;
 		const raiServerPortStr = servers.raiServerPort.toString(10);
 		for (const card of feedJsonCopy.block.cards) {
-			card.downloadable_audio.url = card.downloadable_audio.url.replace(
+			card.audio.url = card.audio.url.replace(
 				"RAI_SERVER_PORT",
 				raiServerPortStr,
 			);

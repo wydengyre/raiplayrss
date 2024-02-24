@@ -7,10 +7,15 @@ import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
+import feedJson610 from "./test/lilloegreg610.json" with { type: "json" };
+import expectedJson610 from "./test/lilloegreg610.parsed.json" with {
+	type: "json",
+};
 import { parseFeed } from "./test/parse-feed.js";
 
 test("feed", async (t) => {
 	await t.test(convertFeedSuccess);
+	await t.test(convertFeed610Success);
 	await t.test(convertFeed404);
 	await t.test(convertFeedNonCompliantJson);
 });
@@ -41,6 +46,18 @@ async function convertFeedSuccess() {
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson);
+}
+
+async function convertFeed610Success() {
+	const fetchWithErr: FetchWithErr = async (input) => {
+		return input.toString().endsWith("foo.json")
+			? Promise.resolve(json(feedJson610) as OkResponse)
+			: mediaFetchFn(input);
+	};
+	const conf: RssConvertConf = { raiBaseUrl, baseUrl, poolSize, fetchWithErr };
+	const feed = await feedToRss(conf, "programmi/foo.json");
+	const parsed = parseFeed(feed);
+	assert.deepStrictEqual(parsed, expectedJson610);
 }
 
 async function convertFeed404() {
