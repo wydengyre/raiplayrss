@@ -10,10 +10,8 @@ type Config = {
 	fetch: typeof fetch;
 	logger: Logger;
 };
-async function feedHandler(conf: Config, request: Request): Promise<Response> {
-	const requestUrl = new URL(request.url);
-	const xmlPath = requestUrl.pathname;
-	const jsonPath = xmlPath.replace(/\.xml$/, ".json");
+async function feedHandler(conf: Config, xmlPath: string): Promise<Response> {
+	const jsonPath = `${xmlPath}.json`;
 
 	let feedXml: string;
 	try {
