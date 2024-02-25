@@ -1,28 +1,12 @@
-import { mkFetchWithErr } from "@raiplayrss/rai/fetch.js";
-import { Router, error, html } from "itty-router";
+import { Router, error } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
-import { Logger } from "./logger.js";
+import type { Config } from "./feed-handler.js";
 
 export { Config, FetchHandler, mkFetchHandler };
 
-type Config = {
-	raiBaseUrl: URL;
-	poolSize: number;
-	fetch: typeof fetch;
-	logger: Logger;
-};
-
 type FetchHandler = (req: Request) => Promise<Response>;
 function mkFetchHandler(conf: Config): FetchHandler {
-	const fetchWithErr = mkFetchWithErr(conf.fetch);
-
-	const fetchFeedConf = {
-		raiBaseUrl: conf.raiBaseUrl,
-		poolSize: conf.poolSize,
-		fetchWithErr,
-		logger: conf.logger,
-	};
-	const fetchFeed = (request: Request) => feedHandler(fetchFeedConf, request);
+	const fetchFeed = (request: Request) => feedHandler(conf, request);
 
 	const router = Router()
 		.get("/programmi/:feed.xml", fetchFeed)

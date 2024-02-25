@@ -66,15 +66,15 @@ async function rssFeedSuccess() {
 
 async function rssFeedFail404() {
 	const req = new Request("arbitrary://arbitrary/programmi/nonexistent.xml");
-	const fetchMock = () => Promise.resolve(error(404, "not found"));
+	const fetchMock = async () => error(404, "not found");
 	const fetchHandler = fetchHandlerWithMock(fetchMock);
 	const resp = await fetchHandler(req);
 
-	assert.strictEqual(resp.status, 404);
+	assert.strictEqual(resp.status, 500);
 	const text = await resp.text();
 	assert.strictEqual(
 		text,
-		"<error><code>404</code><message>not found</message></error>",
+		"<error><code>500</code><message>server error</message></error>",
 	);
 }
 

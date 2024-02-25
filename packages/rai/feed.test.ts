@@ -1,8 +1,7 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
-import { json } from "itty-router";
+import { error, json } from "itty-router";
 import { RssConvertConf, feedToRss } from "./feed.js";
-import { FetchWithErr, NotOk, OkResponse } from "./fetch.js";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
@@ -23,8 +22,9 @@ test("feed", async (t) => {
 const raiBaseUrl = new URL("https://rai.dev/");
 const poolSize = 5; // arbitrary
 
-const mediaFetchFn: FetchWithErr = (input) =>
+const mediaFetchFn: typeof fetch = (input) =>
 	Promise.resolve({
+		ok: true,
 		url: input
 			.toString()
 			.replace(/.+cont=(.*)/, (_, cont) => `https://media.dev/${cont}.mp3`),
@@ -33,27 +33,27 @@ const mediaFetchFn: FetchWithErr = (input) =>
 			"content-type": "audio/mpeg",
 			"content-length": "123456789",
 		}),
-	} as OkResponse);
+	} as Response);
 
 async function convertFeedSuccess() {
-	const fetchWithErr: FetchWithErr = async (input) => {
+	const fetch: typeof globalThis.fetch = async (input) => {
 		return input.toString().endsWith("foo.json")
-			? Promise.resolve(json(feedJson) as OkResponse)
+			? Promise.resolve(json(feedJson))
 			: mediaFetchFn(input);
 	};
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson);
 }
 
 async function convertFeed610Success() {
-	const fetchWithErr: FetchWithErr = async (input) => {
+	const fetch: typeof globalThis.fetch = async (input) => {
 		return input.toString().endsWith("foo.json")
-			? Promise.resolve(json(feedJson610) as OkResponse)
+			? Promise.resolve(json(feedJson610))
 			: mediaFetchFn(input);
 	};
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson610);
@@ -61,16 +61,14 @@ async function convertFeed610Success() {
 
 async function convertFeed404() {
 	const url = new URL("https://rai.dev/programmi/foo.json");
-	const notFound = new NotOk(url, 404, "Not Found");
-	const fetchWithErr = () => Promise.reject(notFound);
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
-	await assert.rejects(feedToRss(conf, "programmi/foo.json"), notFound);
+	const fetch = () => Promise.resolve(error(404));
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
+	await assert.rejects(feedToRss(conf, "programmi/foo.json"));
 }
 
 async function convertFeedNonCompliantJson() {
-	const fetchWithErr = () =>
-		Promise.resolve(json({ foo: "bar" }) as OkResponse);
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetchWithErr };
+	const fetch = () => Promise.resolve(json({ foo: "bar" }));
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
 	const expectedErr = /^Error: failed to parse feed JSON/;
 	await assert.rejects(feedToRss(conf, "programmi/foo.json"), expectedErr);
 }

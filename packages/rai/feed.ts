@@ -1,6 +1,5 @@
 import { PromisePool } from "@supercharge/promise-pool";
 import { z } from "zod";
-import { FetchWithErr } from "./fetch.js";
 import * as media from "./media.js";
 
 export { RssConvertConf, feedToRss };
@@ -32,17 +31,17 @@ const schema = z.object({
 type RssConvertConf = {
 	raiBaseUrl: URL;
 	poolSize: number;
-	fetchWithErr: FetchWithErr;
+	fetch: typeof fetch;
 };
 async function feedToRss(c: RssConvertConf, relUrl: string): Promise<string> {
-	const fetchInfo = media.mkFetchInfo(c.fetchWithErr);
+	const fetchInfo = media.mkFetchInfo(c.fetch);
 	const convertor = new RssConvertor({
 		raiBaseUrl: c.raiBaseUrl,
 		poolSize: c.poolSize,
 		fetchInfo,
 	});
 	const url = new URL(relUrl, c.raiBaseUrl);
-	const resp = await c.fetchWithErr(url);
+	const resp = await c.fetch(url);
 	const json = await resp.json();
 	return convertor.convert(json);
 }
