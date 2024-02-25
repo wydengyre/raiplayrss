@@ -28,7 +28,7 @@ const confWithFetch = (fetch: typeof globalThis.fetch) => ({
 });
 
 async function rssFeedSuccess() {
-	const req = new Request("https://test.dev/programmi/lastoriaingiallo.xml");
+	const feedPath = "programmi/lastoriaingiallo";
 	const fetchMock: typeof fetch = async (input) => {
 		const requestUrlStr = input.toString();
 		const url = new URL(requestUrlStr);
@@ -59,7 +59,7 @@ async function rssFeedSuccess() {
 		throw new Error(`unexpected request: ${requestUrlStr}`);
 	};
 	const conf = confWithFetch(fetchMock);
-	const resp = await feedHandler(conf, req);
+	const resp = await feedHandler(conf, feedPath);
 
 	assert.strictEqual(resp.status, 200);
 	assertItalian(resp);
@@ -69,11 +69,10 @@ async function rssFeedSuccess() {
 }
 
 async function rssFeedFail404() {
-	const url = new URL("https://test.dev/programmi/nonexistent.xml");
-	const req = new Request(url);
+	const feedPath = "programmi/nonexistent.xml";
 	const fetchMock = async () => status(404);
 	const conf = confWithFetch(fetchMock);
-	const resp = await feedHandler(conf, req);
+	const resp = await feedHandler(conf, feedPath);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.headers.get("Content-Type"), "application/xml");
 	const text = await resp.text();
@@ -84,11 +83,10 @@ async function rssFeedFail404() {
 }
 
 async function rssFeedFail500() {
-	const url = new URL("https://test.dev/programmi/500.xml");
-	const req = new Request(url);
+	const feedPath = "programmi/500.xml";
 	const fetchMock = async () => status(500);
 	const conf = confWithFetch(fetchMock);
-	const resp = await feedHandler(conf, req);
+	const resp = await feedHandler(conf, feedPath);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.headers.get("Content-Type"), "application/xml");
 	const text = await resp.text();
@@ -99,11 +97,11 @@ async function rssFeedFail500() {
 }
 
 async function rssFeedFailNonCompliantJson() {
-	const req = new Request("https://test.dev/programmi/corrupt.xml");
+	const feedPath = "programmi/corrupt.xml";
 	const fetchMock = async () => json({ foo: "bar" });
 
 	const conf = confWithFetch(fetchMock);
-	const resp = await feedHandler(conf, req);
+	const resp = await feedHandler(conf, feedPath);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.headers.get("Content-Type"), "application/xml");
 	const text = await resp.text();
