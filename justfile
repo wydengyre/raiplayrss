@@ -16,7 +16,7 @@ lint:
   npm run lint
 
 test:
-	npm test --workspaces
+	npm test --workspaces --if-present
 
 typecheck:
 	npm run typecheck --workspaces

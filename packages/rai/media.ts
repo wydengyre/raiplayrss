@@ -1,4 +1,5 @@
-export { FetchInfo, MediaInfo, MediaUrl, mkFetchInfo };
+export type { FetchInfo, MediaInfo, MediaUrl };
+export { mkFetchInfo };
 
 type FetchInfo = (url: string) => Promise<MediaInfo>;
 

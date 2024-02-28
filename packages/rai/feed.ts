@@ -2,7 +2,8 @@ import { PromisePool } from "@supercharge/promise-pool";
 import { z } from "zod";
 import * as media from "./media.js";
 
-export { RssConvertConf, feedToRss };
+export type { RssConvertConf };
+export { feedToRss };
 
 const cardSchema = z.object({
 	episode_title: z.string(),
