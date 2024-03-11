@@ -1,11 +1,11 @@
 import { strict as assert } from "node:assert";
-import { Server, createServer } from "node:http";
+import { type Server, createServer } from "node:http";
 import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
 import { assertItalian } from "@raiplayrss/server/test/headers.js";
 import { createServerAdapter } from "@whatwg-node/server";
-import { Router, RouterType, error, json } from "itty-router";
-import { UnstableDevWorker, unstable_dev } from "wrangler";
+import { Router, type RouterType, error, json } from "itty-router";
+import { type UnstableDevWorker, unstable_dev } from "wrangler";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",

@@ -6,7 +6,7 @@ import expectedJson from "@raiplayrss/rai/test/lastoriaingiallo.parsed.json" wit
 };
 import { error, json } from "itty-router";
 import { parseFeed } from "../rai/test/parse-feed.js";
-import { FetchHandler, mkFetchHandler } from "./handler.js";
+import { type FetchHandler, mkFetchHandler } from "./handler.js";
 import * as logger from "./logger.js";
 import { assertItalian } from "./test/headers.js";
 

@@ -1,8 +1,8 @@
 import { feedToRss } from "@raiplayrss/rai/feed.js";
 import { createResponse } from "itty-router";
-import { Logger } from "./logger.js";
+import type { Logger } from "./logger.js";
 
-export { Config, feedHandler };
+export { type Config, feedHandler };
 
 type Config = {
 	raiBaseUrl: URL;

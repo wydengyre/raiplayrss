@@ -1,8 +1,8 @@
-import { IRequestStrict, Router, error } from "itty-router";
+import { type IRequestStrict, Router, error } from "itty-router";
 import { feedHandler } from "./feed-handler.js";
 import type { Config } from "./feed-handler.js";
 
-export { Config, FetchHandler, mkFetchHandler };
+export { type Config, type FetchHandler, mkFetchHandler };
 
 type FetchHandler = (req: Request) => Promise<Response>;
 function mkFetchHandler(conf: Config): FetchHandler {

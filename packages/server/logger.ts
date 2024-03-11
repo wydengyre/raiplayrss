@@ -1,4 +1,4 @@
-export { Logger, LogLevel, all, disabled, atLevel, atLevelStr };
+export { type Logger, type LogLevel, all, disabled, atLevel, atLevelStr };
 
 type Logger = typeof all;
 type LogLevel = keyof Logger;
