@@ -1,17 +1,17 @@
 {
-  "name": "@raiplayrss/raiplayrss",
-  "version": "0.0.0",
-  "description": "",
+	"name": "@raiplayrss/raiplayrss",
+	"version": "0.0.0",
+	"description": "",
 	"private": true,
 	"workspaces": ["packages/*"],
-  "scripts": {
-    "ci-lint": "biome ci .",
-    "lint": "biome check --apply ."
-  },
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "devDependencies": {
-    "@biomejs/biome": "1.5.3"
-  }
+	"scripts": {
+		"ci-lint": "biome ci .",
+		"lint": "biome check --apply ."
+	},
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.6.0"
+	}
 }
