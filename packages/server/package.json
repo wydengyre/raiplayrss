@@ -17,7 +17,7 @@
 		"@types/node": "^20.11.30",
 		"@whatwg-node/server": "^0.9.29",
 		"tsx": "^4.7.1",
-		"typescript": "^5.4.2"
+		"typescript": "^5.4.3"
 	},
 	"dependencies": {
 		"@raiplayrss/rai": "*",
