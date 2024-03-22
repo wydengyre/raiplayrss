@@ -7,7 +7,7 @@ export { feedToRss };
 
 const cardSchema = z.object({
 	episode_title: z.string(),
-	description: z.string(),
+	description: z.string().optional(),
 	image: z.string(),
 	audio: z.object({
 		url: z.string().url(),
@@ -104,7 +104,7 @@ class RssConvertor {
 		const mediaInfo = await this.#fetchInfo(card.audio.url);
 		return {
 			title: card.episode_title,
-			description: card.description,
+			description: card.description ?? "",
 			guid: card.episode_title, // TODO: revisit this
 			pubDate,
 			url: mediaInfo.url,

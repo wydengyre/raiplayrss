@@ -14,6 +14,7 @@ import { parseFeed } from "./test/parse-feed.js";
 
 test("feed", async (t) => {
 	await t.test(convertFeedSuccess);
+	await t.test(convertFeedNoDescriptionSuccess);
 	await t.test(convertFeed610Success);
 	await t.test(convertFeed404);
 	await t.test(convertFeedNonCompliantJson);
@@ -45,6 +46,37 @@ async function convertFeedSuccess() {
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson);
+}
+
+async function convertFeedNoDescriptionSuccess() {
+	const noEpisodeDescriptionFeed = {
+		...feedJson,
+		block: {
+			...feedJson.block,
+			cards: feedJson.block.cards.map((card) => {
+				const { description, ...copy } = card;
+				return copy;
+			}),
+		},
+	};
+
+	const noEpisodeDescriptionExpected = {
+		...expectedJson,
+		episodes: expectedJson.episodes.map((episode) => ({
+			...episode,
+			description: "",
+			summary: "",
+		})),
+	};
+	const fetch: typeof globalThis.fetch = async (input) => {
+		return input.toString().endsWith("foo.json")
+			? Promise.resolve(json(noEpisodeDescriptionFeed))
+			: mediaFetchFn(input);
+	};
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
+	const feed = await feedToRss(conf, "programmi/foo.json");
+	const parsed = parseFeed(feed);
+	assert.deepStrictEqual(parsed, noEpisodeDescriptionExpected);
 }
 
 async function convertFeed610Success() {
