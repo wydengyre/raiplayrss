@@ -6,7 +6,7 @@ import expectedJson from "@raiplayrss/rai/test/lastoriaingiallo.parsed.json" wit
 };
 import { error, json } from "itty-router";
 import { parseFeed } from "../rai/test/parse-feed.js";
-import { type FetchHandler, mkFetchHandler } from "./handler.js";
+import { mkFetch } from "./handler.js";
 import * as logger from "./logger.js";
 import { assertItalian } from "./test/headers.js";
 
@@ -127,7 +127,7 @@ const confWithFetch = (fetch: typeof globalThis.fetch) => ({
 	logger: logger.disabled,
 });
 
-function fetchHandlerWithMock(fetch: typeof globalThis.fetch): FetchHandler {
+function fetchHandlerWithMock(fetch: typeof globalThis.fetch): typeof fetch {
 	const conf = confWithFetch(fetch);
-	return mkFetchHandler(conf);
+	return mkFetch(conf);
 }
