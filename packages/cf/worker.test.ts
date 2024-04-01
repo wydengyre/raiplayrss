@@ -143,7 +143,7 @@ class Servers {
 	}
 
 	static async createWithRaiRouter(router: RouterType): Promise<Servers> {
-		const ittyServer = createServerAdapter(router);
+		const ittyServer = createServerAdapter(router.fetch);
 		const httpServer = createServer(ittyServer);
 		await new Promise<void>((resolve) =>
 			httpServer.listen(undefined, "localhost", resolve),
