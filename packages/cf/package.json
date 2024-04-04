@@ -19,7 +19,7 @@
 		"@cloudflare/workers-types": "^4.20240402.0",
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@types/node": "^20.12.3",
-		"itty-router": "^5.0.8",
+		"itty-router": "^5.0.9",
 		"tsx": "^4.7.1",
 		"typescript": "^5.4.3",
 		"wrangler": "^3.45.0",
