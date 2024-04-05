@@ -21,7 +21,7 @@
 		"@types/node": "^20.12.4",
 		"itty-router": "^5.0.9",
 		"tsx": "^4.7.1",
-		"typescript": "^5.4.3",
+		"typescript": "^5.4.4",
 		"wrangler": "^3.45.0",
 		"@raiplayrss/rai": "*",
 		"@whatwg-node/server": "^0.9.32"
