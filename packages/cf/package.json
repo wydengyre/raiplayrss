@@ -22,7 +22,7 @@
 		"itty-router": "^5.0.12",
 		"tsx": "^4.7.2",
 		"typescript": "^5.4.5",
-		"wrangler": "^3.48.0",
+		"wrangler": "^3.49.0",
 		"@raiplayrss/rai": "*",
 		"@whatwg-node/server": "^0.9.32"
 	},
