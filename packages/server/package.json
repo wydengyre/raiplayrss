@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@types/node": "^20.12.7",
-		"@whatwg-node/server": "^0.9.32",
+		"@whatwg-node/server": "^0.9.33",
 		"tsx": "^4.7.2",
 		"typescript": "^5.4.5"
 	},
