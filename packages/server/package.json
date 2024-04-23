@@ -21,6 +21,6 @@
 	},
 	"dependencies": {
 		"@raiplayrss/rai": "*",
-		"itty-router": "^5.0.15"
+		"itty-router": "^5.0.16"
 	}
 }
