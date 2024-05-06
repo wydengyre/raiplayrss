@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@types/node": "^20.12.8",
-		"tsx": "^4.8.2",
+		"tsx": "^4.9.3",
 		"typescript": "^5.4.5"
 	},
 	"dependencies": {
