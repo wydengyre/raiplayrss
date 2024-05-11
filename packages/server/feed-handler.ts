@@ -1,5 +1,6 @@
 import { feedToRss } from "@raiplayrss/rai/feed.js";
 import { createResponse } from "itty-router";
+import xmlEscape from "xml-escape";
 import type { Logger } from "./logger.js";
 
 export { type Config, feedHandler };
@@ -17,11 +18,13 @@ async function feedHandler(conf: Config, xmlPath: string): Promise<Response> {
 	try {
 		feedXml = await feedToRss(conf, jsonPath);
 	} catch (e) {
-		conf.logger.error("error converting feed", jsonPath, e);
+		const errStr = `error converting feed ${jsonPath}: ${e}`;
+		conf.logger.error(errStr);
 		const contentType = "application/xml";
 		const headers = new Headers({ "Content-Type": contentType });
 		const status = 500;
-		const body = `<error><code>${status}</code><message>server error</message></error>`;
+		const escapedErrStr = xmlEscape(errStr);
+		const body = `<error><code>${status}</code><message>${escapedErrStr}</message></error>`;
 		return new Response(body, { status, headers });
 	}
 	const rss = createResponse("application/rss+xml");

@@ -32,6 +32,7 @@ const mkFetchInfo =
 		};
 
 		const resp = await fetch(url, chromeHeadInit);
+		await resp.body?.cancel();
 		if (!resp.ok) {
 			throw new Error(`Failed to fetch: ${resp.status} ${resp.statusText}`);
 		}

@@ -88,8 +88,13 @@ async function rssFeedRai404() {
 	await using servers = await Servers.createWithRaiRouter(router);
 
 	const resp = await servers.worker.fetch("/programmi/404.xml");
+	const text = await resp.text();
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
+	assert.strictEqual(resp.statusText, "Internal Server Error");
+	const expected =
+		"<error><code>500</code><message>error converting feed programmi/404.json: Error: failed to fetch feed: 404 - Not Found</message></error>";
+	assert.strictEqual(text, expected);
 }
 
 async function rssFeedRai500() {
@@ -100,8 +105,11 @@ async function rssFeedRai500() {
 	await using servers = await Servers.createWithRaiRouter(router);
 
 	const resp = await servers.worker.fetch("/programmi/500.xml");
+	const text = await resp.text();
 	assert(!resp.ok);
-	assert.strictEqual(resp.status, 500);
+	const expected =
+		"<error><code>500</code><message>error converting feed programmi/500.json: Error: failed to fetch feed: 500 - Internal Server Error</message></error>";
+	assert.strictEqual(text, expected);
 }
 
 async function rssFeedFailProcessing() {
@@ -116,10 +124,36 @@ async function rssFeedFailProcessing() {
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.statusText, "Internal Server Error");
 	const text = await resp.text();
-	assert.strictEqual(
-		text,
-		"<error><code>500</code><message>server error</message></error>",
-	);
+	const expected = `<error><code>500</code><message>error converting feed programmi/invalid.json: Error: failed to parse feed JSON: [
+  {
+    &quot;code&quot;: &quot;invalid_type&quot;,
+    &quot;expected&quot;: &quot;string&quot;,
+    &quot;received&quot;: &quot;undefined&quot;,
+    &quot;path&quot;: [
+      &quot;title&quot;
+    ],
+    &quot;message&quot;: &quot;Required&quot;
+  },
+  {
+    &quot;code&quot;: &quot;invalid_type&quot;,
+    &quot;expected&quot;: &quot;object&quot;,
+    &quot;received&quot;: &quot;undefined&quot;,
+    &quot;path&quot;: [
+      &quot;podcast_info&quot;
+    ],
+    &quot;message&quot;: &quot;Required&quot;
+  },
+  {
+    &quot;code&quot;: &quot;invalid_type&quot;,
+    &quot;expected&quot;: &quot;object&quot;,
+    &quot;received&quot;: &quot;undefined&quot;,
+    &quot;path&quot;: [
+      &quot;block&quot;
+    ],
+    &quot;message&quot;: &quot;Required&quot;
+  }
+]</message></error>`;
+	assert.strictEqual(text, expected);
 }
 
 async function notFound() {
