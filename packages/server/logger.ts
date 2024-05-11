@@ -18,6 +18,10 @@ const disabled: Logger = {
 };
 
 function atLevelStr(level: string): Logger {
+	if (level === "none") {
+		return disabled;
+	}
+
 	if (!isLogLevel(level)) {
 		throw new Error(`Invalid log level: ${level}`);
 	}
@@ -26,10 +30,6 @@ function atLevelStr(level: string): Logger {
 }
 
 function atLevel(level: LogLevel): Logger {
-	if (!isLogLevel(level)) {
-		`Invalid log level: ${level}, leaving unchanged`;
-	}
-
 	const levels = ["debug", "info", "warn", "error"] as const;
 	const levelIndex = levels.indexOf(level);
 
