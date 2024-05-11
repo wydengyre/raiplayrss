@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - staging
 
 jobs:
   deploy:
@@ -28,4 +29,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           wranglerVersion: ${{ steps.wrangler.outputs.version }}
           workingDirectory: 'packages/cf'
-          command: deploy --env prod
+          command: deploy --env ${{ github.ref == 'refs/heads/main' && 'prod' || 'staging' }}
