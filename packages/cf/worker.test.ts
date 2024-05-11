@@ -19,8 +19,8 @@ test("worker", async (t) => {
 	await t.test(notFound);
 });
 
-// uncomment the relevant line in startWorker() for this to take effect
-const logLevel = "info";
+// change for help debugging
+const logLevel = "none";
 
 async function rssFeedSuccess() {
 	const router = Router();
@@ -168,8 +168,7 @@ class Servers {
 
 		const experimental = { disableExperimentalWarning: true };
 		const worker = await unstable_dev("worker.ts", {
-			// uncomment for help debugging
-			// logLevel,
+			logLevel,
 			experimental,
 			vars,
 		});
