@@ -33,6 +33,9 @@ type RssConvertConf = {
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetch: typeof fetch;
+	logger: {
+		info: typeof console.info;
+	};
 };
 async function feedToRss(c: RssConvertConf, relUrl: string): Promise<string> {
 	const fetchInfo = media.mkFetchInfo(c.fetch);
@@ -40,8 +43,11 @@ async function feedToRss(c: RssConvertConf, relUrl: string): Promise<string> {
 		raiBaseUrl: c.raiBaseUrl,
 		poolSize: c.poolSize,
 		fetchInfo,
+		logger: c.logger,
 	});
 	const url = new URL(relUrl, c.raiBaseUrl);
+
+	c.logger.info("fetching feed", url.href);
 	const resp = await c.fetch(url);
 	if (!resp.ok) {
 		throw new Error(
@@ -58,17 +64,22 @@ type RssConvertorConf = {
 	raiBaseUrl: URL;
 	poolSize: number;
 	fetchInfo: media.FetchInfo;
+	logger: {
+		info: typeof console.info;
+	};
 };
 
 class RssConvertor {
 	readonly #raiBaseUrl: URL;
 	readonly #poolSize: number;
 	readonly #fetchInfo: media.FetchInfo;
+	readonly #logger: RssConvertorConf["logger"];
 
-	constructor({ raiBaseUrl, poolSize, fetchInfo }: RssConvertorConf) {
+	constructor({ raiBaseUrl, poolSize, fetchInfo, logger }: RssConvertorConf) {
 		this.#raiBaseUrl = raiBaseUrl;
 		this.#poolSize = poolSize;
 		this.#fetchInfo = fetchInfo;
+		this.#logger = logger;
 	}
 
 	// TODO: feedUrl, siteUrl
@@ -108,7 +119,13 @@ class RssConvertor {
 	async convertCard(card: Card): Promise<PodcastItem> {
 		const image = new URL(card.image, this.#raiBaseUrl);
 		const pubDate = new Date(card.track_info.date);
+		this.#logger.info(
+			`fetching info of audio for episode ${card.episode_title}: ${card.audio.url}`,
+		);
 		const mediaInfo = await this.#fetchInfo(card.audio.url);
+		this.#logger.info(
+			`fetched info of audio for episode ${card.episode_title}: ${card.audio.url}`,
+		);
 		return {
 			title: card.episode_title,
 			description: card.description ?? "",

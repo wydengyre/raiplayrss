@@ -22,6 +22,7 @@ test("feed", async (t) => {
 
 const raiBaseUrl = new URL("https://rai.dev/");
 const poolSize = 5; // arbitrary
+const logger = { info: () => {} };
 
 const mediaFetchFn: typeof fetch = (input) =>
 	Promise.resolve({
@@ -42,7 +43,7 @@ async function convertFeedSuccess() {
 			? Promise.resolve(json(feedJson))
 			: mediaFetchFn(input);
 	};
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson);
@@ -73,7 +74,7 @@ async function convertFeedNoDescriptionSuccess() {
 			? Promise.resolve(json(noEpisodeDescriptionFeed))
 			: mediaFetchFn(input);
 	};
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, noEpisodeDescriptionExpected);
@@ -85,7 +86,7 @@ async function convertFeed610Success() {
 			? Promise.resolve(json(feedJson610))
 			: mediaFetchFn(input);
 	};
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
 	const feed = await feedToRss(conf, "programmi/foo.json");
 	const parsed = parseFeed(feed);
 	assert.deepStrictEqual(parsed, expectedJson610);
@@ -94,13 +95,13 @@ async function convertFeed610Success() {
 async function convertFeed404() {
 	const url = new URL("https://rai.dev/programmi/foo.json");
 	const fetch = () => Promise.resolve(error(404));
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
 	await assert.rejects(feedToRss(conf, "programmi/foo.json"));
 }
 
 async function convertFeedNonCompliantJson() {
 	const fetch = () => Promise.resolve(json({ foo: "bar" }));
-	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch };
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
 	const expectedErr = /^Error: failed to parse feed JSON/;
 	await assert.rejects(feedToRss(conf, "programmi/foo.json"), expectedErr);
 }

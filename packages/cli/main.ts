@@ -14,6 +14,9 @@ const feedConf: RssConvertConf = {
 	raiBaseUrl: feedUrl,
 	poolSize: 1,
 	fetch,
+	logger: {
+		info: console.info,
+	},
 };
 const feedRss = await feedToRss(feedConf, "");
 const podcast = getPodcastFromFeed(feedRss) as {
