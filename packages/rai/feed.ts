@@ -44,7 +44,11 @@ async function feedToRss(c: RssConvertConf, relUrl: string): Promise<string> {
 	const url = new URL(relUrl, c.raiBaseUrl);
 	const resp = await c.fetch(url);
 	if (!resp.ok) {
-		throw new Error(`failed to fetch feed: ${resp.status} ${resp.statusText}`);
+		throw new Error(
+			`failed to fetch feed: ${resp.status}${
+				resp.statusText.length > 0 ? ` - ${resp.statusText}` : ""
+			}`,
+		);
 	}
 	const json = await resp.json();
 	return convertor.convert(json);

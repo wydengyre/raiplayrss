@@ -74,7 +74,7 @@ async function rssFeedFail404() {
 	const text = await resp.text();
 	assert.strictEqual(
 		text,
-		"<error><code>500</code><message>server error</message></error>",
+		"<error><code>500</code><message>error converting feed programmi/nonexistent.json: Error: failed to fetch feed: 404</message></error>",
 	);
 }
 
@@ -88,7 +88,7 @@ async function rssFeedFail500() {
 	const text = await resp.text();
 	assert.strictEqual(
 		text,
-		"<error><code>500</code><message>server error</message></error>",
+		"<error><code>500</code><message>error converting feed programmi/500.json: Error: failed to fetch feed: 500</message></error>",
 	);
 }
 
@@ -101,10 +101,36 @@ async function rssFeedFailCorrupt() {
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.headers.get("Content-Type"), "application/xml");
 	const text = await resp.text();
-	assert.strictEqual(
-		text,
-		"<error><code>500</code><message>server error</message></error>",
-	);
+	const expected = `<error><code>500</code><message>error converting feed programmi/corrupt.json: Error: failed to parse feed JSON: [
+  {
+    &quot;code&quot;: &quot;invalid_type&quot;,
+    &quot;expected&quot;: &quot;string&quot;,
+    &quot;received&quot;: &quot;undefined&quot;,
+    &quot;path&quot;: [
+      &quot;title&quot;
+    ],
+    &quot;message&quot;: &quot;Required&quot;
+  },
+  {
+    &quot;code&quot;: &quot;invalid_type&quot;,
+    &quot;expected&quot;: &quot;object&quot;,
+    &quot;received&quot;: &quot;undefined&quot;,
+    &quot;path&quot;: [
+      &quot;podcast_info&quot;
+    ],
+    &quot;message&quot;: &quot;Required&quot;
+  },
+  {
+    &quot;code&quot;: &quot;invalid_type&quot;,
+    &quot;expected&quot;: &quot;object&quot;,
+    &quot;received&quot;: &quot;undefined&quot;,
+    &quot;path&quot;: [
+      &quot;block&quot;
+    ],
+    &quot;message&quot;: &quot;Required&quot;
+  }
+]</message></error>`;
+	assert.strictEqual(text, expected);
 }
 
 async function notFound() {
