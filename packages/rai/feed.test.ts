@@ -18,6 +18,7 @@ test("feed", async (t) => {
 	await t.test(convertFeed610Success);
 	await t.test(convertFeed404);
 	await t.test(convertFeedNonCompliantJson);
+	await t.test(convertFeedEscapingIssues);
 });
 
 const raiBaseUrl = new URL("https://rai.dev/");
@@ -104,4 +105,28 @@ async function convertFeedNonCompliantJson() {
 	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
 	const expectedErr = /^Error: failed to parse feed JSON/;
 	await assert.rejects(feedToRss(conf, "programmi/foo.json"), expectedErr);
+}
+
+async function convertFeedEscapingIssues() {
+	const mediaFetchWithIllegalChars: typeof fetch = async (input) => {
+		const resp = await mediaFetchFn(input);
+		return {
+			...resp,
+			url: `${resp.url}&ampersands_are=evil`,
+		};
+	};
+	const fetch: typeof globalThis.fetch = async (input) => {
+		return input.toString().endsWith("foo.json")
+			? Promise.resolve(json(feedJson))
+			: mediaFetchWithIllegalChars(input);
+	};
+
+	const adjustedJson: typeof expectedJson = { ...expectedJson };
+	for (const episode of adjustedJson.episodes) {
+		episode.enclosure.url = `${episode.enclosure.url}&ampersands_are=evil`;
+	}
+	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
+	const feed = await feedToRss(conf, "programmi/foo.json");
+	const parsed = parseFeed(feed);
+	assert.deepStrictEqual(parsed, adjustedJson);
 }

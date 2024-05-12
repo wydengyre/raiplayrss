@@ -1,4 +1,5 @@
 import { PromisePool } from "@supercharge/promise-pool";
+import xmlescape from "xml-escape";
 import { z } from "zod";
 import * as media from "./media.js";
 
@@ -165,12 +166,12 @@ function podcastRss(p: Podcast): string {
 	const items: string[] = p.items.map((item) => itemRss(item));
 
 	const channel = `<channel>
-	<title>${cdata(p.title)}</title>
-	<description>${cdata(p.description)}</description>
+	<title>${xmlescape(p.title)}</title>
+	<description>${xmlescape(p.description)}</description>
 	<lastBuildDate>${lastBuildDate}</lastBuildDate>
-	<itunes:summary>${cdata(p.description)}</itunes:summary>
+	<itunes:summary>${xmlescape(p.description)}</itunes:summary>
 	<itunes:explicit>false</itunes:explicit>
-	<itunes:image href="${p.image.toString()}"/>
+	<itunes:image href="${xmlescape(p.image.href)}"/>
 	${items.join("")}
 	</channel>`;
 	const collapsedChannel = collapseWhitespace(channel);
@@ -179,14 +180,16 @@ function podcastRss(p: Podcast): string {
 
 function itemRss(pi: PodcastItem): string {
 	const xml = `<item>
-			<title>${cdata(pi.title)}</title>
-			<description>${cdata(pi.description)}</description>
-			<guid isPermaLink="false">${pi.guid}</guid>
+			<title>${xmlescape(pi.title)}</title>
+			<description>${xmlescape(pi.description)}</description>
+			<guid isPermaLink="false">${xmlescape(pi.guid)}</guid>
 			<pubDate>${pi.pubDate.toUTCString()}</pubDate>
-			<enclosure url="${pi.url}" length="${pi.length}" type="${pi.contentType}"/>
-			<itunes:summary>${cdata(pi.description)}</itunes:summary>
+			<enclosure url="${xmlescape(pi.url.href)}" length="${
+				pi.length
+			}" type="${xmlescape(pi.contentType)}"/>
+			<itunes:summary>${xmlescape(pi.description)}</itunes:summary>
 			<itunes:explicit>false</itunes:explicit>
-			<itunes:image href="${pi.image}"/>
+			<itunes:image href="${xmlescape(pi.image.href)}"/>
 	</item>`;
 	return collapseWhitespace(xml);
 }
@@ -194,9 +197,4 @@ function itemRss(pi: PodcastItem): string {
 const xmlNlRe = /\n\s+/g;
 function collapseWhitespace(xml: string): string {
 	return xml.replaceAll(xmlNlRe, "");
-}
-
-// TODO: we should only use this if it's necessary, calling it "escape" or something like that
-function cdata(text: string) {
-	return `<![CDATA[${text}]]>`;
 }
