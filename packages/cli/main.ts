@@ -19,6 +19,7 @@ const feedConf: RssConvertConf = {
 	},
 };
 const feedRss = await feedToRss(feedConf, "");
+console.debug("generated feed", feedRss);
 const podcast = getPodcastFromFeed(feedRss) as {
 	episodes: { title: string; enclosure: { url: string } }[];
 };
