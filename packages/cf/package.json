@@ -20,7 +20,7 @@
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@types/node": "^20.14.9",
 		"itty-router": "^5.0.17",
-		"tsx": "^4.16.0",
+		"tsx": "^4.16.2",
 		"typescript": "^5.5.3",
 		"wrangler": "^3.63.0",
 		"@raiplayrss/rai": "*",
