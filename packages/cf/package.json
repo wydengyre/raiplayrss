@@ -18,7 +18,7 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20240919.0",
 		"@podverse/podcast-feed-parser": "^1.1.1",
-		"@types/node": "^22.5.5",
+		"@types/node": "^22.6.1",
 		"itty-router": "^5.0.18",
 		"tsx": "^4.19.1",
 		"typescript": "^5.6.2",
