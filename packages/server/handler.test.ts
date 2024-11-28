@@ -1,6 +1,8 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
-import feedJson from "@raiplayrss/rai/test/lastoriaingiallo.json";
+import feedJson from "@raiplayrss/rai/test/lastoriaingiallo.json" with {
+	type: "json",
+};
 import expectedJson from "@raiplayrss/rai/test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
@@ -27,7 +29,7 @@ async function rssFeedSuccess() {
 	);
 	const fetchMock: typeof fetch = async (input) => {
 		const requestUrlStr = input.toString();
-		const { pathname, search } = new URL(requestUrlStr);
+		const { pathname } = new URL(requestUrlStr);
 
 		if (pathname === "/programmi/lastoriaingiallo.json") {
 			return json(feedJson);
