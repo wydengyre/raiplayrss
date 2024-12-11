@@ -5,7 +5,7 @@ import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
 import { assertItalian } from "@raiplayrss/server/test/headers.js";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, type RouterType, error, json } from "itty-router";
-import { type UnstableDevWorker, unstable_dev } from "wrangler";
+import { type Unstable_DevWorker, unstable_dev } from "wrangler";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
@@ -168,10 +168,10 @@ async function notFound() {
 }
 
 class Servers {
-	readonly worker: UnstableDevWorker;
+	readonly worker: Unstable_DevWorker;
 	readonly #mockRaiServer: Server;
 
-	private constructor(worker: UnstableDevWorker, mockRaiServer: Server) {
+	private constructor(worker: Unstable_DevWorker, mockRaiServer: Server) {
 		this.worker = worker;
 		this.#mockRaiServer = mockRaiServer;
 	}
