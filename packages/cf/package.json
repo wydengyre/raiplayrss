@@ -24,7 +24,7 @@
 		"typescript": "^5.7.2",
 		"wrangler": "^3.99.0",
 		"@raiplayrss/rai": "*",
-		"@whatwg-node/server": "^0.9.64"
+		"@whatwg-node/server": "^0.9.65"
 	},
 	"dependencies": {
 		"@raiplayrss/server": "*"
