@@ -60,9 +60,7 @@ async function rssFeedSuccess() {
 	const feed = await resp.text();
 	const parsedFeed = parseFeed(feed);
 
-	const expectedJsonCopy = JSON.parse(
-		JSON.stringify(expectedJson),
-	) as typeof expectedJson;
+	const expectedJsonCopy = { ...expectedJson };
 	expectedJsonCopy.meta.imageURL = expectedJsonCopy.meta.imageURL.replace(
 		"RAI_SERVER_PORT",
 		servers.raiServerPort.toString(10),
