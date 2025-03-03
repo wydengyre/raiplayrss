@@ -12,7 +12,7 @@
 		"@tsconfig/strictest": "^2.0.5",
 		"@types/node": "^22.13.5",
 		"tsx": "^4.19.3",
-		"typescript": "^5.7.3"
+		"typescript": "^5.8.2"
 	},
 	"dependencies": {
 		"@podverse/podcast-feed-parser": "^1.1.1",
