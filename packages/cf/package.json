@@ -16,7 +16,7 @@
 	},
 	"type": "module",
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20250402.0",
+		"@cloudflare/workers-types": "^4.20250403.0",
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@types/node": "^22.13.17",
 		"itty-router": "^5.0.18",
