@@ -21,7 +21,7 @@
 	},
 	"dependencies": {
 		"@supercharge/promise-pool": "^3.2.0",
-		"zod": "^3.25.54",
+		"zod": "^3.25.57",
 		"xml-escape": "^1.1.0"
 	}
 }
