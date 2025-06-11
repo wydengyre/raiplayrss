@@ -4,8 +4,8 @@
 	"description": "",
 	"private": true,
 	"scripts": {
-		"test": "tsx --tsconfig ./tsconfig.json --test '**/*.test.ts'",
-		"test-only": "tsx --tsconfig ./tsconfig.json --test --test-only '**/*.test.ts'",
+		"test": "tsx --tsconfig ./tsconfig.json --test *.test.ts",
+		"test-only": "tsx --tsconfig ./tsconfig.json --test --test-only *.test.ts",
 		"typecheck": "npm run typecheck-prod && npm run typecheck-test",
 		"typecheck-prod": "tsc",
 		"typecheck-test": "tsc --project tsconfig.test.json"
