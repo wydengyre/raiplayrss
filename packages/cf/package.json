@@ -17,7 +17,7 @@
 		"@cloudflare/workers-types": "^4.20250610.0",
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@raiplayrss/rai": "*",
-		"@types/node": "^24.0.0",
+		"@types/node": "^24.0.1",
 		"@whatwg-node/server": "^0.10.8",
 		"itty-router": "^5.0.18",
 		"tsx": "^4.20.1",
