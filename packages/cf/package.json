@@ -14,7 +14,7 @@
 	},
 	"type": "module",
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20250610.0",
+		"@cloudflare/workers-types": "^4.20250612.0",
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@raiplayrss/rai": "*",
 		"@types/node": "^24.0.0",
