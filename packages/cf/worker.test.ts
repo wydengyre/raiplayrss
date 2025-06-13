@@ -2,7 +2,7 @@ import { strict as assert } from "node:assert";
 import { type Server, createServer } from "node:http";
 import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
-import { assertItalian } from "@raiplayrss/server/test/headers.js";
+import { assertItalian } from "@raiplayrss/server/test/headers.ts";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, type RouterType, error, json } from "itty-router";
 import { unstable_startWorker } from "wrangler";
@@ -205,7 +205,8 @@ class Servers {
 		} as const;
 
 		const worker = await unstable_startWorker({
-			entrypoint: "worker.ts",
+			config: "wrangler.toml",
+			// entrypoint: "worker.ts",
 			bindings,
 			dev: { logLevel },
 		});
@@ -227,8 +228,11 @@ class Servers {
 	}
 
 	async [Symbol.asyncDispose](): Promise<void> {
+		console.log("disposing servers");
 		await this.#mockRaiServer[Symbol.asyncDispose]();
+		console.log("disposed server");
 		await this.worker.dispose();
+		console.log("disposed worker");
 	}
 }
 
