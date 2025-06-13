@@ -20,7 +20,7 @@
 		"@types/node": "^24.0.1",
 		"@whatwg-node/server": "^0.10.8",
 		"itty-router": "^5.0.18",
-		"tsx": "^4.20.1",
+		"tsx": "^4.20.2",
 		"typescript": "^5.8.3",
 		"wrangler": "^4.20.0"
 	},
