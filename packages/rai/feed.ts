@@ -1,7 +1,7 @@
 import { PromisePool } from "@supercharge/promise-pool";
 import xmlescape from "xml-escape";
 import { z } from "zod";
-import * as media from "./media.js";
+import * as media from "./media.ts";
 
 export type { RssConvertConf };
 export { feedToRss };

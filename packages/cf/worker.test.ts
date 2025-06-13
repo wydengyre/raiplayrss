@@ -2,7 +2,7 @@ import { strict as assert } from "node:assert";
 import { type Server, createServer } from "node:http";
 import { test } from "node:test";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
-import { assertItalian } from "@raiplayrss/server/test/headers.js";
+import { assertItalian } from "@raiplayrss/server/test/headers.ts";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, type RouterType, error, json } from "itty-router";
 import { unstable_startWorker } from "wrangler";
@@ -38,7 +38,8 @@ async function rssFeedSuccess() {
 			}),
 	);
 	await using servers = await TestServer.createWithRaiRouter(router);
-	// grab the port here so we don't close on it in the router, preventing cleanup
+	// We grab the port here to avoid closing over `servers` in the router below,
+	// preventing cleanup.
 	const raiServerPort = servers.raiServerPort;
 
 	// defining this here because we need the server port
