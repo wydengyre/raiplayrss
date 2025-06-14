@@ -37,7 +37,7 @@ async function rssFeedSuccess() {
 				},
 			}),
 	);
-	await using servers = await Servers.createWithRaiRouter(router);
+	await using servers = await TestServer.createWithRaiRouter(router);
 
 	// defining this here because we need the server port
 	router.get("/programmi/lastoriaingiallo.json", () => {
@@ -54,9 +54,7 @@ async function rssFeedSuccess() {
 		return json(feedJsonCopy);
 	});
 
-	const resp = await servers.worker.fetch(
-		"http://example/programmi/lastoriaingiallo.xml",
-	);
+	const resp = await servers.get("programmi/lastoriaingiallo.xml");
 	assert(resp.ok);
 	assert.strictEqual(resp.status, 200);
 	assertItalian(resp);
@@ -87,9 +85,9 @@ async function rssFeedRai404() {
 	router.get("/programmi/404.json", () => {
 		return error(404, "Not found");
 	});
-	await using servers = await Servers.createWithRaiRouter(router);
+	await using servers = await TestServer.createWithRaiRouter(router);
 
-	const resp = await servers.worker.fetch("http://example/programmi/404.xml");
+	const resp = await servers.get("programmi/404.xml");
 	const text = await resp.text();
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
@@ -104,9 +102,9 @@ async function rssFeedRai500() {
 	router.get("/programmi/500.json", () => {
 		return error(500, "RAI server exploded");
 	});
-	await using servers = await Servers.createWithRaiRouter(router);
+	await using servers = await TestServer.createWithRaiRouter(router);
 
-	const resp = await servers.worker.fetch("http://example/programmi/500.xml");
+	const resp = await servers.get("programmi/500.xml");
 	const text = await resp.text();
 	assert(!resp.ok);
 	const expected =
@@ -119,11 +117,9 @@ async function rssFeedFailProcessing() {
 	router.get("/programmi/invalid.json", () => {
 		return json({ foo: "bar" });
 	});
-	await using servers = await Servers.createWithRaiRouter(router);
+	await using servers = await TestServer.createWithRaiRouter(router);
 
-	const resp = await servers.worker.fetch(
-		"http://example/programmi/invalid.xml",
-	);
+	const resp = await servers.get("programmi/invalid.xml");
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.statusText, "Internal Server Error");
@@ -161,8 +157,8 @@ async function rssFeedFailProcessing() {
 }
 
 async function notFound() {
-	await using servers = await Servers.createWithRaiRouter(Router());
-	const resp = await servers.worker.fetch("http://example/foo");
+	await using servers = await TestServer.createWithRaiRouter(Router());
+	const resp = await servers.get("http://example/foo");
 
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 404);
@@ -171,16 +167,21 @@ async function notFound() {
 	assert.strictEqual(text, "Not found.");
 }
 
-class Servers {
-	readonly worker: Worker;
+class TestServer {
+	readonly #worker: Worker;
 	readonly #mockRaiServer: Server;
 
 	private constructor(worker: Worker, mockRaiServer: Server) {
-		this.worker = worker;
+		this.#worker = worker;
 		this.#mockRaiServer = mockRaiServer;
 	}
 
-	static async createWithRaiRouter(router: RouterType): Promise<Servers> {
+	get(path: string): ReturnType<Worker["fetch"]> {
+		const url = `http://example/${path}`;
+		return this.#worker.fetch(url);
+	}
+
+	static async createWithRaiRouter(router: RouterType): Promise<TestServer> {
 		const ittyServer = createServerAdapter(router.fetch);
 		const httpServer = createServer(ittyServer);
 		await new Promise<void>((resolve) =>
@@ -210,7 +211,7 @@ class Servers {
 			dev: { logLevel },
 		});
 
-		return new Servers(worker, httpServer);
+		return new TestServer(worker, httpServer);
 	}
 
 	get raiServerPort(): number {
@@ -228,7 +229,7 @@ class Servers {
 
 	async [Symbol.asyncDispose](): Promise<void> {
 		await this.#mockRaiServer[Symbol.asyncDispose]();
-		await this.worker.dispose();
+		await this.#worker.dispose();
 	}
 }
 
