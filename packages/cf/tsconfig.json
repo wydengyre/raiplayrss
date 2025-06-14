@@ -1,9 +1,7 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"extends": "@raiplayrss/server/tsconfig.json",
-	"compilerOptions": {
-		"types": ["@cloudflare/workers-types"]
-	},
-	"include": ["*.ts"],
+	"compilerOptions": {},
+	"include": ["*.ts", "worker-configuration.d.ts"],
 	"exclude": ["*.test.ts"]
 }
