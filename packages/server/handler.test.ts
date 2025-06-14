@@ -7,10 +7,10 @@ import expectedJson from "@raiplayrss/rai/test/lastoriaingiallo.parsed.json" wit
 	type: "json",
 };
 import { error, json } from "itty-router";
-import { parseFeed } from "../rai/test/parse-feed.js";
-import { mkFetch } from "./handler.js";
-import * as logger from "./logger.js";
-import { assertItalian } from "./test/headers.js";
+import { parseFeed } from "../rai/test/parse-feed.ts";
+import { mkFetch } from "./handler.ts";
+import * as logger from "./logger.ts";
+import { assertItalian } from "./test/headers.ts";
 
 test("handler", async (t) => {
 	await t.test(rssFeedSuccess);

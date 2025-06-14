@@ -1,7 +1,7 @@
-import { feedToRss } from "@raiplayrss/rai/feed.js";
+import { feedToRss } from "@raiplayrss/rai/feed.ts";
 import { createResponse } from "itty-router";
 import xmlEscape from "xml-escape";
-import type { Logger } from "./logger.js";
+import type { Logger } from "./logger.ts";
 
 export { type Config, feedHandler };
 
