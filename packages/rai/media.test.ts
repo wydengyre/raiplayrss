@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
-import { mkFetchInfo } from "./media.js";
+import { mkFetchInfo } from "./media.ts";
 
 test("media", (t) => {
 	return t.test(fetchInfoSuccess);

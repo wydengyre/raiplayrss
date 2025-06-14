@@ -1,7 +1,7 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { error, json } from "itty-router";
-import { type RssConvertConf, feedToRss } from "./feed.js";
+import { type RssConvertConf, feedToRss } from "./feed.ts";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
@@ -10,7 +10,7 @@ import feedJson610 from "./test/lilloegreg610.json" with { type: "json" };
 import expectedJson610 from "./test/lilloegreg610.parsed.json" with {
 	type: "json",
 };
-import { parseFeed } from "./test/parse-feed.js";
+import { parseFeed } from "./test/parse-feed.ts";
 
 test("feed", async (t) => {
 	await t.test(convertFeedSuccess);
