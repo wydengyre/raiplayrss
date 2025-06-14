@@ -3,7 +3,6 @@
 	"compilerOptions": {
 		"lib": ["ES2022", "dom"],
 		"module": "nodenext",
-		"target": "es2022",
 
 		"strict": true,
 		"skipLibCheck": true,
