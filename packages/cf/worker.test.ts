@@ -38,13 +38,15 @@ async function rssFeedSuccess() {
 			}),
 	);
 	await using servers = await TestServer.createWithRaiRouter(router);
+	// grab the port here so we don't close on it in the router, preventing cleanup
+	const raiServerPort = servers.raiServerPort;
 
 	// defining this here because we need the server port
 	router.get("/programmi/lastoriaingiallo.json", () => {
 		const feedJsonCopy = JSON.parse(
 			JSON.stringify(feedJson),
 		) as typeof feedJson;
-		const raiServerPortStr = servers.raiServerPort.toString(10);
+		const raiServerPortStr = raiServerPort.toString(10);
 		for (const card of feedJsonCopy.block.cards) {
 			card.audio.url = card.audio.url.replace(
 				"RAI_SERVER_PORT",
