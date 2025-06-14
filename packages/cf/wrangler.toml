@@ -1,6 +1,6 @@
 name = "raiplayrss"
 main = "./worker.ts"
-compatibility_date = "2024-01-16"
+compatibility_date = "2025-06-14"
 
 [env.prod.vars]
 RAI_BASE_URL = "https://www.raiplaysound.it/"
