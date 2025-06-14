@@ -5,11 +5,13 @@ import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
 import { assertItalian } from "@raiplayrss/server/test/headers.js";
 import { createServerAdapter } from "@whatwg-node/server";
 import { Router, type RouterType, error, json } from "itty-router";
-import { type Unstable_DevWorker, unstable_dev } from "wrangler";
+import { unstable_startWorker } from "wrangler";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",
 };
+
+type Worker = Awaited<ReturnType<typeof unstable_startWorker>>;
 
 test("worker", async (t) => {
 	await t.test(rssFeedSuccess);
@@ -52,7 +54,9 @@ async function rssFeedSuccess() {
 		return json(feedJsonCopy);
 	});
 
-	const resp = await servers.worker.fetch("/programmi/lastoriaingiallo.xml");
+	const resp = await servers.worker.fetch(
+		"http://example/programmi/lastoriaingiallo.xml",
+	);
 	assert(resp.ok);
 	assert.strictEqual(resp.status, 200);
 	assertItalian(resp);
@@ -85,7 +89,7 @@ async function rssFeedRai404() {
 	});
 	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await servers.worker.fetch("/programmi/404.xml");
+	const resp = await servers.worker.fetch("http://example/programmi/404.xml");
 	const text = await resp.text();
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
@@ -102,7 +106,7 @@ async function rssFeedRai500() {
 	});
 	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await servers.worker.fetch("/programmi/500.xml");
+	const resp = await servers.worker.fetch("http://example/programmi/500.xml");
 	const text = await resp.text();
 	assert(!resp.ok);
 	const expected =
@@ -117,7 +121,9 @@ async function rssFeedFailProcessing() {
 	});
 	await using servers = await Servers.createWithRaiRouter(router);
 
-	const resp = await servers.worker.fetch("/programmi/invalid.xml");
+	const resp = await servers.worker.fetch(
+		"http://example/programmi/invalid.xml",
+	);
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 500);
 	assert.strictEqual(resp.statusText, "Internal Server Error");
@@ -156,7 +162,7 @@ async function rssFeedFailProcessing() {
 
 async function notFound() {
 	await using servers = await Servers.createWithRaiRouter(Router());
-	const resp = await servers.worker.fetch("foo");
+	const resp = await servers.worker.fetch("http://example/foo");
 
 	assert(!resp.ok);
 	assert.strictEqual(resp.status, 404);
@@ -166,10 +172,10 @@ async function notFound() {
 }
 
 class Servers {
-	readonly worker: Unstable_DevWorker;
+	readonly worker: Worker;
 	readonly #mockRaiServer: Server;
 
-	private constructor(worker: Unstable_DevWorker, mockRaiServer: Server) {
+	private constructor(worker: Worker, mockRaiServer: Server) {
 		this.worker = worker;
 		this.#mockRaiServer = mockRaiServer;
 	}
@@ -192,17 +198,16 @@ class Servers {
 		}
 
 		const RAI_BASE_URL = `http://localhost:${raiAddress.port}`;
-		const vars = {
-			RAI_BASE_URL,
-			FETCH_QUEUE_SIZE: Number(5).toString(),
-			LOG_LEVEL: logLevel,
-		};
+		const bindings = {
+			RAI_BASE_URL: { type: "plain_text", value: RAI_BASE_URL },
+			FETCH_QUEUE_SIZE: { type: "plain_text", value: "5" },
+			LOG_LEVEL: { type: "plain_text", value: logLevel },
+		} as const;
 
-		const experimental = { disableExperimentalWarning: true };
-		const worker = await unstable_dev("worker.ts", {
-			logLevel,
-			experimental,
-			vars,
+		const worker = await unstable_startWorker({
+			entrypoint: "worker.ts",
+			bindings,
+			dev: { logLevel },
 		});
 
 		return new Servers(worker, httpServer);
@@ -223,7 +228,7 @@ class Servers {
 
 	async [Symbol.asyncDispose](): Promise<void> {
 		await this.#mockRaiServer[Symbol.asyncDispose]();
-		await this.worker.stop();
+		await this.worker.dispose();
 	}
 }
 
