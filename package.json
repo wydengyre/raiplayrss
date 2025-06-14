@@ -6,7 +6,7 @@
 	"workspaces": ["packages/*"],
 	"scripts": {
 		"ci-lint": "biome ci .",
-		"lint": "biome check --apply ."
+		"lint": "biome check --write ."
 	},
 	"author": "",
 	"license": "ISC",
