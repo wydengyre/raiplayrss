@@ -94,7 +94,6 @@ async function convertFeed610Success() {
 }
 
 async function convertFeed404() {
-	const url = new URL("https://rai.dev/programmi/foo.json");
 	const fetch = () => Promise.resolve(error(404));
 	const conf: RssConvertConf = { raiBaseUrl, poolSize, fetch, logger };
 	await assert.rejects(feedToRss(conf, "programmi/foo.json"));
