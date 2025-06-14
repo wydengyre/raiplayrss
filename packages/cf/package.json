@@ -9,12 +9,12 @@
 		"test": "node --test *.test.ts",
 		"test-only": "node --test --test-only *.test.ts",
 		"typecheck": "npm run typecheck-prod && npm run typecheck-test",
+		"pretypecheck": "wrangler types",
 		"typecheck-prod": "tsc",
 		"typecheck-test": "tsc --project tsconfig.test.json"
 	},
 	"type": "module",
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20250610.0",
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@raiplayrss/rai": "*",
 		"@types/node": "^24.0.1",
