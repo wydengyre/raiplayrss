@@ -1,6 +1,6 @@
-import { type IRequestStrict, Router, error } from "itty-router";
-import { feedHandler } from "./feed-handler.ts";
+import { error, type IRequestStrict, Router } from "itty-router";
 import type { Config } from "./feed-handler.ts";
+import { feedHandler } from "./feed-handler.ts";
 
 export { type Config, mkFetch };
 

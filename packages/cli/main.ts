@@ -1,6 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { getPodcastFromFeed } from "@podverse/podcast-feed-parser";
-import { type RssConvertConf, feedToRss } from "@raiplayrss/rai/feed.ts";
+import { feedToRss, type RssConvertConf } from "@raiplayrss/rai/feed.ts";
 
 const feedArg = process.argv.at(-1);
 if (feedArg === undefined) {
