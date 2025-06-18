@@ -56,7 +56,7 @@ async function convertFeedNoDescriptionSuccess() {
 		block: {
 			...feedJson.block,
 			cards: feedJson.block.cards.map((card) => {
-				const { description, ...copy } = card;
+				const { description: _description, ...copy } = card;
 				return copy;
 			}),
 		},
