@@ -1,7 +1,7 @@
 import { strict as assert } from "node:assert";
 import test from "node:test";
 import { error, json } from "itty-router";
-import { type RssConvertConf, feedToRss } from "./feed.ts";
+import { feedToRss, type RssConvertConf } from "./feed.ts";
 import feedJson from "./test/lastoriaingiallo.json" with { type: "json" };
 import expectedJson from "./test/lastoriaingiallo.parsed.json" with {
 	type: "json",

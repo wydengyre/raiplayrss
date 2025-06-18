@@ -4,6 +4,8 @@ export { assertItalian };
 
 function assertItalian({
 	headers,
-}: { headers: { readonly get: (name: string) => string | null } }) {
+}: {
+	headers: { readonly get: (name: string) => string | null };
+}) {
 	assert.strictEqual(headers.get("Content-Language"), "it");
 }
