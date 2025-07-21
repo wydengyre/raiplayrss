@@ -17,7 +17,7 @@
 	"devDependencies": {
 		"@podverse/podcast-feed-parser": "^1.1.1",
 		"@raiplayrss/rai": "*",
-		"@types/node": "^24.0.14",
+		"@types/node": "^24.0.15",
 		"@whatwg-node/server": "^0.10.8",
 		"itty-router": "^5.0.18",
 		"typescript": "^5.8.3",
