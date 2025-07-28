@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"@raiplayrss/rai": "*",
-		"itty-router": "^5.0.18",
+		"itty-router": "^5.0.20",
 		"xml-escape": "^1.1.0"
 	}
 }
