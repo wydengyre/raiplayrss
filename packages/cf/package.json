@@ -21,7 +21,7 @@
 		"@whatwg-node/server": "^0.10.8",
 		"itty-router": "^5.0.20",
 		"typescript": "^5.8.3",
-		"wrangler": "^4.26.0"
+		"wrangler": "^4.26.1"
 	},
 	"dependencies": {
 		"@raiplayrss/server": "*"
