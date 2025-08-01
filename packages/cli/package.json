@@ -11,7 +11,7 @@
 	"devDependencies": {
 		"@tsconfig/strictest": "^2.0.5",
 		"@types/node": "^24.1.0",
-		"typescript": "^5.8.3"
+		"typescript": "^5.9.2"
 	},
 	"dependencies": {
 		"@podverse/podcast-feed-parser": "^1.1.1",
